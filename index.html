@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difusora | inicio</title>
+    <link rel="shortcut icon" href="imagens/fav-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="index-style.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/imagen-random.jpg" alt="" class="icon-esq">
+
+        <nav>
+            <ul>
+                <li><a href="index.html" style="border-bottom: 1px solid white;">Inicio</a></li>
+
+                <li class="dropdown">
+                    <a href="">Canais</a>
+
+                    <div class="drop-menu">
+                        <a href="">Notícias</a>
+                        <a href="">Esportes</a>
+                        <a href="">Entretenimento</a>
+                        <a href="">Documentários</a>
+                    </div>
+                </li>
+
+                <li><a href="">Filmes</a></li>
+                <li><a href="">Séries</a></li>
+            </ul>
+        </nav>
+
+        <img src="imagens/configuracao-icon.png" alt="" class="icon-dir">
+    </header>
+
+    <main>
+        <h2>Favoritos</h2>
+        <div class="container-canais">
+            <h3>Registres seus favoritos nas configurações!</h3>
+        </div>
+
+        <h2>Canais Ao Vivo</h2>
+        <div class="container-canais">
+            <div class="carrossel" id="carrossel">
+
+            <a href="exibicao.html?canal=globo"><img src="imagens/globo-logo.png" alt="Globo" class="canal"></a>
+
+            <img src="imagens/sbt-logo.png" alt="SBT" id="playSbt" class="canal">
+
+            <a href="exibicao.html?canal=record"><img src="imagens/record-logo.png" alt="Record" class="canal"></a>
+
+            <a href="exibicao.html?canal=band"><img src="imagens/band-logo.png" alt="Band" class="canal"></a>
+
+            <a href="exibicao.html?canal=globonews"><img src="imagens/globonews-logo.png" alt="globonews" class="canal"></a>
+
+            <img src="imagens/recordnews-logo.png" alt="Record-news" id="playRecordnews" class="canal">
+
+            <a href="exibicao.html?canal=bandnews"><img src="imagens/bandnews-logo.png" alt="bandnews" class="canal"></a>
+
+            <a href="exibicao.html?canal=cnn"><img src="imagens/cnn-logo.png" alt="cnn" class="canal"></a>
+
+            <a href="exibicao.html?canal=animal"><img src="imagens/animalplanet-logo.png" alt="animal planet" class="canal"></a>
+
+            <a href="exibicao.html?canal=discovery"><img src="imagens/discovery-logo.png" alt="discovery" class="canal"></a>
+
+            <a href="exibicao.html?canal=hitory"><img src="imagens/history-logo.png" alt="history" class="canal"></a>
+
+            <a href="exibicao.html?canal=cinemax"><img src="imagens/cinemax-logo.png" alt="cinemax" class="canal"></a>
+
+            <a href="exibicao.html?canal=comedy"><img src="imagens/comedy-logo.png" alt="comedy" class="canal"></a>
+
+            <a href="exibicao.html?canal=hbo"><img src="imagens/hbo-logo.png" alt="hbo" class="canal"></a>
+
+            <a href="exibicao.html?canal=megapix"><img src="imagens/megapix-logo.png" alt="megapix" class="canal"></a>
+
+            <a href="exibicao.html?canal=space"><img src="imagens/space-logo.png" alt="space" class="canal"></a>
+
+            <a href="exibicao.html?canal=tntseries"><img src="imagens/tntseries-logo.png" alt="tnt series" class="canal"></a>
+
+            <a href="exibicao.html?canal=cartoon"><img src="imagens/cartoon-logo.png" alt="cartoon" class="canal"></a>
+
+            <a href="exibicao.html?canal=discoverykids"><img src="imagens/discoverykids-logo.png" alt="discovery kids" class="canal"></a>
+
+            <a href="exibicao.html?canal=disney"><img src="imagens/disney-logo.png" alt="disney" class="canal"></a>
+
+            <a href="exibicao.html?canal=gloob"><img src="imagens/gloob-logo.png" alt="gloob" class="canal"></a>
+
+            <a href="exibicao.html?canal=nick"><img src="imagens/nick-logo.png" alt="nickelodeon" class="canal"></a>
+
+            <a href="exibicao.html?canal=combate"><img src="imagens/combate-logo.png" alt="combate" class="canal"></a>
+            
+            <a href="exibicao.html?canal=espn"><img src="imagens/espn-logo.png" alt="espn" class="canal"></a>
+
+            <a href="exibicao.html?canal=espn2"><img src="imagens/espn2-logo.png" alt="espn2" class="canal"></a>
+
+            <a href="exibicao.html?canal=premiere"><img src="imagens/premiere-logo.png" alt="premiere" class="canal"></a>
+
+            <a href="exibicao.html?canal=premiere2"><img src="imagens/premiere2-logo.png" alt="premiere 2" class="canal"></a>
+
+            <a href="exibicao.html?canal=sportv"><img src="imagens/sportv-logo.png" alt="sportv" class="canal"></a>
+
+            <a href="exibicao.html?canal=sportv2"><img src="imagens/sportv2-logo.png" alt="sportv 2" class="canal"></a>
+
+            <a href="exibicao.html?canal=tnt"><img src="imagens/tnt-logo.png" alt="tnt" class="canal"></a>
+            </div>
+
+            <button class="prev" onclick="moverEsquerda()">&#10094;</button>
+            <button class="next" onclick="moverDireita()">&#10095;</button>
+        </div>
+
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    // Variáveis de controle do carrossel
+                    let tamanhoRolagem = 100; // A quantidade que as imagens vão se mover
+                    let novoTam = 0;
+                    let carrossel = document.getElementById('carrossel');
+                    let carrosselLargura = carrossel.offsetWidth; // A largura total do carrossel
+                    let containerLargura = carrossel.parentElement.offsetWidth; // A largura do container
+            
+                    // Função para mover para a esquerda
+                    window.moverEsquerda = function() {
+                    const maxMoveLeft = 0; // Não podemos mover além de 0 no eixo X
+
+                    if (novoTam < 0) { // Permitir que o carrossel se mova para a esquerda
+                        novoTam += tamanhoRolagem; // Mover para a esquerda
+                        carrossel.style.transform = 'translateX(' + novoTam + 'px)';
+                    } else {
+                        console.log("Não há mais imagens à esquerda.");
+                    }
+                }
+            
+                    // Função para mover para a direita
+                    window.moverDireita = function() {
+                        const maxMoveRight = carrosselLargura - containerLargura; // Limite do carrossel à direita
+            
+                        if (novoTam > -maxMoveRight) {
+                            novoTam -= tamanhoRolagem;
+                            carrossel.style.transform = 'translateX(' + novoTam + 'px)';
+                        } else {
+                            console.log("Não há mais imagens à direita.");
+                        }
+                    }
+                });
+            </script>
+            
+
+        <h2>Entretenimento</h2>
+        <div class="container-canais">
+            <img src="imagens/bbb-logo.png" alt="BBB" class="canal">
+
+            <img src="imagens/bbb20-logo.png" alt="BBB 2020" class="canal">
+        </div>
+    </main>
+    
+    <!-- O iframe Sbt -->
+    <iframe id="sbt" style="display: none;" width="968" height="545" src="https://www.youtube.com/embed/ABVQXgr2LW4?autoplay=1&mute=1" title="SBT Ao Vivo" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+    picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!-- iframe record news -->
+    <iframe id="recordnews" style="display: none;" width="781" height="439" src="https://www.youtube.com/embed/GWWpB95_E4E?autoplay=1&mute=1" title="AO VIVO: Acompanhe as principais notícias do dia na Record News" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!-- player da globonews -->
+
+
+    <script src="inicio.js" defer></script>
+</body>
+</html>
+
