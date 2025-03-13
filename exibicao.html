@@ -4,94 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exibindo...</title>
-    <style>
-        body {
-            background-color: #000000;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            margin: 0;
-            padding: 0;
-        }
-
-        #iframe-container {
-            margin: 10px auto auto auto;
-            width: 832px;
-            height: 520px;
-            display: flex; /* Usando flexbox para centralizar o iframe dentro do contêiner */
-            align-items: center;
-            justify-content: center;
-        }
-
-        #iframe-container iframe {
-            width: 100%; /* Defina a largura do iframe */
-            height: 100%; /* Defina a altura do iframe */
-        }
-
-        header {
-    background-color: #2589f8;
-    display: flex;
-    align-items: center;
-    padding: 2px 10px;
-    min-height: 75px;
-}
-
-.icon-esq {
-    margin: auto 0px auto 10px;
-    width: 70x;
-    height: 70px;
-    cursor: pointer;
-}
-
-.icon-dir {
-    margin: auto 10px auto 0px;
-    width: 45x;
-    height: 45px;
-    cursor: pointer;
-}
-
-nav {
-    margin: auto;
-}
-
-nav li {
-    display: inline-block;
-    width: 150px;
-}
-
-nav li a {
-    color: white;
-    font-size: 25px;
-    text-decoration: none;
-    padding: 12px;
-}
-
-.drop-menu {
-    background-color: #2589f8;
-    width: 150px;
-    position: absolute;
-    display: none;
-}
-
-.drop-menu a:hover {
-    background-color: #1877e4;
-}
-
-.drop-menu a{
-    display: block;
-    font-size: 20px;
-}
-
-.drop-menu :nth-child(1) {
-    margin-top: 20px;
-}
-
-.dropdown:hover .drop-menu{
-    display: block;
-    z-index: 100;
-}
-
-    </style>
+    <link rel="stylesheet" href="styles/exibicao.css">
 </head>
 <body>  
     <header>
@@ -99,16 +12,18 @@ nav li a {
 
         <nav>
             <ul>
-                <li><a href="index.html" style="border-bottom: 1px solid white;">Inicio</a></li>
+                <li><a href="index.html">Inicio</a></li>
 
                 <li class="dropdown">
-                    <a href="">Canais</a>
+                    <a href="" style="border-bottom: 1px solid white;">Canais</a>
 
                     <div class="drop-menu">
-                        <a href="">Notícias</a>
-                        <a href="">Esportes</a>
-                        <a href="">Entretenimento</a>
-                        <a href="">Documentários</a>
+                        <a href="canais.html">Abertos</a>
+                        <a href="canais.html#noti">Notícias</a>
+                        <a href="canais.html#docum">Documentários</a>
+                        <a href="canais.html#entret">Entretenimento</a>
+                        <a href="canais.html#infa">Infantil</a>
+                        <a href="canais.html#espo">Esportes</a>
                     </div>
                 </li>
 
@@ -119,11 +34,82 @@ nav li a {
 
         <img src="imagens/configuracao-icon.png" alt="" class="icon-dir">
     </header>
+<main>
+    <div class="canais-list">
+        <p>Lista de Canais</p>
+        <ul>
+            <li><a href="exibicao.html?canal=globo">Globo</a></li>
+
+            <li><a href="exibicao.html?canal=sbt">Sbt</a></li>
+
+            <li><a href="exibicao.html?canal=record">Record</a></li>
+
+            <li><a href="exibicao.html?canal=band">Band</a></li>
+
+            <li><a href="exibicao.html?canal=globonews">Globo News</a></li>
+
+            <li><a href="exibicao.html?canal=recordnews">Record News</a></li>
+
+            <li><a href="exibicao.html?canal=bandnews">Band News</a></li>
+
+            <li><a href="exibicao.html?canal=cnn">CNN Brasil</a></li>
+
+            <li><a href="exibicao.html?canal=animal">Animal Planet</a></li>
+
+            <li><a href="exibicao.html?canal=discovery">Discovery Channel</a></li>
+
+            <li><a href="exibicao.html?canal=hitory">History</a></li>
+
+            <li><a href="exibicao.html?canal=cinemax">Cinemax</a></li>
+
+            <li><a href="exibicao.html?canal=comedy">Comedy</a></li>
+
+            <li><a href="exibicao.html?canal=hbo">HBO</a></li>
+
+            <li><a href="exibicao.html?canal=megapix">Megapix</a></li>
+
+            <li><a href="exibicao.html?canal=space">Space</a></li>
+
+            <li><a href="exibicao.html?canal=tntseries">TNT Series</a></li>
+
+            <li><a href="exibicao.html?canal=cartoon">Cartoon Network</a></li>
+
+            <li><a href="exibicao.html?canal=discoverykids">Discovery Kids</a></li>
+
+            <li><a href="exibicao.html?canal=disney">Disney Channel</a></li>
+
+            <li><a href="exibicao.html?canal=gloob">Gloob</a></li>
+
+            <li><a href="exibicao.html?canal=nick">Nickelodeon</a></li>
+
+            <li><a href="exibicao.html?canal=combate">Combate</a></li>
+            
+            <li><a href="exibicao.html?canal=espn">ESPN</a></li>
+
+            <li><a href="exibicao.html?canal=espn2">ESPN 2</a></li>
+
+            <li><a href="exibicao.html?canal=premiere">Premiere</a></li>
+
+            <li><a href="exibicao.html?canal=premiere2">Premiere 2</a></li>
+
+            <li><a href="exibicao.html?canal=sportv">Sportv</a></li>
+
+            <li><a href="exibicao.html?canal=sportv2">Sportv 2</a></li>
+
+            <li><a href="exibicao.html?canal=nossofut">Nosso Futebol</a></li>
+
+            <li><a href="exibicao.html?canal=tnt">TNT</a></li>
+        </ul>
+        
+    </div>
 
     <div id="iframe-container">
 
     </div>
 
+</main>
+
 </body>
-<script src="exibicao.js"></script>
+<script src="scripts/exibicao.js"></script>
+<script src="scripts/inicio.js" defer></script>
 </html>

@@ -187,4 +187,18 @@ h3 {
   button:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
   
+  ::-webkit-scrollbar-track {
+    background: #191919;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #2589f8;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1877e4;
+  }
