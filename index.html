@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Difusora | inicio</title>
-    <link rel="shortcut icon" href="imagens/fav-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/fav-logo.png" type="image/x-icon">
     <link rel="stylesheet" href="index-style.css">
 </head>
 <body>
+    <div id="splash-screen">
+        <img src="imagens/imagen-random.jpg" alt="Logo do site" id="logo">
+    </div>
+
     <header>
         <img src="imagens/imagen-random.jpg" alt="" class="icon-esq">
 
@@ -165,6 +169,14 @@
     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
+    <script>
+        window.onload = function () {
+  setTimeout(function () {
+    document.getElementById('splash-screen').style.display = 'none'; // Esconde a tela de introdução
+    document.getElementById('main-content').style.display = 'block'; // Exibe o conteúdo principal
+  }, 2000); // 3 segundos
+};
+    </script>
     <script src="inicio.js" defer></script>
 </body>
 </html>
