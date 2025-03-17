@@ -1,0 +1,51 @@
+nav li a:hover {
+    background-color: #1877e4;
+}
+
+main {
+    background-color: #212121;
+    display: flex;    
+}
+
+#info-episodio {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#series-container {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 15px;
+    margin: auto;
+}
+
+#series-container div {
+
+    margin: auto;
+}
+
+.canais-list a:visited {
+    color: #2589f8;
+  }
+
+main img {
+    width: 250px;
+    height: 150px;
+    animation: fade-in 1s;
+    transition-delay: 100ms;
+}
+
+main img:hover {
+    scale: 1.1;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

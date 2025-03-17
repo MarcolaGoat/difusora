@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assista Series online</title>
+    <link rel="stylesheet" href="styles/exibicao.css">
+    <link rel="stylesheet" href="styles/series.css">
+</head>
+<body>  
+    <header>
+        <a href="index.html"><img src="imagens/imagen-random.jpg" alt="" class="icon-esq"></a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+
+                <li class="dropdown">
+                    <a href="canais.html">Canais</a>
+
+                    <div class="drop-menu">
+                        <a href="canais.html">Abertos</a>
+                        <a href="canais.html#noti">Notícias</a>
+                        <a href="canais.html#docum">Documentários</a>
+                        <a href="canais.html#entret">Entretenimento</a>
+                        <a href="canais.html#infa">Infantil</a>
+                        <a href="canais.html#espo">Esportes</a>
+                    </div>
+                </li>
+
+                <li><a href="">Filmes</a></li>
+                <li><a href="series.html" style="border-bottom: 1px solid white;">Séries</a></li>
+            </ul>
+        </nav>
+
+        <img src="imagens/configuracao-icon.png" alt="" class="icon-dir">
+    </header>
+    <h1 id="serie-titulo">  </h1>
+    <div id="info-episodio"></div>
+<main>
+
+    <div class="canais-list" id="tempContainer">    </div>
+
+    <div id="iframe-container">    </div>
+
+    <div id="serie-info">   </div>
+
+</main>
+
+</body>
+<script src="scripts/series.js"></script>
+<script src="scripts/inicio.js" defer></script>
+</html>
