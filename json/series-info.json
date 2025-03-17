@@ -867,6 +867,40 @@
         "episodios": 24
       }
     ]
+  },
+  {
+    "nome": "Muquiranas-Brasil",
+    "codigo": "MQRANSBR",
+    "url_capa": "https://ofuxico.com.br/wp-content/uploads/2024/07/muquiranas-brasil.jpg",
+    "server": "24",
+    "subfolder": "ondemand",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": 8
+      }
+    ]
+  },
+  {
+    "nome": "Os-Muquiranas",
+    "codigo": "MQRANS",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/695eace26811dcb81ace74b765cfe235846b1bf60afcc9dfacb88436f281f3f8.jpg",
+    "server": "19",
+    "subfolder": "ondemand",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": 6
+      },
+      {
+        "temporada": 2,
+        "episodios": 8
+      },
+      {
+        "temporada": 3,
+        "episodios": 10
+      }
+    ]
   }
 
 
