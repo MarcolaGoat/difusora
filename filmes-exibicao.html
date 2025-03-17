@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Series</title>
+    <title>Assista Filmes online</title>
     <link rel="stylesheet" href="styles/exibicao.css">
     <link rel="stylesheet" href="styles/series.css">
 </head>
@@ -28,18 +28,23 @@
                     </div>
                 </li>
 
-                <li><a href="filmes.html">Filmes</a></li>
-                <li><a href="series.html" style="border-bottom: 1px solid white;">Séries</a></li>
+                <li><a href="filmes.html" style="border-bottom: 1px solid white;">Filmes</a></li>
+                <li><a href="series.html">Séries</a></li>
             </ul>
         </nav>
 
         <img src="imagens/configuracao-icon.png" alt="" class="icon-dir">
     </header>
+    <h1 id="filme-titulo">  </h1>
+    <div id="info-filme" class="info"></div>
+<main>
 
-    <main>
-        <div id="series-container" class="container">
-        </div>
-    </main>
+    <div id="iframe-container">    </div>
+
+
+</main>
+
 </body>
-<script src="scripts/series.js"></script>
+<script src="scripts/filmes.js" defer></script>
+<script src="scripts/inicio.js" defer></script>
 </html>
