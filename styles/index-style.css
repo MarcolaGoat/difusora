@@ -1,204 +1,232 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-    background-color: #000000;
-    color: white;
+  background-color: #000000;
+  color: white;
 }
 
 #splash-screen {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #2589f8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2589f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; 
+}
+
+#logo {
+  max-width: 300px;
+  animation: fadeIn 1.5s ease-out; 
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  #logo {
-    max-width: 300px;
-    animation: fadeIn 1.5s ease-out; 
+  100% {
+    opacity: 1;
   }
-  
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+}
 
 header {
-    background-color: #2589f8;
-    display: flex;
-    align-items: center;
-    padding: 2px 10px;
-    min-height: 75px;
+  background-color: #2589f8;
+  display: flex;
+  align-items: center;
+  padding: 2px 10px;
+  min-height: 75px;
 }
 
 .icon-esq {
-    margin: auto 0px auto 10px;
-    width: 70x;
-    height: 70px;
-    cursor: pointer;
+  margin: auto 0px auto 10px;
+  width: 70x;
+  height: 70px;
+  cursor: pointer;
 }
 
 .icon-dir {
-    margin: auto 10px auto 0px;
-    width: 45x;
-    height: 45px;
-    cursor: pointer;
+  margin: auto 10px auto 0px;
+  width: 45x;
+  height: 45px;
+  cursor: pointer;
 }
 
 nav {
-    margin: auto;
+  margin: auto;
 }
 
 nav li {
-    display: inline-block;
-    width: 150px;
+  display: inline-block;
+  width: 150px;
 }
 
 nav li a {
-    color: white;
-    font-size: 25px;
-    text-decoration: none;
-    padding: 12px;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 12px;
 }
 
 nav li a:hover {
-    background-color: #1877e4;
+  background-color: #1877e4;
 }
 
 .drop-menu {
-    background-color: #2589f8;
-    width: 150px;
-    position: absolute;
-    display: none;
-    margin-top: 5px;
+  background-color: #2589f8;
+  width: 150px;
+  position: absolute;
+  display: none;
+  margin-top: 5px;
 }
 
 .drop-menu a:hover {
-    background-color: #1877e4;
+  background-color: #1877e4;
 }
 
 .drop-menu a{
-    display: block;
-    font-size: 20px;
+  display: block;
+  font-size: 20px;
 }
 
 .drop-menu :nth-child(1) {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .dropdown:hover .drop-menu{
-    display: block;
-    z-index: 100;
+  display: block;
+  z-index: 100;
+}
+.container {
+width: 100%;
+height: 330px;
+padding: 15px 0px 15px 0px;
+display: flex;
+flex-wrap: wrap; 
+gap: 19px;
+margin: auto;
+overflow: hidden; 
 }
 
+.container div {
+
+margin: auto;
+}
+
+
+
 main {
-    margin-top: 5px;
-    padding: 15px;
+  margin-top: 5px;
+  padding: 15px;
+}
+
+main img {
+width: 250px;
+height: 150px;
+animation: fade-in 1s;
+transition-delay: 100ms;
+}
+
+main img:hover {
+scale: 1.1;
 }
 
 .container-canais {
-    display: flex;
-    height: 120px;
-    align-items: center;
-    gap: 30px;
-    margin-bottom: 20px;
-    padding: 0px  2px 15px 2px;
-    overflow: hidden; 
-    position: relative;
+  display: flex;
+  height: 120px;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+  padding: 0px  2px 15px 2px;
+  overflow: hidden; 
+  position: relative;
 
 }
 
 h2 {
-    margin: 25px auto 0px auto;
+  margin: 25px auto 0px auto;
 }
 h3 {
-    color: #555;
-    margin: auto;
+  color: #555;
+  margin: auto;
 }
 
 .canal {
-    background-color: #2589f8;
-    border-radius: 8px;
-    display: flex;
-    width: 80px;
-    height: 80px;
-    margin-top: 20px;
-    padding: 10px;
-    cursor: pointer;
+  background-color: #2589f8;
+  border-radius: 8px;
+  display: flex;
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  padding: 10px;
+  cursor: pointer;
 
 }
 
 .canal img{
-    margin: auto;
-    width: 80px;
-    height: 80px;
+  margin: auto;
+  width: 80px;
+  height: 80px;
 }
 
 
 .carrossel {
-    display: flex; /* Exibe as imagens em linha */
-    height: 100%; /* Garante que a altura da div interna seja 100% da altura do contêiner */
-    transition: transform 0.5s ease-in-out; /* Transição suave ao mover as imagens */
-  }
-  
-  /* Estilo das imagens */
-  .carrossel img {
-    width: 80px;
-    height: 80px;
-    margin-right: 10px;
-  }
-  
-  /* Estilo dos botões */
-  button {
-    position: absolute;
-    top: 50%;
-    height: 110px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    font-size: 24px;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 10;
-    transform: translateY(-50%);
-  }
-  
-  .prev {
-    left: 0px;
+  display: flex; /* Exibe as imagens em linha */
+  height: 100%; /* Garante que a altura da div interna seja 100% da altura do contêiner */
+  transition: transform 0.5s ease-in-out; /* Transição suave ao mover as imagens */
+}
 
-  }
-  
-  .next {
-    right: 0px;
-  }
-  
-  button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  ::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: #191919;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: #2589f8;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: #1877e4;
-  }
+/* Estilo das imagens */
+.carrossel img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+/* Estilo dos botões */
+button {
+  position: absolute;
+  top: 50%;
+  height: 110px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+  transform: translateY(-50%);
+}
+
+.prev {
+  left: 0px;
+
+}
+
+.next {
+  right: 0px;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #191919;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2589f8;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1877e4;
+}

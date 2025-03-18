@@ -21,10 +21,66 @@
     "subfolder": "ondemand"
   },
   {
-    "nome": "Deadpool-&-Woverine",
+    "nome": "Deadpool-e-Woverine",
     "codigo": "DEADPEWLVRNE",
     "url_capa": "https://edilenemafra.com/wp-content/uploads/2024/07/Deadpool-Wolverine-Foto-Divulgacao--1024x576.jpg.webp",
     "server": "3",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Paddington-uma-aventura-na-floresta",
+    "codigo": "PNGTNUMAVNTRANFLRSTA",
+    "url_capa": "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/10/poster-de-paddington-em-peru.jpg?w=1024",
+    "server": "3",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Velozes-e-furiosos-1",
+    "codigo": "VLZEFROSOS01",
+    "url_capa": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisHXWS357YWLudvpFHVdwqwmS5G1Zp3qQmw8OFXzPHTQRKXNKql_DTZG-kapTHxP4PqyBHT80GYbUcuXr5OaW4AIRx9h3YO84A1DAGbjxYEo2rVPns8hRTvsU_jF3ap1_G-5Pc1hjw930/s1600/infografico-velozes-furiosos-topo.jpg",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Velozes-e-furiosos-2",
+    "codigo": "VLZEFROSOS02",
+    "url_capa": "https://ntvb.tmsimg.com/assets/p32092_v_h8_ba.jpg?w=1280&h=720",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Velozes-e-Furiosos-Desafio-em-Tóquio",
+    "codigo": "VLZEFROSOS03",
+    "url_capa": "https://img41.tokyvideo.com/videos/407/407727/previews/previews_0012_custom_1700660392.848.jpg",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Velozes-e-furiosos-4",
+    "codigo": "VLZEFROSOS04",
+    "url_capa": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOtiq1DSRAeg2CkSUINY03poz3cLHJVuEUE0SUJjTfO8OErrxYwXs1thkBjsjOgkDGMia3wQEmgBF5Lp-wAioxb64SJJI8FTD3EyfhWIGgwISInhFpe6MP-tSv_1l1mf_F1qRfbcQciAtUc84x-RGmhCT4JnPw8TvUzT7yTMHYV9-7Bz05a-Ba5J8n/s2400/Velozes%20e%20Furiosos%204%20(2009)-Repassando.jpg",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Velozes-e-furiosos-5",
+    "codigo": "VLZEFROSOS05",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/e9c1979927663ead04ea4b53c447c4561a0903f302ee767d81fa4bf79147912b.jpg",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Velozes-e-furiosos-6",
+    "codigo": "VLZEFROSOS06",
+    "url_capa": "https://www.acidadeon.com/tudoep/wp-content/uploads/sites/10/2024/09/E-2024-09-13T170842.038_2024-09-13_20-14-57_jpg_2024-09-13_20-14-57.webp",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Velozes-e-furiosos-7",
+    "codigo": "VLZEFROSOS07",
+    "url_capa": "https://i.ytimg.com/vi/pgodQwuynaY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAGnBwmdlzaJzEqpNEuNsCp6opQDw",
+    "server": "1",
     "subfolder": "ondemand"
   }
 

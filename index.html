@@ -41,10 +41,6 @@
     </header>
 
     <main>
-        <h2>Favoritos</h2>
-        <div class="container-canais">
-            <h3>Registres seus favoritos nas configurações!</h3>
-        </div>
 
         <h2>Canais Ao Vivo</h2>
         <div class="container-canais">
@@ -111,6 +107,8 @@
             <a href="exibicao.html?canal=nossofut"><img src="imagens/nossofut-logo.png" alt="Nosso futebol" class="canal"></a>
 
             <a href="exibicao.html?canal=tnt"><img src="imagens/tnt-logo.png" alt="tnt" class="canal"></a>
+
+            <a href="exibicao.html?canal=bbb"><img src="imagens/bbb-logo.png" alt="BBB" class="canal"></a>
             </div>
 
             <button class="prev" onclick="moverEsquerda()">&#10094;</button>
@@ -120,7 +118,7 @@
             <script>
                 document.addEventListener("DOMContentLoaded", function() {
                     // Variáveis de controle do carrossel
-                    let tamanhoRolagem = 100; // A quantidade que as imagens vão se mover
+                    let tamanhoRolagem = 1100; // A quantidade que as imagens vão se mover
                     let novoTam = 0;
                     let carrossel = document.getElementById('carrossel');
                     let carrosselLargura = carrossel.offsetWidth; // A largura total do carrossel
@@ -153,22 +151,14 @@
             </script>
             
 
-        <h2>Entretenimento</h2>
-        <div class="container-canais">
-            <a href="exibicao.html?canal=bbb"><img src="imagens/bbb-logo.png" alt="BBB" class="canal"></a>
+        <h2>Séries</h2>
+        <div id="series-container" class="container">
+        </div>
 
-            <img src="imagens/bbb20-logo.png" alt="BBB 2020" class="canal">
+        <h2>Filmes</h2>
+        <div id="filmes-container" class="container">
         </div>
     </main>
-    
-    <!-- O iframe Sbt -->
-    <iframe id="sbt" style="display: none;" width="968" height="545" src="https://www.youtube.com/embed/ABVQXgr2LW4?autoplay=1&mute=1" title="SBT Ao Vivo" 
-    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
-    picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <!-- iframe record news -->
-    <iframe id="recordnews" style="display: none;" width="781" height="439" src="https://www.youtube.com/embed/GWWpB95_E4E?autoplay=1&mute=1" title="AO VIVO: Acompanhe as principais notícias do dia na Record News" 
-    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
     <script>
@@ -188,6 +178,8 @@
 };
     </script>
     <script src="scripts/inicio.js" defer></script>
+    <script src="scripts/series.js"></script>
+    <script src="scripts/filmes.js"></script>
 </body>
 </html>
 
