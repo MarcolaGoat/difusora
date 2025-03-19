@@ -8,10 +8,15 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <style>
-    @media (max-width: 415px) {
+    @media (max-width: 500px) {
         .container {
-        height: 480px;
+        height: 490px;
     }        
+    }
+    @media (min-width: 500px) {
+        .container {
+        height: 507px;
+    }
     }
 </style>
 <body>
@@ -28,11 +33,11 @@
                     <a href="canais.html">canais</a>
                     <div class="drop-menu">
                         <a href="canais.html">Abertos</a>
-                        <a href="canais#noti">Noticias</a>
-                        <a href="canais.html#docum">Documentários</a>
-                        <a href="canais.html#entret">Entretenimento</a>
-                        <a href="canais.html#infa">Infantil</a>
-                        <a href="canais.html#espo">Esportes</a>
+                        <a href="canais.html#deNoticias">Noticias</a>
+                        <a href="canais.html#deDocumentarios">Documentários</a>
+                        <a href="canais.html#deEntretenimento">Entretenimento</a>
+                        <a href="canais.html#Infantil">Infantil</a>
+                        <a href="canais.html#deEsportes">Esportes</a>
                     </div>
                 </li>
                 <li><a href="filmes.html">filmes</a></li>
@@ -49,12 +54,6 @@
         <div class="menu">
             <a href="index.html">Inicio</a>
             <a href="canais.html">Canais</a>
-                <a href="canais.html" class="sub">abertos</a>
-                <a href="canais#noti" class="sub">noticias</a>
-                <a href="canais.html#docum" class="sub">documentários</a>
-                <a href="canais.html#entret" class="sub">entretenimento</a>
-                <a href="canais.html#infa" class="sub">infantil</a>
-                <a href="canais.html#espo" class="sub">esportes</a>
             <a href="filmes.html">Filmes</a>
             <a href="series.html">Séries</a>
         </div>        
@@ -182,20 +181,7 @@
     <footer>
         &copy; 2025 Marcola_Goat. Nenhum direito reservado.
     </footer>
-<script>    
-        window.onload = function () {
-  if (!localStorage.getItem('introSeen')) {
-    setTimeout(function () {
-      document.getElementById('img-load-inicial').style.display = 'none'; 
 
-      localStorage.setItem('introSeen', 'true');
-    }, 2000); 
-  } else {
-    // Caso já tenha visto a animação, exibe o conteúdo imediatamente
-    document.getElementById('img-load-inicial').style.display = 'flex';
-  }
-};
-</script>
 <script src="scripts/inicio.js"></script>
 <script src="scripts/filmes.js"></script>
 <script src="scripts/series.js"></script>

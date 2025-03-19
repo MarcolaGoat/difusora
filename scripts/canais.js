@@ -3,6 +3,7 @@ function gerarCanais(categorias) {
     for (const categoria in categorias) {
       const h2 = document.createElement('h2');
       h2.classList.add('h2pc');
+      h2.id= `${categoria.replace(' ', '')}`
       h2.textContent = 'Canais ' + categoria.charAt(0).toUpperCase() + categoria.slice(1);
       
       // Cria div .container-canais
@@ -58,7 +59,7 @@ function gerarCanais(categorias) {
     "Abertos": ["boborj", "sbt", "record", "band"],
     "de Noticias": ["globonews", "recordnews", "bandnews", "cnnbrasil"],
     "de Documentarios": ["animalplanet", "discovery", "history"],
-    "de Entretenimento": ["cinemax", "comedycentral", "hbo", "megapix", "space", "tntseries"],
+    "de Entretenimento": ["cinemax", "comedycentral", "hbo", "megapix", "space", "tntseries","bbb"],
     "Infantil": ["cartoon", "gloob", "discoverykids", "nick", "disney"],
     "de Esportes": ["combate", "espn", "espn2", "premiereclubes", "premiere2", "sportv", "sportv2", "nossofutebol", "tnt"]
   };

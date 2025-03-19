@@ -6,46 +6,16 @@
     "server": "09",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 22
-      },
-      {
-        "temporada": 2,
-        "episodios": 22
-      },
-      {
-        "temporada": 3,
-        "episodios": 23
-      },
-      {
-        "temporada": 4,
-        "episodios": 22
-      },
-      {
-        "temporada": 5,
-        "episodios": 22
-      },
-      {
-        "temporada": 6,
-        "episodios": 22
-      },
-      {
-        "temporada": 7,
-        "episodios": 19
-      },
-      {
-        "temporada": 8,
-        "episodios": 22
-      },
-      {
-        "temporada": 9,
-        "episodios": 22
-      },
-      {
-        "temporada": 10,
-        "episodios": 22
-      }
+      { "temporada": 1, "episodios": 22 },
+      { "temporada": 2, "episodios": 22 },
+      { "temporada": 3, "episodios": 23 },
+      { "temporada": 4, "episodios": 22 },
+      { "temporada": 5, "episodios": 22 },
+      { "temporada": 6, "episodios": 22 },
+      { "temporada": 7, "episodios": 19 },
+      { "temporada": 8, "episodios": 22 },
+      { "temporada": 9, "episodios": 22 },
+      { "temporada": 10, "episodios": 22 }
     ]
   },
   {
@@ -55,42 +25,15 @@
     "server":"04",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 12
-      },
-      {
-        "temporada": 2,
-        "episodios": 16
-      },
-      {
-        "temporada": 3,
-        "episodios": 16
-      },
-      {
-        "temporada": 4,
-        "episodios": 16
-      },
-      {
-        "temporada": 5,
-        "episodios": 16
-      },
-      {
-        "temporada": 6,
-        "episodios": 16
-      },
-      {
-        "temporada": 7,
-        "episodios": 16
-      },
-      {
-        "temporada": 8,
-        "episodios": 16
-      },
-      {
-        "temporada": 9,
-        "episodios": 10
-      }
+      { "temporada": 1, "episodios": 12 },
+      { "temporada": 2, "episodios": 16 },
+      { "temporada": 3, "episodios": 16 },
+      { "temporada": 4, "episodios": 16 },
+      { "temporada": 5, "episodios": 16 },
+      { "temporada": 6, "episodios": 16 },
+      { "temporada": 7, "episodios": 16 },
+      { "temporada": 8, "episodios": 16 },
+      { "temporada": 9, "episodios": 10 }
     ]
   },
 
@@ -101,26 +44,11 @@
     "server":"05",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 7
-      },
-      {
-        "temporada": 2,
-        "episodios": 13
-      },
-      {
-        "temporada": 3,
-        "episodios": 13
-      },
-      {
-        "temporada": 4,
-        "episodios": 13
-      },
-      {
-        "temporada": 5,
-        "episodios": 16
-      }
+      { "temporada": 1, "episodios": 7 },
+      { "temporada": 2, "episodios": 13 },
+      { "temporada": 3, "episodios": 13 },
+      { "temporada": 4, "episodios": 13 },
+      { "temporada": 5, "episodios": 16 }
     ]
   },
 
@@ -131,14 +59,8 @@
     "server":"08",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 9
-      },
-      {
-        "temporada": 2,
-        "episodios": 7
-      }
+      { "temporada": 1, "episodios": 9 },
+      { "temporada": 2, "episodios": 7 }
     ]
   },
 
@@ -149,38 +71,14 @@
     "server":"01",
     "subfolder": "videos",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 12
-      },
-      {
-        "temporada": 2,
-        "episodios": 12
-      },
-      {
-        "temporada": 3,
-        "episodios": 12
-      },
-      {
-        "temporada": 4,
-        "episodios": 12
-      },
-      {
-        "temporada": 5,
-        "episodios": 12
-      },
-      {
-        "temporada": 6,
-        "episodios": 12
-      },
-      {
-        "temporada": 7,
-        "episodios": 12
-      },
-      {
-        "temporada": 8,
-        "episodios": 12
-      }
+      { "temporada": 1, "episodios": 12 },
+      { "temporada": 2, "episodios": 12 },
+      { "temporada": 3, "episodios": 12 },
+      { "temporada": 4, "episodios": 12 },
+      { "temporada": 5, "episodios": 12 },
+      { "temporada": 6, "episodios": 12 },
+      { "temporada": 7, "episodios": 12 },
+      { "temporada": 8, "episodios": 12 }
     ]
   },
   {
@@ -900,6 +798,108 @@
         "temporada": 3,
         "episodios": 10
       }
+    ]
+  },
+  {
+    "nome": "Demolidor-Renascido",
+    "codigo": "DMLDRNSCDO",
+    "url_capa": "https://recreio.com.br/media/uploads/2025/01/demolidor_renascido.jpg",
+    "server": "25",
+    "subfolder": "ondemand",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": 2
+      }
+    ]
+  },
+  {
+    "nome": "Senna",
+    "codigo": "SENNA",
+    "url_capa": "https://cdn-1.motorsport.com/images/amp/0JBZmXE0/s6/dbfnklbgflnkojgbsn.jpg",
+    "server": "24",
+    "subfolder": "ondemand",
+    "temporadas": [
+      {
+        "temporada": 1, "episodios": 6
+      }
+    ]
+  },
+  {
+    "nome": "Como-se-tornar-um-chefe-do-crime",
+    "codigo": "CMOSTRNRUMCHFEDCRME",
+    "url_capa": "https://i.ytimg.com/vi/tZ8_DMiDebo/maxresdefault.jpg",
+    "server": "24",
+    "subfolder": "ondemand",
+    "temporadas": [
+      {
+        "temporada": 1, "episodios": 6
+      }
+    ]
+  },
+  {
+    "nome": "The-Good_Doctor",
+    "codigo": "OBMDTR",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/3ff30b12b4f71e882737209da3613b67dfd8080867f42d93687502bb5f4572ff.jpg",
+    "server": "12",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 18 },
+      { "temporada": 2, "episodios": 18 },
+      { "temporada": 3, "episodios": 20 },
+      { "temporada": 4, "episodios": 20 },
+      { "temporada": 5, "episodios": 18 },
+      { "temporada": 6, "episodios": 22 },
+      { "temporada": 7, "episodios": 10 }
+    ]
+  },
+  {
+    "nome": "The-Boys",
+    "codigo": "THEBOS",
+    "url_capa": "https://www.jornalismo.ufv.br/cinecom/wp-content/uploads/2020/09/The-Boys-Wall-1080x675-1.jpg",
+    "server": "04",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 8 },
+      { "temporada": 2, "episodios": 8 },
+      { "temporada": 3, "episodios": 8 },
+      { "temporada": 4, "episodios": 8 }
+    ]
+  },
+  {
+    "nome": "Bridgerton",
+    "codigo": "BRDGRTN",
+    "url_capa": "https://viagemefamilia.com/wordpress/wp-content/files/viagemefamilia.com/2024/12/bridgerton.png",
+    "server": "15",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 8 },
+      { "temporada": 2, "episodios": 8 },
+      { "temporada": 3, "episodios": 8 }
+    ]
+  },
+  {
+    "nome": "La-casa-de-papel-coreia",
+    "codigo": "LCSDPLKR",
+    "url_capa": "https://revistaforum.com.br/u/fotografias/m/2022/6/24/f850x638-83553_161042_5050.jpg",
+    "server": "16",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 12 }
+    ]
+  },
+  {
+    "nome": "Aeroporto-Area-Restrita",
+    "codigo": "AERPRTOARSTRA",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/87d93b5920ac8b0cd3b681c428f3d1ed0fc616bdf545333fbeffd9f610e4d055.jpg",
+    "server": "18",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 12 },
+      { "temporada": 2, "episodios": 12 },
+      { "temporada": 3, "episodios": 12 },
+      { "temporada": 4, "episodios": 12 },
+      { "temporada": 5, "episodios": 12 }
     ]
   }
 

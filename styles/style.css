@@ -70,6 +70,10 @@ input {
     font-size: 20px;
 }
 
+input::placeholder {
+    font-size: 16px;
+}
+
 nav {
     margin: auto;
 }
@@ -323,6 +327,14 @@ p {
     color: #ffffff;
 }
 
+.lista-exi a:visited {
+    color: #999;
+}
+
+.lista-exi a:active {
+    color: #2589f8;
+  }
+
 /* Estilos para dispositivos móveis */
 @media (max-width: 1050px) {
     .icon-esq {
@@ -376,12 +388,6 @@ p {
         margin-bottom: 10px;
     }
 
-    .sub {
-        font-size: 20px;
-        color: rgb(210, 210, 210);
-        margin-left: 20px;
-    }
-
 
     .container {
         min-height: 600px;
@@ -394,8 +400,8 @@ p {
 @media (max-width: 415px) {
 
     .icon-esq {
-        width: 60px;
-        height: 60px;
+        width: 48px;
+        height: 48px;
     }
     
     .icon-dir {
@@ -418,7 +424,7 @@ p {
     }
 
     .container {
-        min-height: 480px;
+        min-height: 490px;
     }
 
     .container a {

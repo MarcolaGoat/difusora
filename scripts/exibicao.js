@@ -2,7 +2,7 @@
     "Abertos": ["boborj", "sbt", "record", "band"],
     "de Noticias": ["globonews", "recordnews", "bandnews", "cnn"],
     "de Documentarios": ["animal", "discovery", "history"],
-    "de Entretenimento": ["cinemax", "comedy", "hbo", "megapix", "space", "tntseries"],
+    "de Entretenimento": ["cinemax", "comedy", "hbo", "megapix", "space", "tntseries", "bbb"],
     "Infantil": ["cartoon", "gloob", "discoverykids", "nick", "disney"],
     "de Esportes": ["combate", "espn", "espn2", "premiere", "premiere2", "sportv", "sportv2", "nossofut", "tnt"]
   };
