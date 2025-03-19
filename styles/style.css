@@ -414,7 +414,7 @@ p {
     }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 415px) {
     input {
         width: 150px;
     }
@@ -424,8 +424,8 @@ p {
     }
 
     main img {
-        width: 162px;
-        height: 97px;
+        width: 154px;
+        height: 92px;
         animation: fade-in 1s;
         transition-delay: 100ms;
     }
