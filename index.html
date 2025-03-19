@@ -3,50 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Difusora</title>
-    <link rel="shortcut icon" href="imagens/fav-logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="styles/index-style.css">
+    <title>Difusora Stream</title>
+    <link rel="shortcut icon" href="imagens/ds-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div id="splash-screen">
-        <img src="imagens/difussora-logona.png" alt="Logo do site" id="logo">
+    <div id="img-load-inicial">
+        <img src="imagens/dif-stream.png" alt="logo do site" id="logo">
     </div>
-
     <header>
-        <a href="index.html"><img src="imagens/imagen-random.jpg" alt="" class="icon-esq"></a>
+        <a href="index.html" id="pc"> <img src="imagens/dif-stream.png" alt="" class="icon-esq"> </a>
+        <img src="imagens/menu-icon.png" alt="" class="icon-esq" id="cel">
 
         <nav>
             <ul>
-                <li><a href="index.html" style="border-bottom: 1px solid white;">Inicio</a></li>
+                <li><a href="index.html" style="border-bottom: solid 1px white;">inicio</a></li>
 
                 <li class="dropdown">
-                    <a href="canais.html">Canais</a>
-
+                    <a href="canais.html">canais</a>
                     <div class="drop-menu">
                         <a href="canais.html">Abertos</a>
-                        <a href="canais.html#noti">Notícias</a>
+                        <a href="canais#noti">Noticias</a>
                         <a href="canais.html#docum">Documentários</a>
                         <a href="canais.html#entret">Entretenimento</a>
                         <a href="canais.html#infa">Infantil</a>
                         <a href="canais.html#espo">Esportes</a>
                     </div>
                 </li>
-
-                <li><a href="filmes.html">Filmes</a></li>
-                <li><a href="series.html">Séries</a></li>
+                <li><a href="filmes.html">filmes</a></li>
+                <li><a href="series.html">séries</a></li>
             </ul>
         </nav>
 
-        <img src="imagens/configuracao-icon.png" alt="" class="icon-dir">
+        <input type="text" maxlength="25" id="input-pesq">
+
+        <img src="imagens/icon-lupa.png" alt="lupa de pesquisa" class="icon-dir" id="pesquisa">
     </header>
+    <div class="menu-lateral">
+        <p id="fechar-menu">X</p>
+        <div class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="canais.html">Canais</a>
+                <a href="canais.html" class="sub">abertos</a>
+                <a href="canais#noti" class="sub">noticias</a>
+                <a href="canais.html#docum" class="sub">documentários</a>
+                <a href="canais.html#entret" class="sub">entretenimento</a>
+                <a href="canais.html#infa" class="sub">infantil</a>
+                <a href="canais.html#espo" class="sub">esportes</a>
+            <a href="filmes.html">Filmes</a>
+            <a href="series.html">Séries</a>
+        </div>        
+
+    </div>
 
     <main>
 
         <h2>Canais Ao Vivo</h2>
-        <div class="container-canais">
+        <div class="container-canai">
             <div class="carrossel" id="carrossel">
-
-            <a href="exibicao.html?canal=globo"><img src="imagens/globo-logo.png" alt="Globo" class="canal"></a>
+                <a href="exibicao.html?canal=boborj"><img src="imagens/boborj-logo.png" alt="Globo" class="canal"></a>
 
             <a href="exibicao.html?canal=sbt"><img src="imagens/sbt-logo.png" alt="SBT" class="canal"></a>
 
@@ -60,9 +75,9 @@
 
             <a href="exibicao.html?canal=bandnews"><img src="imagens/bandnews-logo.png" alt="bandnews" class="canal"></a>
 
-            <a href="exibicao.html?canal=cnn"><img src="imagens/cnn-logo.png" alt="cnn" class="canal"></a>
+            <a href="exibicao.html?canal=cnnbrasil"><img src="imagens/cnnbrasil-logo.png" alt="cnn" class="canal"></a>
 
-            <a href="exibicao.html?canal=animal"><img src="imagens/animalplanet-logo.png" alt="animal planet" class="canal"></a>
+            <a href="exibicao.html?canal=animalplanet"><img src="imagens/animalplanet-logo.png" alt="animal planet" class="canal"></a>
 
             <a href="exibicao.html?canal=discovery"><img src="imagens/discovery-logo.png" alt="discovery" class="canal"></a>
 
@@ -70,7 +85,7 @@
 
             <a href="exibicao.html?canal=cinemax"><img src="imagens/cinemax-logo.png" alt="cinemax" class="canal"></a>
 
-            <a href="exibicao.html?canal=comedy"><img src="imagens/comedy-logo.png" alt="comedy" class="canal"></a>
+            <a href="exibicao.html?canal=comedycentral"><img src="imagens/comedycentral-logo.png" alt="comedy" class="canal"></a>
 
             <a href="exibicao.html?canal=hbo"><img src="imagens/hbo-logo.png" alt="hbo" class="canal"></a>
 
@@ -96,7 +111,7 @@
 
             <a href="exibicao.html?canal=espn2"><img src="imagens/espn2-logo.png" alt="espn2" class="canal"></a>
 
-            <a href="exibicao.html?canal=premiere"><img src="imagens/premiere-logo.png" alt="premiere" class="canal"></a>
+            <a href="exibicao.html?canal=premiereclubes"><img src="imagens/premiereclubes-logo.png" alt="premiere" class="canal"></a>
 
             <a href="exibicao.html?canal=premiere2"><img src="imagens/premiere2-logo.png" alt="premiere 2" class="canal"></a>
 
@@ -104,7 +119,7 @@
 
             <a href="exibicao.html?canal=sportv2"><img src="imagens/sportv2-logo.png" alt="sportv 2" class="canal"></a>
 
-            <a href="exibicao.html?canal=nossofut"><img src="imagens/nossofut-logo.png" alt="Nosso futebol" class="canal"></a>
+            <a href="exibicao.html?canal=nossofutebol"><img src="imagens/nossofutebol-logo.png" alt="Nosso futebol" class="canal"></a>
 
             <a href="exibicao.html?canal=tnt"><img src="imagens/tnt-logo.png" alt="tnt" class="canal"></a>
 
@@ -115,19 +130,20 @@
             <button class="next" onclick="moverDireita()">&#10095;</button>
         </div>
 
-            <script>
-                document.addEventListener("DOMContentLoaded", function() {
-                    // Variáveis de controle do carrossel
-                    let tamanhoRolagem = 1100; // A quantidade que as imagens vão se mover
-                    let novoTam = 0;
-                    let carrossel = document.getElementById('carrossel');
-                    let carrosselLargura = carrossel.offsetWidth; // A largura total do carrossel
-                    let containerLargura = carrossel.parentElement.offsetWidth; // A largura do container
-            
-                    // Função para mover para a esquerda
-                    window.moverEsquerda = function() {
-                    const maxMoveLeft = 0; // Não podemos mover além de 0 no eixo X
 
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                // Variáveis de controle do carrossel
+                let tamanhoRolagem = window.innerWidth - 55;  // Largura da tela menos 70
+                let novoTam = 0;
+                let carrossel = document.getElementById('carrossel');
+                let carrosselLargura = carrossel.offsetWidth; // A largura total do carrossel
+                let containerLargura = carrossel.parentElement.offsetWidth; // A largura do container
+            
+                // Função para mover para a esquerda
+                window.moverEsquerda = function() {
+                    const maxMoveLeft = 0; // Não podemos mover além de 0 no eixo X
+        
                     if (novoTam < 0) { // Permitir que o carrossel se mova para a esquerda
                         novoTam += tamanhoRolagem; // Mover para a esquerda
                         carrossel.style.transform = 'translateX(' + novoTam + 'px)';
@@ -135,51 +151,49 @@
                         console.log("Não há mais imagens à esquerda.");
                     }
                 }
-            
-                    // Função para mover para a direita
-                    window.moverDireita = function() {
-                        const maxMoveRight = carrosselLargura - containerLargura; // Limite do carrossel à direita
-            
-                        if (novoTam > -maxMoveRight) {
-                            novoTam -= tamanhoRolagem;
-                            carrossel.style.transform = 'translateX(' + novoTam + 'px)';
-                        } else {
-                            console.log("Não há mais imagens à direita.");
-                        }
+        
+                // Função para mover para a direita
+                window.moverDireita = function() {
+                    const maxMoveRight = carrosselLargura - containerLargura; // Limite do carrossel à direita
+        
+                    if (novoTam > -maxMoveRight) {
+                        novoTam -= tamanhoRolagem;
+                        carrossel.style.transform = 'translateX(' + novoTam + 'px)';
+                    } else {
+                        console.log("Não há mais imagens à direita.");
                     }
-                });
-            </script>
+                }
+            });
+        </script>
+        
             
 
         <h2>Séries</h2>
-        <div id="series-container" class="container">
-        </div>
+        <div id="series-container" class="container"> </div>
 
         <h2>Filmes</h2>
-        <div id="filmes-container" class="container">
-        </div>
+        <div id="filmes-container" class="container"> </div>
     </main>
 
-
-    <script>
+    <footer>
+        &copy; 2025 Marcola_Goat. Nenhum direito reservado.
+    </footer>
+<script>    
         window.onload = function () {
-  // Verifica se o usuário já viu a animação
   if (!localStorage.getItem('introSeen')) {
-    // Caso não tenha visto a animação, mostra a tela de introdução
     setTimeout(function () {
-      document.getElementById('splash-screen').style.display = 'none'; // Esconde a tela de introdução
+      document.getElementById('img-load-inicial').style.display = 'none'; 
 
       localStorage.setItem('introSeen', 'true');
-    }, 2000); // 3 segundos
+    }, 2000); 
   } else {
     // Caso já tenha visto a animação, exibe o conteúdo imediatamente
-    document.getElementById('splash-screen').style.display = 'none';
+    document.getElementById('img-load-inicial').style.display = 'flex';
   }
 };
-    </script>
-    <script src="scripts/inicio.js" defer></script>
-    <script src="scripts/series.js"></script>
-    <script src="scripts/filmes.js"></script>
+</script>
+<script src="scripts/inicio.js"></script>
+<script src="scripts/filmes.js"></script>
+<script src="scripts/series.js"></script>
 </body>
 </html>
-

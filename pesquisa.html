@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assista Filmes online</title>
+    <title>Difusora Stream</title>
+    <link rel="shortcut icon" href="imagens/ds-favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>  
+<body>
     <header>
         <a href="index.html" id="pc"> <img src="imagens/dif-stream.png" alt="" class="icon-esq"> </a>
         <img src="imagens/menu-icon.png" alt="" class="icon-esq" id="cel">
@@ -26,7 +27,7 @@
                         <a href="canais.html#espo">Esportes</a>
                     </div>
                 </li>
-                <li><a href="filmes.html" style="border-bottom: solid 1px white;">filmes</a></li>
+                <li><a href="filmes.html">filmes</a></li>
                 <li><a href="series.html">séries</a></li>
             </ul>
         </nav>
@@ -51,17 +52,25 @@
         </div>        
 
     </div>
-    <h1 id="filme-titulo">  </h1>
-    <div id="info-filme" class="info"></div>
 
-<main>
+    <main> 
 
-    <div id="iframe-container">    </div>
+        <h2>Resultados da pesquisa</h2>
+        <div id="results" class="container"> </div>
 
+    </main>
 
-</main>
+    <footer>
+        &copy; 2025 Marcola_Goat. Nenhum direito reservado.
+    </footer>   
+    <style>
+        footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        }
+    </style>
 
-</body>
-<script src="scripts/filmes.js" defer></script>
 <script src="scripts/inicio.js" defer></script>
+</body>
 </html>

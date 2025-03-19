@@ -31,7 +31,7 @@ function loadSerie(serieNome, data) {
     const titulo = document.getElementById('serie-titulo');
     const temporadasContainer = document.getElementById('tempContainer');
 
-    titulo.textContent = serie.nome;
+    titulo.textContent = serie.nome.replace(/-/g, ' ');
 
     // Exibe as temporadas e episódios
     serie.temporadas.forEach(temporada => {
@@ -43,6 +43,7 @@ function loadSerie(serieNome, data) {
       temporadaDiv.appendChild(tituloTemporada);
 
       const listaEpisodios = document.createElement('ul');
+      listaEpisodios.classList.add('lista-exi');
 
       for (let i = 1; i <= temporada.episodios; i++) {
         const itemEpisodio = document.createElement('li');
