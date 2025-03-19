@@ -7,6 +7,13 @@
     "subfolder": "ondemand"
   },
   {
+    "nome": "Entre-Irmãos",
+    "codigo": "ENTIRMS",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/bf7e64db21a04dbb147b570a18a9fa5a150e35971b021caa132e04f82fce641e.jpg",
+    "server": "4",
+    "subfolder": "ondemand"
+  },
+  {
     "nome": "Par-Perfeito",
     "codigo": "PARPRFTO2010",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/d9c742012ce36b9c827004ed69a534fa2a496c91db17edec8aa67a28507ee232.jpg",
@@ -80,6 +87,48 @@
     "nome": "Velozes-e-furiosos-7",
     "codigo": "VLZEFROSOS07",
     "url_capa": "https://i.ytimg.com/vi/pgodQwuynaY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAGnBwmdlzaJzEqpNEuNsCp6opQDw",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Homem-Aranha-1",
+    "codigo": "HMNARNH01",
+    "url_capa": "https://pipocasclub.com.br/wp-content/uploads/2024/04/Homem-Aranha-Tobey-Maguire.jpg",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Homem-Aranha-2",
+    "codigo": "HMNARNH02",
+    "url_capa": "https://i.ytimg.com/vi/OKyqvyGW9EE/maxresdefault.jpg",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Homem-Aranha-3",
+    "codigo": "HMNARNH03",
+    "url_capa": "https://wallpaper.forfun.com/fetch/ce/ced1dc5bc481cea01fee37cefcf45c60.jpeg",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "As-Aventuras-de-Tintin",
+    "codigo": "AAVTRSDTNFILME",
+    "url_capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbc2301IodZtVFGfkD3BdQVdNd5WHuq1nnxFSCE0C5p-CHoO_B7ygLPcQEMZvlQZUnNjU&usqp=CAU",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Tropa-de-Elite",
+    "codigo": "TRPDELT1",
+    "url_capa": "https://www.palestraspimentel.com/wp-content/uploads/backup/2019/08/capitao-nascimento-ator-wagner-moura.jpg",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Tropa-de-Elite-2",
+    "codigo": "TRPDELT2",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/1f10996aa54ec3c49a252448d0fbde96b98895b36f7d9d61764eed91948fae3a.jpg",
     "server": "1",
     "subfolder": "ondemand"
   }

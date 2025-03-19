@@ -88,26 +88,11 @@
     "server":"07",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 22
-      },
-      {
-        "temporada": 2,
-        "episodios": 22
-      },
-      {
-        "temporada": 3,
-        "episodios": 20
-      },
-      {
-        "temporada": 4,
-        "episodios": 17
-      },
-      {
-        "temporada": 5,
-        "episodios": 19
-      }
+      { "temporada": 1, "episodios": 22 },
+      { "temporada": 2, "episodios": 22 },
+      { "temporada": 3, "episodios": 20 },
+      { "temporada": 4, "episodios": 17 },
+      { "temporada": 5, "episodios": 19 }
     ]
   },
   {
@@ -117,26 +102,11 @@
     "server":"01",
     "subfolder": "videos",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 22
-      },
-      {
-        "temporada": 2,
-        "episodios": 22
-      },
-      {
-        "temporada": 3,
-        "episodios": 13
-      },
-      {
-        "temporada": 4,
-        "episodios": 24
-      },
-      {
-        "temporada": 5,
-        "episodios": 9
-      }
+      { "temporada": 1, "episodios": 22 },
+      { "temporada": 2, "episodios": 22 },
+      { "temporada": 3, "episodios": 13 },
+      { "temporada": 4, "episodios": 24 },
+      { "temporada": 5, "episodios": 9 }
     ]
   },
   {
@@ -146,22 +116,10 @@
     "server":"01",
     "subfolder": "videos",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 22
-      },
-      {
-        "temporada": 2,
-        "episodios": 22
-      },
-      {
-        "temporada": 3,
-        "episodios": 22
-      },
-      {
-        "temporada": 4,
-        "episodios": 22
-      }
+      { "temporada": 1, "episodios": 22 },
+      { "temporada": 2, "episodios": 22 },
+      { "temporada": 3, "episodios": 22 },
+      { "temporada": 4, "episodios": 22 }
     ]
   },
   {
@@ -171,46 +129,16 @@
     "server": "14",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 24
-      },
-      {
-        "temporada": 2,
-        "episodios": 23
-      },
-      {
-        "temporada": 3,
-        "episodios": 24
-      },
-      {
-        "temporada": 4,
-        "episodios": 22
-      },
-      {
-        "temporada": 5,
-        "episodios": 25
-      },
-      {
-        "temporada": 6,
-        "episodios": 25
-      },
-      {
-        "temporada": 7,
-        "episodios": 25
-      },
-      {
-        "temporada": 8,
-        "episodios": 25
-      },
-      {
-        "temporada": 9,
-        "episodios": 25
-      },
-      {
-        "temporada": 10,
-        "episodios": 22
-      }
+      { "temporada": 1, "episodios": 24 },
+      { "temporada": 2, "episodios": 23 },
+      { "temporada": 3, "episodios": 24 },
+      { "temporada": 4, "episodios": 22 },
+      { "temporada": 5, "episodios": 25 },
+      { "temporada": 6, "episodios": 25 },
+      { "temporada": 7, "episodios": 25 },
+      { "temporada": 8, "episodios": 25 },
+      { "temporada": 9, "episodios": 25 },
+      { "temporada": 10, "episodios": 22 }
     ]
   },
   {
@@ -220,66 +148,21 @@
     "server": "01",
     "subfolder": "videos",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 22
-      },
-      {
-        "temporada": 2,
-        "episodios": 22
-      },
-      {
-        "temporada": 3,
-        "episodios": 16
-      },
-      {
-        "temporada": 4,
-        "episodios": 22
-      },
-      {
-        "temporada": 5,
-        "episodios": 22
-      },
-      {
-        "temporada": 6,
-        "episodios": 22
-      },
-      {
-        "temporada": 7,
-        "episodios": 23
-      },
-      {
-        "temporada": 8,
-        "episodios": 23
-      },
-      {
-        "temporada": 9,
-        "episodios": 23
-      },
-      {
-        "temporada": 10,
-        "episodios": 23
-      },
-      {
-        "temporada": 11,
-        "episodios": 23
-      },
-      {
-        "temporada": 12,
-        "episodios": 23
-      },
-      {
-        "temporada": 13,
-        "episodios": 23
-      },
-      {
-        "temporada": 14,
-        "episodios": 20
-      },
-      {
-        "temporada": 15,
-        "episodios": 20
-      }
+      { "temporada": 1, "episodios": 22 },
+      { "temporada": 2, "episodios": 22 },
+      { "temporada": 3, "episodios": 16 },
+      { "temporada": 4, "episodios": 22 },
+      { "temporada": 5, "episodios": 22 },
+      { "temporada": 6, "episodios": 22 },
+      { "temporada": 7, "episodios": 23 },
+      { "temporada": 8, "episodios": 23 },
+      { "temporada": 9, "episodios": 23 },
+      { "temporada": 10, "episodios": 23 },
+      { "temporada": 11, "episodios": 23 },
+      { "temporada": 12, "episodios": 23 },
+      { "temporada": 13, "episodios": 23 },
+      { "temporada": 14, "episodios": 20 },
+      { "temporada": 15, "episodios": 20 }
     ]
   },
   {
@@ -289,14 +172,8 @@
     "server": "22",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 7
-      },
-      {
-        "temporada": 2,
-        "episodios": 7
-      }
+      { "temporada": 1, "episodios": 7 },
+      { "temporada": 2, "episodios": 7 }
     ]
   },
   {
@@ -306,10 +183,7 @@
     "server": "22",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 30
-      }
+      { "temporada": 1, "episodios": 30 }
     ]
   },
   {
@@ -319,18 +193,9 @@
     "server": "22",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 20,
-        "episodios": 10
-      },
-      {
-        "temporada": 21,
-        "episodios": 10
-      },
-      {
-        "temporada": 22,
-        "episodios": 10
-      }
+      { "temporada": 20, "episodios": 10 },
+      { "temporada": 21, "episodios": 10 },
+      { "temporada": 22, "episodios": 10 }
     ]
   },
   {
@@ -340,10 +205,7 @@
     "server": "18",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 8
-      }
+      { "temporada": 1, "episodios": 8 }
     ]
   },
   {
@@ -353,10 +215,7 @@
     "server": "13",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 3
-      }
+      { "temporada": 1, "episodios": 3 }
     ]
   },
   {
@@ -366,26 +225,11 @@
     "server": "14",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 13
-      },
-      {
-        "temporada": 2,
-        "episodios": 9
-      },
-      {
-        "temporada": 3,
-        "episodios": 8
-      },
-      {
-        "temporada": 4,
-        "episodios": 8
-      },
-      {
-        "temporada": 5,
-        "episodios": 10
-      }
+      { "temporada": 1, "episodios": 13 },
+      { "temporada": 2, "episodios": 9 },
+      { "temporada": 3, "episodios": 8 },
+      { "temporada": 4, "episodios": 8 },
+      { "temporada": 5, "episodios": 10 }
     ]
   },
   {
@@ -395,14 +239,8 @@
     "server": "15",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 10
-      },
-      {
-        "temporada": 2,
-        "episodios": 7
-      }
+      { "temporada": 1, "episodios": 10 },
+      { "temporada": 2, "episodios": 7 }
     ]
   },
   {
@@ -412,10 +250,7 @@
     "server": "02",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 7
-      }
+      { "temporada": 1, "episodios": 7 }
     ]
   },
   {
@@ -425,14 +260,8 @@
     "server": "03",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 26
-      },
-      {
-        "temporada": 2,
-        "episodios": 26
-      }
+      { "temporada": 1, "episodios": 26 },
+      { "temporada": 2, "episodios": 26 }
     ]
   },
   {
@@ -442,30 +271,12 @@
     "server": "03",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 10
-      },
-      {
-        "temporada": 2,
-        "episodios": 10
-      },
-      {
-        "temporada": 3,
-        "episodios": 10
-      },
-      {
-        "temporada": 4,
-        "episodios": 10
-      },
-      {
-        "temporada": 5,
-        "episodios": 10
-      },
-      {
-        "temporada": 6,
-        "episodios": 10
-      }
+      { "temporada": 1, "episodios": 10 },
+      { "temporada": 2, "episodios": 10 },
+      { "temporada": 3, "episodios": 10 },
+      { "temporada": 4, "episodios": 10 },
+      { "temporada": 5, "episodios": 10 },
+      { "temporada": 6, "episodios": 10 }
     ]
   },
   {
@@ -475,10 +286,7 @@
     "server": "14",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 15
-      }
+      { "temporada": 1, "episodios": 15 }
     ]
   },
   {
@@ -488,22 +296,10 @@
     "server": "04",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 6
-      },
-      {
-        "temporada": 2,
-        "episodios": 6
-      },
-      {
-        "temporada": 3,
-        "episodios": 6
-      },
-      {
-        "temporada": 4,
-        "episodios": 8
-      }
+      { "temporada": 1, "episodios": 6 },
+      { "temporada": 2, "episodios": 6 },
+      { "temporada": 3, "episodios": 6 },
+      { "temporada": 4, "episodios": 8 }
     ]
   },
   {
@@ -513,22 +309,10 @@
     "server": "10",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 10
-      },
-      {
-        "temporada": 2,
-        "episodios": 12
-      },
-      {
-        "temporada": 3,
-        "episodios": 10
-      },
-      {
-        "temporada": 4,
-        "episodios": 13
-      }
+      { "temporada": 1, "episodios": 10 },
+      { "temporada": 2, "episodios": 12 },
+      { "temporada": 3, "episodios": 10 },
+      { "temporada": 4, "episodios": 13 }
     ]
   },
   {
@@ -538,34 +322,13 @@
     "server": "01",
     "subfolder": "videos",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 23
-      },
-      {
-        "temporada": 2,
-        "episodios": 23
-      },
-      {
-        "temporada": 3,
-        "episodios": 24
-      },
-      {
-        "temporada": 4,
-        "episodios": 24
-      },
-      {
-        "temporada": 5,
-        "episodios": 22
-      },
-      {
-        "temporada": 6,
-        "episodios": 22
-      },
-      {
-        "temporada": 7,
-        "episodios": 13
-      }
+      { "temporada": 1, "episodios": 23 },
+      { "temporada": 2, "episodios": 23 },
+      { "temporada": 3, "episodios": 24 },
+      { "temporada": 4, "episodios": 24 },
+      { "temporada": 5, "episodios": 22 },
+      { "temporada": 6, "episodios": 22 },
+      { "temporada": 7, "episodios": 13 }
     ]
   },
   {
@@ -575,18 +338,9 @@
     "server": "11",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 8
-      },
-      {
-        "temporada": 2,
-        "episodios": 10
-      },
-      {
-        "temporada": 3,
-        "episodios": 7
-      }
+      { "temporada": 1, "episodios": 8 },
+      { "temporada": 2, "episodios": 10 },
+      { "temporada": 3, "episodios": 7 }
     ]
   },
   {
@@ -596,30 +350,12 @@
     "server": "04",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 6
-      },
-      {
-        "temporada": 2,
-        "episodios": 6
-      },
-      {
-        "temporada": 3,
-        "episodios": 6
-      },
-      {
-        "temporada": 4,
-        "episodios": 6
-      },
-      {
-        "temporada": 5,
-        "episodios": 6
-      },
-      {
-        "temporada": 6,
-        "episodios": 6
-      }
+      { "temporada": 1, "episodios": 6 },
+      { "temporada": 2, "episodios": 6 },
+      { "temporada": 3, "episodios": 6 },
+      { "temporada": 4, "episodios": 6 },
+      { "temporada": 5, "episodios": 6 },
+      { "temporada": 6, "episodios": 6 }
     ]
   },
   {
@@ -629,38 +365,14 @@
     "server": "01",
     "subfolder": "videos",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 22
-      },
-      {
-        "temporada": 2,
-        "episodios": 24
-      },
-      {
-        "temporada": 3,
-        "episodios": 24
-      },
-      {
-        "temporada": 4,
-        "episodios": 16
-      },
-      {
-        "temporada": 5,
-        "episodios": 24
-      },
-      {
-        "temporada": 6,
-        "episodios": 21
-      },
-      {
-        "temporada": 7,
-        "episodios": 23
-      },
-      {
-        "temporada": 8,
-        "episodios": 22
-      }
+      { "temporada": 1, "episodios": 22 },
+      { "temporada": 2, "episodios": 24 },
+      { "temporada": 3, "episodios": 24 },
+      { "temporada": 4, "episodios": 16 },
+      { "temporada": 5, "episodios": 24 },
+      { "temporada": 6, "episodios": 21 },
+      { "temporada": 7, "episodios": 23 },
+      { "temporada": 8, "episodios": 22 }
     ]
   },
   {
@@ -670,34 +382,13 @@
     "server": "12",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 34
-      },
-      {
-        "temporada": 2,
-        "episodios": 35
-      },
-      {
-        "temporada": 3,
-        "episodios": 36
-      },
-      {
-        "temporada": 4,
-        "episodios": 40
-      },
-      {
-        "temporada": 5,
-        "episodios": 42
-      },
-      {
-        "temporada": 6,
-        "episodios": 39
-      },
-      {
-        "temporada": 7,
-        "episodios": 49
-      }
+      { "temporada": 1, "episodios": 34 },
+      { "temporada": 2, "episodios": 35 },
+      { "temporada": 3, "episodios": 36 },
+      { "temporada": 4, "episodios": 40 },
+      { "temporada": 5, "episodios": 42 },
+      { "temporada": 6, "episodios": 39 },
+      { "temporada": 7, "episodios": 49 }
     ]
   },
   {
@@ -707,30 +398,12 @@
     "server": "03",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 25
-      },
-      {
-        "temporada": 2,
-        "episodios": 24
-      },
-      {
-        "temporada": 3,
-        "episodios": 24
-      },
-      {
-        "temporada": 4,
-        "episodios": 26
-      },
-      {
-        "temporada": 5,
-        "episodios": 25
-      },
-      {
-        "temporada": 6,
-        "episodios": 24
-      }
+      { "temporada": 1, "episodios": 25 },
+      { "temporada": 2, "episodios": 24 },
+      { "temporada": 3, "episodios": 24 },
+      { "temporada": 4, "episodios": 26 },
+      { "temporada": 5, "episodios": 25 },
+      { "temporada": 6, "episodios": 24 }
     ]
   },
   {
@@ -740,30 +413,12 @@
     "server": "12",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 25
-      },
-      {
-        "temporada": 2,
-        "episodios": 24
-      },
-      {
-        "temporada": 3,
-        "episodios": 24
-      },
-      {
-        "temporada": 4,
-        "episodios": 26
-      },
-      {
-        "temporada": 5,
-        "episodios": 25
-      },
-      {
-        "temporada": 6,
-        "episodios": 24
-      }
+      { "temporada": 1, "episodios": 25 },
+      { "temporada": 2, "episodios": 24 },
+      { "temporada": 3, "episodios": 24 },
+      { "temporada": 4, "episodios": 26 },
+      { "temporada": 5, "episodios": 25 },
+      { "temporada": 6, "episodios": 24 }
     ]
   },
   {
@@ -773,10 +428,7 @@
     "server": "24",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 8
-      }
+      { "temporada": 1, "episodios": 8 }
     ]
   },
   {
@@ -786,18 +438,9 @@
     "server": "19",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 6
-      },
-      {
-        "temporada": 2,
-        "episodios": 8
-      },
-      {
-        "temporada": 3,
-        "episodios": 10
-      }
+      { "temporada": 1, "episodios": 6 },
+      { "temporada": 2, "episodios": 8 },
+      { "temporada": 3, "episodios": 10 }
     ]
   },
   {
@@ -807,10 +450,7 @@
     "server": "25",
     "subfolder": "ondemand",
     "temporadas": [
-      {
-        "temporada": 1,
-        "episodios": 2
-      }
+      { "temporada": 1, "episodios": 2 }
     ]
   },
   {
