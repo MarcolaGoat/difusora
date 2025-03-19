@@ -131,6 +131,174 @@
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/1f10996aa54ec3c49a252448d0fbde96b98895b36f7d9d61764eed91948fae3a.jpg",
     "server": "1",
     "subfolder": "ondemand"
+  },
+  {
+    "nome": "Rocky-um-lutador",
+    "codigo": "RCKY1",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/4adb062cf2f7e19f4a02500f5be900a68a70a036bacd3a5e97d8ac8fe2d7628b.jpg",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Rocky-2-a-revanche",
+    "codigo": "RCKY2",
+    "url_capa": "https://ntvb.tmsimg.com/assets/p6773_v_h8_ao.jpg?w=960&h=540",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Rocky-3-o-desafio-supremo",
+    "codigo": "RCKY3",
+    "url_capa": "https://wallpaper.forfun.com/fetch/6c/6c28da600dcfa607bd15a7fc728ae04e.jpeg",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Rocky-4",
+    "codigo": "RCKY4",
+    "url_capa": "https://i.ytimg.com/vi/BbvC9pcypQE/maxresdefault.jpg",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Rocky-5",
+    "codigo": "RCKY5",
+    "url_capa": "https://i.ytimg.com/vi/WtS2vcOWUws/maxresdefault.jpg",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Rocky-Balboa",
+    "codigo": "RCKYBLBOA",
+    "url_capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxotWpDvqHtzCgOeDJrK_5PYioRJA71HHl-Mr3YrX12P9jS8P7LdR0NeX_YLntspwv22w&usqp=CAU",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Karate-kid-a-hora-da-verdade",
+    "codigo": "KRTKD1",
+    "url_capa": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/056dfe5a-8245-490b-a76f-a9081c3a76bc/750e9fb641e8aa4dcb6023e6a615f1d2c0e9631d.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Karate-kid-2-a-hora-da-verdade-continua",
+    "codigo": "KRTKD2",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/b572390893be7977dd392185c58abf1a43e40d4affb367bf26d8eee7737f1aec.jpg",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "karate-kid-3-o-desafio-final",
+    "codigo": "KRTKD3",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/ee9f1a68cee1a650e1edfc2f0f9b62bd79c583dc5aaef51fa83d2a9fa30c3b6a._UR1920,1080_SX500_FMjpg_.jpg",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Karate-kid-4-a-nova-aventura",
+    "codigo": "KRTKD4",
+    "url_capa": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/a52a9266-340a-488c-925f-f760d42be943/a8018534-17de-420b-ad8f-9636985bea85?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Toy-Story",
+    "codigo": "TYSTRY1",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/8F161B52338EE723D8F1C5DA31740A434E4A85F8749F9E2B9984309C287B90CF/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Toy-Story-2",
+    "codigo": "TYSTRY2",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4667D541430B42E82AF161915C9EA0CE13A4108C4ECA15AC6DBFA3A0030B3F6B/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Toy-Story-3",
+    "codigo": "TYSTRY3",
+    "url_capa": "https://dimoflix.com.br/wp-content/uploads/2023/12/resumo-do-filme-toy-story-3.jpg",
+    "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "O-Exterminador-do-futuro",
+    "codigo": "OEXTRMDRDFUT1",
+    "url_capa": "https://i.ytimg.com/vi/8Btq9PuwSxc/maxresdefault.jpg",
+    "server": "2",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "O-Exterminador-do-futuro-2-o-julgamento-final",
+    "codigo": "OEXTRMDRDFUT2",
+    "url_capa": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRZcEeP1wdmiXR5x2LqnrB9vjT-ZDMA6eyrux2690j9XPzJjW6pSxWBMGsiRBPwURwsvk2kY1GHQ-RcstuQitk0rZTod6TMIa1nIe8MDEwx_GX1JiRfD5rZbQxa8piB4XOjUqLetMvFJgA/w625-h351/Terminator.jpg",
+    "server": "2",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "O-Exterminador-do-futuro-3-a-rebeliao-das-maquinas",
+    "codigo": "OEXTRMDRDFUT3",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/0bdd3cdbb48a7ff5d5858f4ad28732a22cc97068bafdaa7d0c076aa9c307b863.jpg",
+    "server": "2",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Interestelar",
+    "codigo": "INTRSTLAR",
+    "url_capa": "https://www.palmas.to.gov.br/wp-content/uploads/2025/01/ef8f48ab9eac42cd9a57df65cd885a75.jpg",
+    "server": "2",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "A-Rede-Social",
+    "codigo": "ARDSCIL",
+    "url_capa": "https://cdn.techshake.com/imagens/a-rede-social-filme-sobre-o-facebook-tera-continuacao-revela-roteirista-og.jpg?class=ogImageWide",
+    "server": "2",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Click",
+    "codigo": "CLCK",
+    "url_capa": "https://www.fetchtv.com.au/v2/vod/titles/9929/landscape_thumbnail/334x188",
+    "server": "2",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Batman-vs-superman-a-origem-da-justica",
+    "codigo": "BTMNVSPRMNAODJT",
+    "url_capa": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/f672e34c-6103-4a1c-a925-e131b6b70761/bfd23c31-d3f4-40f0-89b4-ab70f41e0322?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "server": "2",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Matrix",
+    "codigo": "MTRX",
+    "url_capa": "https://eldoradocarajas.wordpress.com/wp-content/uploads/2015/10/6984matrix.jpg?w=1024&h=768&crop=1",
+    "server": "3",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Matrix-Reloaded",
+    "codigo": "MTRXRLD",
+    "url_capa": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/15f1f852-5a97-4e78-b509-e045dbc1ba37/45f63719-9e6f-4503-ade8-49cb7cbe154a?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "server": "3",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Matrix-Revolutions",
+    "codigo": "MTRXREV",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/a4b90ede23260152c82266a08e007a6e20f2c32b5483d7a1d4eec198be78759e._SX1080_FMjpg_.jpg",
+    "server": "3",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Ate-o-ultimo-homem",
+    "codigo": "ATOULHMN",
+    "url_capa": "https://tf-univervideo-blog.s3-accelerate.amazonaws.com/blog_img_abre_rate_ultimo_homem_0e73f1fbb9.jpg",
+    "server": "3",
+    "subfolder": "ondemand"
   }
 
 ]
