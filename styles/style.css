@@ -435,7 +435,7 @@ p {
     }
 
     .container {
-        height: 480px;
+        min-height: 480px;
     }
 
     .container a {
