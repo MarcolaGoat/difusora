@@ -21,6 +21,13 @@
     "subfolder": "ondemand"
   },
   {
+    "nome": "O-Auto-da-Compadecida",
+    "codigo": "OATDCPDCDA",
+    "url_capa": "https://img22.tokyvideo.com/videos/313/313246/previews/previews_0012_custom_1692290724.4686.jpg",
+    "server": "3",
+    "subfolder": "ondemand"
+  },
+  {
     "nome": "O-Auto-da-Compadecida-2",
     "codigo": "OATDCPDCDA2",
     "url_capa": "https://cdn.folhape.com.br/img/pc/1100/1/dn_arquivo/2024/12/design-sem-nome-7_2.jpg",
@@ -109,6 +116,13 @@
     "codigo": "HMNARNH03",
     "url_capa": "https://wallpaper.forfun.com/fetch/ce/ced1dc5bc481cea01fee37cefcf45c60.jpeg",
     "server": "1",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Homem-Aranha-de-volta-ao-lar",
+    "codigo": "HOMARNHDVLTALR",
+    "url_capa": "https://dropcultura.com.br/wp-content/uploads/2021/08/homecoming.jpg",
+    "server": "4",
     "subfolder": "ondemand"
   },
   {
@@ -298,6 +312,69 @@
     "codigo": "ATOULHMN",
     "url_capa": "https://tf-univervideo-blog.s3-accelerate.amazonaws.com/blog_img_abre_rate_ultimo_homem_0e73f1fbb9.jpg",
     "server": "3",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Em-Ritmo-de-Fuga",
+    "codigo": "EMRTMDFG",
+    "url_capa": "https://akamai.sscdn.co/uploadfile/letras/playlists/1/6/4/e/164ec4a991ac48a494ffb212ac3556da.jpg",
+    "server": "4",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Pantera-Negra",
+    "codigo": "PNTRNGR",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E4475104C984F5D9F6E97DC692DB0FAD25980507FE06A7B4550371096397E4A5/scale?width=440&aspectRatio=1.78&format=webp",
+    "server": "4",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "A-Barraca-do-Beijo",
+    "codigo": "ABARCDBJ",
+    "url_capa": "https://dayaneguimaraes.com/wp-content/uploads/2018/06/a-barraca-do-beijo-exclusivo-disnick-e1528992522905.jpg?w=795&h=1&crop=1",
+    "server": "4",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "A-Barraca-do-Beijo-2",
+    "codigo": "ABARCDBJ2",
+    "url_capa": "https://akamai.sscdn.co/uploadfile/letras/playlists/d/2/f/d/d2fdb25b9fc0404f8f6a7371cc6e4f52.jpg",
+    "server": "5",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Psicopata-Americano",
+    "codigo": "PSCPTAMRCNO",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/3538af8e466c5ab8ec64439e6b13afe43ec209558db939b07e56f41ec774a298.jpg",
+    "server": "4",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Psicopata-Americano-2",
+    "codigo": "PSCPTAMRCNO2",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/06faaad2833224dfc237d9f7a0be4717ccff8f31790be836edd37d390bbd1b2f.jpg",
+    "server": "4",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Vingadores-guerra-infinita",
+    "codigo": "VNGDRSGRAINFNTLEG",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/188202B7E3D6E31A026D9EAC7E14D56309EB6F51A7C0601668B89014376DCA09/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "4",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Intocáveis",
+    "codigo": "INTCVS",
+    "url_capa": "https://assets.mubicdn.net/images/artworks/528282/images-original.png?1678878328",
+    "server": "4",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "A-prova-de-fogo",
+    "codigo": "APRVDFGO",
+    "url_capa": "https://i.ytimg.com/vi/xYWwUI3j4_Q/sddefault.jpg",
+    "server": "4",
     "subfolder": "ondemand"
   }
 

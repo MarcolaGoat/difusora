@@ -59,7 +59,7 @@ function gerarCanais(categorias) {
     "Abertos": ["boborj", "sbt", "record", "band"],
     "de Noticias": ["globonews", "recordnews", "bandnews", "cnnbrasil"],
     "de Documentarios": ["animalplanet", "discovery", "history"],
-    "de Entretenimento": ["cinemax", "comedycentral", "hbo", "megapix", "space", "tntseries","bbb"],
+    "de Entretenimento": ["cinemax", "comedycentral", "hbo", "megapix", "space", "tntseries","bbb25a"],
     "Infantil": ["cartoon", "gloob", "discoverykids", "nick", "disney"],
     "de Esportes": ["combate", "espn", "espn2", "premiereclubes", "premiere2", "sportv", "sportv2", "nossofutebol", "tnt"]
   };

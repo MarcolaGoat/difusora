@@ -17,6 +17,12 @@ lupa.addEventListener("click", function(){
 realizarPesquisa();
 });
 
+document.getElementById('input-pesq').addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        realizarPesquisa();
+    }
+});
+
 // ALGORITMO PARA PESQUISAS
 
 const pesqText = document.getElementById('input-pesq');
@@ -77,7 +83,7 @@ function loadResultSerie(serieNome, data) {
             resultsDiv.appendChild(serieElement);
         });
     } else {
-        resultsDiv.innerText = 'Sem resultados encontrados em filmes ou séries.';
+        resultsDiv.innerText = 'Sem séries encontradas.';
     }
 }
 
@@ -100,4 +106,5 @@ function loadResultFilme(filmeNome, data) {
             resultsDiv.appendChild(filmeElement);
         });
     } 
+
 }
