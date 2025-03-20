@@ -622,7 +622,7 @@
   {
     "nome": "Chaves-em-desenho",
     "codigo": "CHVSEMDSNHANMD",
-    "url_capa": "https://forumch-content2.b-cdn.net/http://www.otvfoco.com.br/wp-content/uploads/2017/01/NscNeWl.jpg",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/e1ea623c8e25c61dc1dfcd2b196ff76ac617f95a56a6d5222a3c6e997dd0bd29.jpg",
     "server": "03",
     "subfolder": "ondemand",
     "temporadas": [
@@ -665,6 +665,17 @@
       { "temporada": 6, "episodios": 28 },
       { "temporada": 7, "episodios": 36 },
       { "temporada": 8, "episodios": 29 }
+    ]
+  },
+  {
+    "nome": "Spy-x-family",
+    "codigo": "SPYXFMLY",
+    "url_capa": "",
+    "server": "16",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 25 },
+      { "temporada": 2, "episodios": 11 }
     ]
   }
 
