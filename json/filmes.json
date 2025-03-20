@@ -376,6 +376,90 @@
     "url_capa": "https://i.ytimg.com/vi/xYWwUI3j4_Q/sddefault.jpg",
     "server": "4",
     "subfolder": "ondemand"
+  },
+  {
+    "nome": "Creed-nascido-para-lutar",
+    "codigo": "CRDNSCDPRLTR",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/12c462818b246e55319be5f385842b5ca6ffea2adfbf97103e44f14339ca0e85.jpg",
+    "server": "4",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Creed-2",
+    "codigo": "CRED2",
+    "url_capa": "https://musicart.xboxlive.com/7/7be85000-0000-0000-0000-000000000002/504/image.jpg",
+    "server": "2",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Homem-formiga-e-a-vespa",
+    "codigo": "HMNFRMGEVSPALEG",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9E381E117F8CFB769CBD037ACE460874B406F76F8AD2522E30783D03A0A2C72D/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "4",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Hotel-transilvania-3-ferias-monstruosas",
+    "codigo": "HTLTRNSVN3",
+    "url_capa": "https://cloudfront-us-east-1.images.arcpublishing.com/newr7/CNJE2JSJZRLKBMM4HAWZPOV7WA.jpg",
+    "server": "3",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Os-incriveis",
+    "codigo": "OSINCRVS",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/FF4FAFFCF9914FF5ADE9309C32509C11AA267DD6DE12B2553DCE33684B7F5C1C/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "3",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Os-incriveis-2",
+    "codigo": "OSINCRVS2",
+    "url_capa": "https://akamai.sscdn.co/uploadfile/letras/playlists/a/5/9/b/a59b8824170a857466b5dfeb3108bc06.jpg",
+    "server": "3",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Meu-nome-não-é-Johnny",
+    "codigo": "MEUNMNEJHNY",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/f1015dad598fdfdb86d851be46d8e54ecc375a3dd88ef6635a098cb3cda6aada.jpg",
+    "server": "3",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Eu-robô",
+    "codigo": "EURBO",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5CA018CCA046BBE859EB1E629CBE0D0AEEC28853DC2E7B128A80F4E30ECD22BD/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "3",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Buscando",
+    "codigo": "BSCNDO",
+    "url_capa": "https://cloudfront-us-east-1.images.arcpublishing.com/newr7/ND32CUKBPBJ2JPH6UHINIAKF5M.jpg",
+    "server": "2",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Venom",
+    "codigo": "VENOM",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/afc7c3a8aace039d53f5d73d30bd163ed12e98737b9206bde34668c2a8617c60.jpg",
+    "server": "2",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "Oh-Ramona",
+    "codigo": "OHRMNA",
+    "url_capa": "https://i.ytimg.com/vi/Uy1oC-5q0wg/maxresdefault.jpg",
+    "server": "2",
+    "subfolder": "ondemand"
+  },
+  {
+    "nome": "After",
+    "codigo": "AFTR",
+    "url_capa": "https://www.sociedadenerd.com.br/wp-content/uploads/2023/01/after-1024x538.jpeg",
+    "server": "2",
+    "subfolder": "ondemand"
   }
 
 ]

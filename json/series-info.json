@@ -541,6 +541,131 @@
       { "temporada": 4, "episodios": 12 },
       { "temporada": 5, "episodios": 12 }
     ]
+  },
+  {
+    "nome": "Blaze-e-os-monsters-machines",
+    "codigo": "BLZEOSMNTRMCHNE",
+    "url_capa": "https://i.pinimg.com/736x/f4/5d/6e/f45d6e254c28fbe12493c9e2307ac11b.jpg",
+    "server": "22",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 20 },
+      { "temporada": 2, "episodios": 20 },
+      { "temporada": 3, "episodios": 20 },
+      { "temporada": 4, "episodios": 20 },
+      { "temporada": 5, "episodios": 20 },
+      { "temporada": 6, "episodios": 25 },
+      { "temporada": 7, "episodios": 13 }
+    ]
+  },
+  {
+    "nome": "Bob-esponja",
+    "codigo": "BOBESPJ",
+    "url_capa": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/6237f381-2ab7-41ca-8e73-e177033de02f/bf2f7417-b348-11ef-9fed-0affd17b6387?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "server": "01",
+    "subfolder": "videos",
+    "temporadas": [
+      { "temporada": 1, "episodios": 41 },
+      { "temporada": 2, "episodios": 39 },
+      { "temporada": 3, "episodios": 37 },
+      { "temporada": 4, "episodios": 38 },
+      { "temporada": 5, "episodios": 41 },
+      { "temporada": 6, "episodios": 48 },
+      { "temporada": 7, "episodios": 50 },
+      { "temporada": 8, "episodios": 47 },
+      { "temporada": 9, "episodios": 49 },
+      { "temporada": 10, "episodios": 22 },
+      { "temporada": 11, "episodios": 50 },
+      { "temporada": 12, "episodios": 49 },
+      { "temporada": 13, "episodios": 52 }
+    ]
+  },
+  {
+    "nome": "O-mundo-de-Greg",
+    "codigo": "OMNDOSGRG",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/3b8a970f2e2f24bd5cce336a75ba6d944d8eaba756c2c9c91f655d92b41fe1b9.jpg",
+    "server": "15",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 40 },
+      { "temporada": 2, "episodios": 38 },
+      { "temporada": 3, "episodios": 37 },
+      { "temporada": 4, "episodios": 35 }
+    ]
+  },
+  {
+    "nome": "Clarêncio-o-otimista",
+    "codigo": "CLRCIOTMSTA",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/cdf44ee7db82bd951c2f4b5ca946a55e28a0f00a3aa0e29005446d13a7b7c478._SX1080_FMjpg_.jpg",
+    "server": "02",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 51 },
+      { "temporada": 2, "episodios": 26 },
+      { "temporada": 3, "episodios": 26 },
+      { "temporada": 4, "episodios": 26 }
+    ]
+  },
+  {
+    "nome": "Ursos-sem-curso",
+    "codigo": "URSNCRSO",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/200c243dcc69f9391f30446a817fd508f186bb81365e895288fbff58366ce23d.jpg",
+    "server": "05",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 13 },
+      { "temporada": 2, "episodios": 13 },
+      { "temporada": 3, "episodios": 38 },
+      { "temporada": 4, "episodios": 24 }
+    ]
+  },
+  {
+    "nome": "Chaves-em-desenho",
+    "codigo": "CHVSEMDSNHANMD",
+    "url_capa": "https://forumch-content2.b-cdn.net/http://www.otvfoco.com.br/wp-content/uploads/2017/01/NscNeWl.jpg",
+    "server": "03",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 26 },
+      { "temporada": 2, "episodios": 26 },
+      { "temporada": 3, "episodios": 26 },
+      { "temporada": 4, "episodios": 22 },
+      { "temporada": 5, "episodios": 13 },
+      { "temporada": 6, "episodios": 13 },
+      { "temporada": 7, "episodios": 7 }
+    ]
+  },
+  {
+    "nome": "Bojack-horseman",
+    "codigo": "BJKHRSMN",
+    "url_capa": "https://cdn.lareviewofbooks.org/unsafe/3840x0/filters:format(jpeg):quality(75)/https%3A%2F%2Fassets.lareviewofbooks.org%2Fuploads%2F201608maxresdefault.jpg",
+    "server": "09",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 13 },
+      { "temporada": 2, "episodios": 12 },
+      { "temporada": 3, "episodios": 12 },
+      { "temporada": 4, "episodios": 12 },
+      { "temporada": 5, "episodios": 12 },
+      { "temporada": 6, "episodios": 16 }
+    ]
+  },
+  {
+    "nome": "Apenas-um-show",
+    "codigo": "APNSUSW",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/4467381f8ccbbc2d17e06f78f3961adedaedc40293abd78a7a2948daf4b52096.jpg",
+    "server": "05",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 12 },
+      { "temporada": 2, "episodios": 28 },
+      { "temporada": 3, "episodios": 40 },
+      { "temporada": 4, "episodios": 37 },
+      { "temporada": 5, "episodios": 37 },
+      { "temporada": 6, "episodios": 28 },
+      { "temporada": 7, "episodios": 36 },
+      { "temporada": 8, "episodios": 29 }
+    ]
   }
 
 
