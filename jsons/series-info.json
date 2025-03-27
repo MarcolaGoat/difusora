@@ -750,6 +750,128 @@
       { "temporada": 1, "episodios": 177 }
     ]
   },
+  {
+    "nome": "Abismo-de-paixão",
+    "codigo": "ABSMDPXAO",
+    "url_capa": "",
+    "server": "21",
+    "categoria": "Novelas",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 162 }
+    ]
+  },
+  {
+    "nome": "Cumplice-de-um-resgate",
+    "codigo": "CMPLCSDUMRSGTE",
+    "url_capa": "",
+    "server": "19",
+    "categoria": "Novelas",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 486 }
+    ]
+  },
+  {
+    "nome": "Pérola-Negra",
+    "codigo": "PRLNGRA",
+    "url_capa": "",
+    "server": "18",
+    "categoria": "Novelas",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 205 }
+    ]
+  },
+  {
+    "nome": "Carrossel",
+    "codigo": "CRSEL",
+    "url_capa": "",
+    "server": "19",
+    "categoria": "Novelas",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 310 }
+    ]
+  },
+  {
+    "nome": "A-Dona",
+    "codigo": "ADNA",
+    "url_capa": "",
+    "server": "16",
+    "categoria": "Novelas",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 142 }
+    ]
+  },
+  {
+    "nome": "Coração-Indomável",
+    "codigo": "CRCINDMVL",
+    "url_capa": "",
+    "server": "22",
+    "categoria": "Novelas",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 162 }
+    ]
+  },
+  {
+    "nome": "Mar-de-amor",
+    "codigo": "MARDAMR",
+    "url_capa": "",
+    "server": "10",
+    "categoria": "Novelas",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 136 }
+    ]
+  },
+  {
+    "nome": "A-Usurpadora",
+    "codigo": "AUSRPDRA",
+    "url_capa": "",
+    "server": "10",
+    "categoria": "Novelas",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 102 }
+    ]
+  },
+  {
+    "nome": "Cheias-de-charme",
+    "codigo": "CHSDCHRM",
+    "url_capa": "",
+    "server": "04",
+    "categoria": "Novelas",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 143 }
+    ]
+  },
+  {
+    "nome": "Avenida-brasil",
+    "codigo": "AVNDBRSL",
+    "url_capa": "",
+    "server": "14",
+    "categoria": "Novelas",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 179 }
+    ]
+  },
+  {
+    "nome": "Salve-se-quem-puder",
+    "codigo": "SLVSQMPDR",
+    "url_capa": "",
+    "server": "15",
+    "categoria": "Novelas",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 107 }
+    ]
+  },
+
 
 
 
@@ -761,7 +883,7 @@
     "codigo": "NRTO",
     "url_capa": "https://ovicio.com.br/wp-content/uploads/2022/09/20220920-naruto-lego-910x520-1.jpg",
     "server": "01",
-    "categoria": "Animes",
+    "categoria": "series",
     "subfolder": "videos",
     "temporadas": [
       { "temporada": 1, "episodios": 220 }
@@ -772,10 +894,21 @@
     "codigo": "DTHNT",
     "url_capa": "https://i0.wp.com/cloud.estacaonerd.com/wp-content/uploads/2017/03/22135741/Death-Note.jpg?fit=1680%2C1050&ssl=1https://i0.wp.com/cloud.estacaonerd.com/wp-content/uploads/2017/03/22135741/Death-Note.jpg?fit=1680%2C1050&ssl=1",
     "server": "01",
-    "categoria": "Animes",
+    "categoria": "series",
     "subfolder": "videos",
     "temporadas": [
       { "temporada": 1, "episodios": 38 }
+    ]
+  },
+  {
+    "nome": "BBB20",
+    "codigo": "BBB20",
+    "url_capa":"",
+    "server": "22",
+    "categoria":"series",
+    "subfolder":"ondemand",
+    "temporadas": [
+      {"temporada":1, "episodios": 98}
     ]
   }
 

@@ -180,7 +180,7 @@ function loadEpisodio(data) {
       vid = `${serie.codigo}T${temporada.padStart(2, '0')}EP${episodio.padStart(2, '0')}`;
     } else if (serie.categoria === "Novelas") {
       vid = `${serie.codigo}CP${episodio.toString().padStart(3, '0')}`;
-    } else if (serie.categoria === "Animes") {
+    } else if (serie.categoria === "series") {
       const quantidadeEpisodios = serie.temporadas[0].episodios; // Pega o número de episódios da temporada 1
       if (quantidadeEpisodios > 99) {
         vid = `${serie.codigo}EP${episodio.toString().padStart(3, '0')}`;

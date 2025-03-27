@@ -460,6 +460,286 @@
     "url_capa": "https://www.sociedadenerd.com.br/wp-content/uploads/2023/01/after-1024x538.jpeg",
     "server": "2",
     "categoria": "Romance"
+  },
+  {
+    "nome": "Vingadores-Ultimato",
+    "codigo": "VNGDRSULTMTO",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/64EB1E97BD6DD3DE23D3C195BDA2672A251E23D27DC9C6831339A9EA87B16238/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "1",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "O-Incrível-Hulk",
+    "codigo": "OINCVLHLK",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/0e82138e5b0ad3a82e2e04fafcff4c51186dab8dbb295ad814b11634ed5b1838._UR1920,1080_.jpg",
+    "server": "1",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Homem-de-ferro",
+    "codigo": "HMNDEFRO01",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/000C2DF0912A62F2135D5BA0B84DE1C1AEE9038DCAC18B7AA6DFFD8F33716D61/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "1",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Homem-de-ferro-2",
+    "codigo": "HMNDEFRO02",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/0A2C59BE2EF8E3C95BD6A69AE050198F4E44123D4B5C070DA3F62EE076F4AD92/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "1",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Homem-de-ferro-3",
+    "codigo": "HMNDEFRO03",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/9b62f41eedf0c9732724c40a0e52247baf003fbe50c686e0d69dc7b4490ed155.jpg",
+    "server": "1",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Capitã-Marvel",
+    "codigo": "CPTMRVL",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A7A739328AEA669E1696FE036B2BF7DFAB88225A0844F200AFF5C4BD83492579/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "2",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Capitão-América-o-primeiro-vingador",
+    "codigo": "CAPTAMRC1",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B9252D7E636001C57A286E647CFA3B4956D0E175270BBE5E909E474FDFAE870E/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "2",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Capitão-América-soldado-invernal",
+    "codigo": "CAPTAMRC2",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A377F25FC8FC41456AA38C02BF65E01CC973F1614DA02A93EEA9EC7FE0F2B0BD/scale?width=506&aspectRatio=2.00&format=webp",
+    "server": "2",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Capitão-América-Guerra-Civil",
+    "codigo": "CAPTAMRC3",
+    "url_capa": "https://recantododragao.com.br/wp-content/uploads/2016/05/poltrona-guerra-civil-teaser-trailer.jpg",
+    "server": "3",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Thor",
+    "codigo": "THOR",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/800B9617037560508DDF60257EBCB835A802CABCDA969EF808F41C4C83F8698E/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "1",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Thor-o-mundo-sombrio",
+    "codigo": "THOROMNDSBR",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6C0DA086AB8A1A6EAD9138C6189AE2F0338ABE94E1F88B0A4E2D63B3ADF1E5BA/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "1",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Os-vingadores",
+    "codigo": "OSVGDRS",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/CFD7C3216AF3EB4186365EEB331AEAC1527553076B8A4B6E0097A53FA00783AB/scale?width=506&aspectRatio=2.00&format=webp",
+    "server": "1",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Vingadores-Era-de-Ultron",
+    "codigo": "VNGDRSEDURON",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/59E5979F563C9465C1D8F20364A7A6CAB9A9DF58C4606D50EE6D97D020886CE3/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "3",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Guardiões-da-galáxia",
+    "codigo": "GRDOESDGLXIA",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/429C34A901894AA6A843A6ED5D2F80A4AE621C0002373047A90B384BD75D47DD/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "2",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Guardiões-da-galáxia-2",
+    "codigo": "GRDOESDGLXIAVL2",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/10565615E8ABFCBAF82F4AF4EA237D5EA0842024E4241036B7F7840A059D737C/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "4",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Homem-Formiga",
+    "codigo": "HMNFRMGA",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/57DB2EF2BF00E176695BF156D65AF178A5C368136F5779243C194CE437185386/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "2",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Thor-Ragnarok",
+    "codigo": "THORAGORK",
+    "url_capa": "https://quartaparede.com.br/wp-content/uploads/2022/03/thor-ragnarok-end-credits-avengers-infinity-war-870508.jpg",
+    "server": "4",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Dr-Estranho",
+    "codigo": "DRESTNHO",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/052CC4F9AECB74103CB42D96AF82C1B551C02AF607D408D60CCAA792C840B171/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "3",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Homem-Aranha-longe-de-casa",
+    "codigo": "HMEMARNHLNGDCSA",
+    "url_capa": "https://i0.wp.com/cromossomonerd.com.br/wp-content/uploads/2019/05/Capa-Site-5.png?fit=1060%2C600&ssl=1",
+    "server": "1",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Toy-Story-4",
+    "codigo": "TYSTRY4",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/702FE7EC12664DF554BA168BC28E057B20057720FC5D7EAC69ABE907A37F43F8/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "1",
+    "categoria": "Animação"
+  },
+  {
+    "nome": "O-preço-do-amanhã",
+    "codigo": "OPRCDAMNHA",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2203853316D5CD88E5A1A659E8EB17DC31364BC6A0BA77C37C60E6C0513FBF39/scale?width=506&aspectRatio=2.00&format=webp",
+    "server": "5",
+    "categoria": "Ficção Científica"
+  },
+  {
+    "nome": "Aviões",
+    "codigo": "AVIOES",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/66072CDD69675E071936137BA00865C6FCC7020A7F1CEDCD6C452DAE13E06C2E/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "5",
+    "categoria": "Animação"
+  },
+  {
+    "nome": "After-depois-da-verdade",
+    "codigo": "AFTRDPSDVRD",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/edd447d036e65745fda32575088f162b18fa925707eb42c637f1d10ad0200518.jpg",
+    "server": "5",
+    "categoria": "Romance"
+  },
+  {
+    "nome": "KING-KONG",
+    "codigo": "KNKONG2005",
+    "url_capa": "https://material.asset.catchplay.com/NBC-IN-001-A0036/artworks/posters/NBC-IN-001-A0036-P448.jpg?hash=1704189737",
+    "server": "4",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Viúva-Negra",
+    "codigo": "VIUVNGRA",
+    "url_capa": "https://www.indopraorlando.com.br/wp-content/uploads/2021/07/Viuva-Negra-1.jpeg",
+    "server": "5",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "A-Barraca-do-beijo-3",
+    "codigo": "ABARCDBJ3",
+    "url_capa": "https://akamai.sscdn.co/uploadfile/letras/playlists/7/6/5/4/76542375bf664394982dd3baae19fde5.jpg",
+    "server": "5",
+    "categoria": "Romance"
+  },
+  {
+    "nome": "Lucy",
+    "codigo": "LCY",
+    "url_capa": "https://mundodeadan.wordpress.com/wp-content/uploads/2014/09/lucy-hd-wallpaper.jpg",
+    "server": "5",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "After-depois-do-desencontro",
+    "codigo": "AFTRDPSDSCNTRO",
+    "url_capa": "https://uploads.metroimg.com/wp-content/uploads/2021/12/08155609/After-1.jpg",
+    "server": "4",
+    "categoria": "Romance"
+  },
+  {
+    "nome": "Venom-tempo-de-carnificina",
+    "codigo": "VENOMTMPDCRNFNA",
+    "url_capa": "https://disneyplusbrasil.com.br/wp-content/uploads/2021/05/Venom-Tempo-de-Carnificina-Primeiro-Trailer.jpg",
+    "server": "4",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Matrix-resurrections",
+    "codigo": "MTRXRSRCTNS",
+    "url_capa": "https://turnmundonerd.com.br/wp-content/uploads/2022/01/matrix-resurrections-original-references.jpg",
+    "server": "5",
+    "categoria": "Ficção Científica"
+  },
+  {
+    "nome": "Homem-aranha-sem-volta-para-casa",
+    "codigo": "HMEMARNHSMVLTPRCSA",
+    "url_capa": "https://manualdosgames.com/wp-content/uploads/2022/06/Blu-ray-de-Homem-Aranha-Sem-Volta-Para-Casa.jpg",
+    "server": "5",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Sonic-2",
+    "codigo": "SONC2OFLM",
+    "url_capa": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2022/04/14/2023121475896/STH2_SAlone_16_9_1920x1080_1322128_1920x1080.jpg",
+    "server": "5",
+    "categoria": "Aventura"
+  },
+  {
+    "nome": "Doutor-estranho-no-multiverso-da-loucura",
+    "codigo": "DRESTNHONMLTVSODLCRA",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B4F7AB402C49B5BAB437FF07F9DBB603C3D290E88DAAAE28917FC2A47891A0E8/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "5",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Lightyear",
+    "codigo": "LGHTYR",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/8322F69965CBC34996939EADE20559071CFD92B1BD32F5E387B0279E5D758238/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "5",
+    "categoria": "Animação"
+  },
+  {
+    "nome": "Top-gun-maverick",
+    "codigo": "TOPGNMVRCK",
+    "url_capa": "https://m.media-amazon.com/images/I/71lvUYzEe9L.jpg",
+    "server": "5",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Minions-2-a-origem-de-gru",
+    "codigo": "MINIONS2AORGMDGRU",
+    "url_capa": "https://akamai.sscdn.co/uploadfile/letras/playlists/5/3/b/9/53b9ce4f85c0455c81bbbff0dbf53528.jpg",
+    "server": "5",
+    "categoria": "Animação"
+  },
+  {
+    "nome": "After-depois-da-promessa",
+    "codigo": "AFTRDPSDPRMSA",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/e0c12f18616c4a70ba6f78b6198927ba99fff8fe40533f1b3941641ff64d1ab1.png",
+    "server": "5",
+    "categoria": "Romance"
+  },
+  {
+    "nome": "Thor-amor-e-trovao",
+    "codigo": "THORAMRETRVAO",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A0781641D82D0817FF2907FB306C9789FF365B36EE4A3B2E790C47E1E94B19F8/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "5",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "Pantera-negra-wakanda-para-sempre",
+    "codigo": "PNTRNGRWKNDPRSMPR",
+    "url_capa": "https://s2-techtudo.glbimg.com/sswBkHxGpNaBp-mfBIml7szPirs=/0x0:1200x675/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2022/p/o/nk8Ar7QuC2NgmSeXxaVg/pantera-negra-wakanda-forever-para-sempre-sinopse-elenco-trailer-filme.jpg",
+    "server": "5",
+    "categoria": "Marvel"
+  },
+  {
+    "nome": "A-baleia",
+    "codigo": "ABLEIA2022",
+    "url_capa": "https://i.ytimg.com/vi/d6icqaZE85Q/maxresdefault.jpg",
+    "server": "4",
+    "categoria": "Drama"
   }
-
 ]
+
