@@ -753,7 +753,7 @@
   {
     "nome": "Abismo-de-paixão",
     "codigo": "ABSMDPXAO",
-    "url_capa": "",
+    "url_capa": "https://resumodasnovelas.ig.com.br/wp-content/uploads/2019/08/abismo-de-paixao-banner.jpg",
     "server": "21",
     "categoria": "Novelas",
     "subfolder": "ondemand",
@@ -764,7 +764,7 @@
   {
     "nome": "Cumplice-de-um-resgate",
     "codigo": "CMPLCSDUMRSGTE",
-    "url_capa": "",
+    "url_capa": "https://upload.wikimedia.org/wikipedia/pt/d/d0/Logo_de_C%C3%BAmplices_de_um_Resgate.png",
     "server": "19",
     "categoria": "Novelas",
     "subfolder": "ondemand",
@@ -775,7 +775,7 @@
   {
     "nome": "Pérola-Negra",
     "codigo": "PRLNGRA",
-    "url_capa": "",
+    "url_capa": "https://i.ytimg.com/vi/GHqKqhwEpmE/maxresdefault.jpg",
     "server": "18",
     "categoria": "Novelas",
     "subfolder": "ondemand",
@@ -786,7 +786,7 @@
   {
     "nome": "Carrossel",
     "codigo": "CRSEL",
-    "url_capa": "",
+    "url_capa": "https://www.guiadasemana.com.br/contentFiles/system/pictures/2015/8/141181/original/carrossel-sbt.jpg",
     "server": "19",
     "categoria": "Novelas",
     "subfolder": "ondemand",
@@ -797,7 +797,7 @@
   {
     "nome": "A-Dona",
     "codigo": "ADNA",
-    "url_capa": "",
+    "url_capa": "https://imagem.natelinha.uol.com.br/880x495/a-dona-novela_7097.jpeg",
     "server": "16",
     "categoria": "Novelas",
     "subfolder": "ondemand",
@@ -808,7 +808,7 @@
   {
     "nome": "Coração-Indomável",
     "codigo": "CRCINDMVL",
-    "url_capa": "",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/c0e7a0e2458c84bb6c8c0f4fa29d9836965dad3421cc272316d00cf2b17aa656.jpg",
     "server": "22",
     "categoria": "Novelas",
     "subfolder": "ondemand",
@@ -819,7 +819,7 @@
   {
     "nome": "Mar-de-amor",
     "codigo": "MARDAMR",
-    "url_capa": "",
+    "url_capa": "https://www.guiamuriae.com.br/wp-content/uploads/2016/05/Novela-Mar-de-Amor.jpg",
     "server": "10",
     "categoria": "Novelas",
     "subfolder": "ondemand",
@@ -830,7 +830,7 @@
   {
     "nome": "A-Usurpadora",
     "codigo": "AUSRPDRA",
-    "url_capa": "",
+    "url_capa": "https://f.i.uol.com.br/fotografia/2021/10/05/1633456881615c92f1caf28_1633456881_3x2_md.jpg",
     "server": "10",
     "categoria": "Novelas",
     "subfolder": "ondemand",
@@ -841,7 +841,7 @@
   {
     "nome": "Cheias-de-charme",
     "codigo": "CHSDCHRM",
-    "url_capa": "",
+    "url_capa": "https://akamai.sscdn.co/uploadfile/letras/fotos/3/a/f/0/3af0b36b2a455d25fbbcd20528ced40a.jpg",
     "server": "04",
     "categoria": "Novelas",
     "subfolder": "ondemand",
@@ -852,7 +852,7 @@
   {
     "nome": "Avenida-brasil",
     "codigo": "AVNDBRSL",
-    "url_capa": "",
+    "url_capa": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmy8RAlbm0BW3K-s-_lwP4ZViHbSs5vfQXjlm_2EAoaviib2NyOemjXyQ82Tary1kH79JVF71nZpAFew5TKwLErdmeUVim_Rut_3Cj5HcjHROkl4Psm9_-4hMeCryJGvK5a3kDr-nOtx0/s1600/novela-avenida-brasil-hd-completa-em-22-dvds-f-barato-D_NQ_NP_219125-MLB25389510959_022017-F.jpg",
     "server": "14",
     "categoria": "Novelas",
     "subfolder": "ondemand",
@@ -863,7 +863,7 @@
   {
     "nome": "Salve-se-quem-puder",
     "codigo": "SLVSQMPDR",
-    "url_capa": "",
+    "url_capa": "https://www.jornalacidadepp.com.br/images/noticias/26188/8921b335f6b51a17a80ca6db31c0db8d.jpg",
     "server": "15",
     "categoria": "Novelas",
     "subfolder": "ondemand",
@@ -903,7 +903,7 @@
   {
     "nome": "BBB20",
     "codigo": "BBB20",
-    "url_capa":"",
+    "url_capa":"https://upload.wikimedia.org/wikipedia/pt/b/b2/Bloggif_5e236b0773b79.png",
     "server": "22",
     "categoria":"series",
     "subfolder":"ondemand",
