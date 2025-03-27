@@ -191,11 +191,11 @@
     </div>
     <div>
         <h2>Melhores Séries &gt;</h2>
-        <div id="series-container" class="container"> </div>
+        <div id="series-container-mobile" class="container"> </div>
     </div>
     <div>
         <h2>Melhores Filmes &gt;</h2>
-        <div id="filmes-container" class="container"> </div>
+        <div id="filmes-container-mobile" class="container"> </div>
     </div>
 </div>
 </div><!-- FIM DA DIV PARA TELAS PEQUENAS -->
@@ -209,7 +209,7 @@
 fetch('../jsons/filmes.json')
   .then(response => response.json())  
   .then(data => {
-    const container = document.getElementById('filmes-container');
+    const container = document.getElementById('filmes-container-mobile');
     data.forEach(filme => {
       const div = document.createElement('div');
       div.innerHTML = `<a href="exibicao-filmes.html?filme=${filme.nome}"><img src="${filme.url_capa}" alt="${filme.nome}" loading="lazy" /></a>`;
@@ -223,7 +223,7 @@ fetch('../jsons/filmes.json')
   fetch('../jsons/series-info.json')
   .then(response => response.json())  
   .then(data => {
-    const container = document.getElementById('series-container');
+    const container = document.getElementById('series-container-mobile');
     data.forEach(serie => {
       const div = document.createElement('div');
       div.innerHTML = `<a href="exibicao-series.html?serie=${serie.nome}"><img src="${serie.url_capa}" alt="${serie.nome}" loading="lazy" /></a>`;

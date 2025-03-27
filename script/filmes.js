@@ -2,6 +2,7 @@ fetch('../jsons/filmes.json')
   .then(response => response.json())  
   .then(data => {
     const containerGeral = document.querySelector('.container-geral');
+    const containerGeralMobile = document.querySelector('.container-geral-mobile');
 
     const filmesPorCategoria = data.reduce((acc, filme) => {
       if (!acc[filme.categoria]) {
@@ -11,24 +12,39 @@ fetch('../jsons/filmes.json')
       return acc;
     }, {});
 
-    // Criar a estrutura para cada categoria
     Object.keys(filmesPorCategoria).forEach(categoria => {
-      const h2 = document.createElement('h2');
-      h2.textContent = 'Filmes de ' + categoria;
+      const h2Geral = document.createElement('h2');
+      h2Geral.textContent = 'Filmes de ' + categoria;
 
-      const container = document.createElement('div');
-      container.classList.add('container');
+      const containerGeralCategoria = document.createElement('div');
+      containerGeralCategoria.classList.add('container');
 
       filmesPorCategoria[categoria].forEach(filme => {
         const div = document.createElement('div');
         div.innerHTML = `<a href="exibicao-filmes.html?filme=${filme.nome}"> <img src="${filme.url_capa}" alt="${filme.nome}" loading="lazy" /> </a>`;
-        container.appendChild(div);
+        containerGeralCategoria.appendChild(div);
       });
 
-      containerGeral.appendChild(h2);
-      containerGeral.appendChild(container);
+      containerGeral.appendChild(h2Geral);
+      containerGeral.appendChild(containerGeralCategoria);
+
+      const h2Mobile = document.createElement('h2');
+      h2Mobile.textContent = 'Filmes de ' + categoria;
+
+      const containerMobileCategoria = document.createElement('div');
+      containerMobileCategoria.classList.add('container');
+
+      filmesPorCategoria[categoria].forEach(filme => {
+        const div = document.createElement('div');
+        div.innerHTML = `<a href="exibicao-filmes.html?filme=${filme.nome}"> <img src="${filme.url_capa}" alt="${filme.nome}" loading="lazy" /> </a>`;
+        containerMobileCategoria.appendChild(div);
+      });
+
+      containerGeralMobile.appendChild(h2Mobile);
+      containerGeralMobile.appendChild(containerMobileCategoria);
     });
   })
   .catch(error => {
     console.error('Erro ao carregar o arquivo JSON:', error);
   });
+

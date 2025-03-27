@@ -2,6 +2,7 @@ fetch('../jsons/series-info.json')
   .then(response => response.json())  
   .then(data => {
     const containerGeral = document.querySelector('.container-geral');
+    const containerGeralMobile = document.querySelector('.container-geral-mobile');
 
     const seriesPorCategoria = data.reduce((acc, serie) => {
       if (!acc[serie.categoria]) {
@@ -12,20 +13,35 @@ fetch('../jsons/series-info.json')
     }, {});
 
     Object.keys(seriesPorCategoria).forEach(categoria => {
-      const h2 = document.createElement('h2');
-      h2.textContent =  categoria;
+      const h2Geral = document.createElement('h2');
+      h2Geral.textContent = categoria;
 
-      const container = document.createElement('div');
-      container.classList.add('container');
+      const containerGeralCategoria = document.createElement('div');
+      containerGeralCategoria.classList.add('container');
 
       seriesPorCategoria[categoria].forEach(serie => {
         const div = document.createElement('div');
         div.innerHTML = `<a href="exibicao-series.html?serie=${serie.nome}"> <img src="${serie.url_capa}" alt="${serie.nome}" loading="lazy" /> </a>`;
-        container.appendChild(div);
+        containerGeralCategoria.appendChild(div);
       });
 
-      containerGeral.appendChild(h2);
-      containerGeral.appendChild(container);
+      containerGeral.appendChild(h2Geral);
+      containerGeral.appendChild(containerGeralCategoria);
+
+      const h2Mobile = document.createElement('h2');
+      h2Mobile.textContent = categoria;
+
+      const containerMobileCategoria = document.createElement('div');
+      containerMobileCategoria.classList.add('container');
+
+      seriesPorCategoria[categoria].forEach(serie => {
+        const div = document.createElement('div');
+        div.innerHTML = `<a href="exibicao-series.html?serie=${serie.nome}"> <img src="${serie.url_capa}" alt="${serie.nome}" loading="lazy" /> </a>`;
+        containerMobileCategoria.appendChild(div);
+      });
+
+      containerGeralMobile.appendChild(h2Mobile);
+      containerGeralMobile.appendChild(containerMobileCategoria);
     });
   })
   .catch(error => {
