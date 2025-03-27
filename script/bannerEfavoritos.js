@@ -12,9 +12,9 @@ function gerarBanner(bannersJson) {
 
     const paginaAtual = window.location.pathname;
 
-    if (paginaAtual.includes('filmes.html')) {
+    if (paginaAtual.includes('filmes')) {
         numero = Math.floor(Math.random() * 10); 
-    } else if (paginaAtual.includes('series.html')) {
+    } else if (paginaAtual.includes('series')) {
         numero = Math.floor(Math.random() * (19 - 10 + 1)) + 10;
     } else {
         numero = Math.floor(Math.random() * bannersJson.length);
