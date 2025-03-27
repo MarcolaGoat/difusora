@@ -43,6 +43,8 @@ p {
     #iframe-container {
         width: 332px;
         height: 208px;
+        background-size:  332px 208px;
+        background-repeat: no-repeat;
     }
 
     h3 {
@@ -76,6 +78,7 @@ p {
             <div id="iframe-container"> </div>
             <div class="ads"></div>
         </main>
+        <div class="btn-adc" id="btn-adc"  title="Adicionar a minha lista"><p>+</p></div>
 </div>
 
  <!--  ===================================================================================== -->
@@ -153,4 +156,5 @@ fetch('../jsons/filmes.json')
 
 </script>
 <script src="script/pesquisas.js">  </script>
+<script src="script/adicionarFav.js"></script>
 </html>

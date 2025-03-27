@@ -2,7 +2,6 @@ fetch('../jsons/filmes.json')
   .then(response => response.json())  
   .then(data => {
     const containerGeral = document.querySelector('.container-geral');
-    const containerGeralMobile = document.querySelector('.container-geral-mobile');
 
     const filmesPorCategoria = data.reduce((acc, filme) => {
       if (!acc[filme.categoria]) {
@@ -28,20 +27,6 @@ fetch('../jsons/filmes.json')
       containerGeral.appendChild(h2Geral);
       containerGeral.appendChild(containerGeralCategoria);
 
-      const h2Mobile = document.createElement('h2');
-      h2Mobile.textContent = 'Filmes de ' + categoria;
-
-      const containerMobileCategoria = document.createElement('div');
-      containerMobileCategoria.classList.add('container');
-
-      filmesPorCategoria[categoria].forEach(filme => {
-        const div = document.createElement('div');
-        div.innerHTML = `<a href="exibicao-filmes.html?filme=${filme.nome}"> <img src="${filme.url_capa}" alt="${filme.nome}" loading="lazy" /> </a>`;
-        containerMobileCategoria.appendChild(div);
-      });
-
-      containerGeralMobile.appendChild(h2Mobile);
-      containerGeralMobile.appendChild(containerMobileCategoria);
     });
   })
   .catch(error => {

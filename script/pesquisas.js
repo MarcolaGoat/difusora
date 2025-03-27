@@ -24,17 +24,6 @@ function realizarPesquisa() {
       }
       //================================================
 
-      const pesquisa = document.querySelector('.input-mobile');
-      if (pesquisa.style.display == 'none') {
-        pesquisa.style.display = 'inline-block';
-      } else if (pesquisa.value.trim() == "") {
-        pesquisa.style.display = 'none';
-      } else {
-        localStorage.setItem('pesquisaTexto', pesquisa.value);
-    
-        window.location.href = 'pesquisa.html';
-      }
-
     
 }
 
@@ -119,31 +108,3 @@ const paginaAtual = window.location.pathname;
         }
         
     }
-
-// PESQUISAS NO MOBILE
-
-document.getElementById('input-pesq-mobile').addEventListener('keydown', function(event) {
-    if (event.key === 'Enter') {
-        realizarPesquisa();
-    }
-});
-
-const lupaMob = document.getElementById('lupa-mobile');
-
-    lupaMob.addEventListener("click", function() {
-        alternarInput();
-    });
-    
-function alternarInput() {
-        const pesquisa = document.querySelector('.input-mobile');
-        const navMob = document.querySelector('.nav-mobile');
-    
-        if (pesquisa.style.display == '' || pesquisa.style.display == 'none') {
-            pesquisa.style.display = 'inline-block'; 
-            navMob.style.display = 'none'; 
-        } else {
-            pesquisa.style.display = 'none'; 
-            navMob.style.display = 'flex'; 
-        }
-    }
-    

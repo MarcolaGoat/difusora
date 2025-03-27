@@ -28,38 +28,39 @@
         margin-bottom: 10px;
     }
 
-    main {
+    #main-mobile {
         max-width: 405px;
+        min-height: 500px;
         padding: 10px 0px 0px 0px;
     }
 
-    .canais-mobile {
+    .canais-mobiles {
         display: flex;
         flex-wrap: wrap;
     }
-    .canais-mobile a {
+    .canais-mobiles a {
         width: 90px;
         height: 90px;
     }
 
-    .canais-mobile a img {
+    .canais-mobiles a img {
         width: 90px;
         height: 90px;
         margin: 10px 5px 10px 3px;
     }
     
-    .h2mob {
-        display: block;
-        text-align: center;
-        margin: 10px auto;
-        max-width: 300px;
-    }
 
     footer p {
        font-size: 14px;
     }
   }
   
+  .h2mobile {
+    display: block;
+    text-align: center;
+    margin: 20px auto 10px auto;
+    max-width: 300px;
+}
 
 .banner-mobile {
     max-width: 100%;

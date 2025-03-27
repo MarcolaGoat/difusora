@@ -41,7 +41,6 @@ h3 {
     margin-bottom: 3px;
 }
 
-
 #serie-info {
   width: 200px;
   max-height: 500px;
@@ -94,45 +93,15 @@ h3 {
       
           <div id="serie-info">   </div>
       </main>
+
+      <div class="btn-adc" id="btn-adc" title="Adicionar a minha lista"><p>+</p></div>
 </div>
 
 <!--  ===================================================================================== -->
 
-<div class="cel"> <!-- INICIO DA DIV PARA TELAS PEQUENAS -->
-  <header class="header-mobile">
-    
-    <div class="logo-mobile">  Difusora   </div>
-    <i class="fas fa-search" id="lupa-mobile"></i>
-        
-  </header>
-  
-  <div id="menu-suspenso">
-      <input type="text" maxlength="18" placeholder="  Buscar" id="input-pesq-mobile" class="input-mobile">
-    
-      <nav class="nav-mobile">
-        <a href="index.html">Início</a>
-        <a href="filmes.html">Filmes</a>
-        <a href="series.html">Séries</a>
-        <a href="canais.html">Canais</a>
-        <a href="minhalista.html">Minha lista</a>
-    </nav>
-
-  </div>
-    
-  <h5 id="info-episodio"></h5>
-      <main>
-          <div class="ep-list" id="tempContainer">   </div>
-      
-          <div id="iframe-container">  </div>
-      
-          <div id="serie-info">   </div>
-      </main>
-      
-</div> <!-- FIM DA DIV PARA TELAS PEQUENAS -->
-
 
 <script src="script/series.js"></script>
-<script src="script/bannerEfavoritos.js"></script>
+<script src="script/adicionarFav.js"></script>
 <script>
     function getParameterByName(name) {
   const urlParams = new URLSearchParams(window.location.search);

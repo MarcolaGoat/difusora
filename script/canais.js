@@ -1,7 +1,6 @@
 function gerarCanais(categorias) {
   const main = document.getElementById('main');
-  const mainMobile = document.getElementById('main-mobile');
-  
+
   for (const categoria in categorias) {
       const h2 = document.createElement('h2');
       h2.classList.add('h2pc');
@@ -28,30 +27,6 @@ function gerarCanais(categorias) {
       main.appendChild(containerCanais);
   }
   
-  for (const categoria in categorias) {
-      const h2 = document.createElement('h2');
-      h2.classList.add('h2mob');
-      h2.textContent = 'Canais ' + categoria.charAt(0).toUpperCase() + categoria.slice(1);
-  
-      const canaisMobile = document.createElement('div');
-      canaisMobile.classList.add('canais-mobile');
-  
-      categorias[categoria].forEach(canal => {
-          const link = document.createElement('a');
-          link.href = `exibicao-canais.html?canal=${canal}`;
-          
-          const img = document.createElement('img');
-          img.classList.add('canal');
-          img.src = `imagens/${canal}-logo.png`;
-          img.alt = canal;
-  
-          link.appendChild(img);
-          canaisMobile.appendChild(link);
-      });
-      
-      mainMobile.appendChild(h2);
-      mainMobile.appendChild(canaisMobile);
-  }
 }
 
 const categorias = {

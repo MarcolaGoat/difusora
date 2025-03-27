@@ -25,7 +25,6 @@ function gerarBanner(bannersJson) {
     const descricao = document.getElementById('descricao');
     const but = document.getElementById('assistir');
     const adc = document.getElementById('adc');
-    const adcMobile = document.getElementById('adc-mobile');
     const filmeSerie = bannersJson[numero];
 
     banner.src = filmeSerie.src;
@@ -42,15 +41,9 @@ function gerarBanner(bannersJson) {
     if (itemExiste) {
         adc.textContent = "X";
         adc.title = 'Remover da Minha lista';
-
-        adcMobile.textContent = "X";
-        adcMobile.title = 'Remover da Minha lista';
     } else {
         adc.textContent = "+";
         adc.title = 'Adicionar na Minha lista';
-
-        adcMobile.textContent = "+";
-        adcMobile.title = 'Adicionar na Minha lista';
     }
 
     adc.addEventListener('click', function() {
@@ -67,16 +60,10 @@ function gerirFavorito(filmeSerie, adc) {
         favoritos.splice(index, 1); 
         adc.textContent = "+";
         adc.title = 'Adicionar na Minha lista';
-
-        adcMobile.textContent = "+";
-        adcMobile.title = 'Adicionar na Minha lista';
     } else {
         favoritos.push(filmeSerie); 
         adc.textContent = 'X';
         adc.title = 'Remover da Minha lista';
-
-        adcMobile.textContent = "X";
-        adcMobile.title = 'Remover da Minha lista';
     }
 
     localStorage.setItem("favoritos", JSON.stringify(favoritos));
