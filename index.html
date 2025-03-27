@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/style-mobile.css">
 
+    <link rel="shortcut icon" href="imagens/ds-favicon.png" type="image/x-icon">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap" rel="stylesheet">
@@ -224,6 +226,36 @@ fetch('../jsons/filmes.json')
   .then(response => response.json())  
   .then(data => {
     const container = document.getElementById('series-container-mobile');
+    data.forEach(serie => {
+      const div = document.createElement('div');
+      div.innerHTML = `<a href="exibicao-series.html?serie=${serie.nome}"><img src="${serie.url_capa}" alt="${serie.nome}" loading="lazy" /></a>`;
+      container.appendChild(div);
+    });
+  })
+  .catch(error => {
+    console.error('Erro ao carregar o arquivo JSON:', error);
+  });
+
+  // PARA COMPUTADORES
+
+  fetch('../jsons/filmes.json')
+  .then(response => response.json())  
+  .then(data => {
+    const container = document.getElementById('filmes-container');
+    data.forEach(filme => {
+      const div = document.createElement('div');
+      div.innerHTML = `<a href="exibicao-filmes.html?filme=${filme.nome}"><img src="${filme.url_capa}" alt="${filme.nome}" loading="lazy" /></a>`;
+      container.appendChild(div);
+    });
+  })
+  .catch(error => {
+    console.error('Erro ao carregar o arquivo JSON:', error);
+  });
+
+  fetch('../jsons/series-info.json')
+  .then(response => response.json())  
+  .then(data => {
+    const container = document.getElementById('series-container');
     data.forEach(serie => {
       const div = document.createElement('div');
       div.innerHTML = `<a href="exibicao-series.html?serie=${serie.nome}"><img src="${serie.url_capa}" alt="${serie.nome}" loading="lazy" /></a>`;
