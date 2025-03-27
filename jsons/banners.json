@@ -1,0 +1,202 @@
+[
+    {
+        "nome": "Entre-Montanhas",
+        "codigo": "ENTRMTNHS",
+        "src": "imagens/banner-entre-montanhas.png",
+        "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/be15bfe77030301ed91e20c941a6e2393aedbd94715703c77d76c64c8666e2ba.jpg",
+        "descricao": "Dois agentes altamente treinados se aproximam à distância após serem enviados para proteger lados opostos de um desfiladeiro misterioso. Quando um mal emerge, eles precisam trabalhar juntos para sobreviver ao que está lá dentro.",
+        "server": "3",
+        "subfolder": "ondemand",
+        "tipo": "filme"
+      },
+      {
+        "nome": "Buscando",
+        "codigo": "BSCNDO",
+        "src": "imagens/banner-buscando.png",
+        "url_capa": "https://cloudfront-us-east-1.images.arcpublishing.com/newr7/ND32CUKBPBJ2JPH6UHINIAKF5M.jpg",
+        "descricao": "David Kim se desespera quando sua filha de 16 anos desaparece e as investigações policiais não levam a lugar nenhum. Decidido a descobrir o paradeiro da jovem, ele usa o computador da menina para vasculhar suas fotos e vídeos em busca de pistas.",
+        "server": "2",
+        "subfolder": "ondemand",
+        "tipo": "filme"
+      },
+      {
+        "nome": "Em-Ritmo-de-fuga",
+        "codigo": "EMRTMDFG",
+        "src": "imagens/banner-em-ritmo-de-fuga.png",
+        "url_capa": "https://akamai.sscdn.co/uploadfile/letras/playlists/1/6/4/e/164ec4a991ac48a494ffb212ac3556da.jpg",
+        "descricao": "Baby é um talentoso motorista de fuga envolvido com um chefão do crime. Ele só precisa fazer mais um trabalho, mas é agora que tudo vai dar errado.",
+        "server": "4",
+        "subfolder": "ondemand",
+        "tipo": "filme"
+      },
+      {
+        "nome": "Tropa-de-elite",
+        "codigo": "TRPDELT1",
+        "src": "imagens/banner-tropa-de-elite.png",
+        "url_capa": "https://www.palestraspimentel.com/wp-content/uploads/backup/2019/08/capitao-nascimento-ator-wagner-moura.jpg",
+        "descricao": "Um capitão de polícia do Rio de Janeiro está esgotado e prestes a se aposentar, mas precisa encontrar um sucessor para liderar uma perigosa missão.",
+        "server": "1",
+        "subfolder": "ondemand",
+        "tipo": "filme"
+      },
+      {
+        "nome": "Meu-nome-não-é-johnny",
+        "codigo": "MEUNMNEJHNY",
+        "src": "imagens/banner-meu-nome-nao-e-johnny.png",
+        "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/f1015dad598fdfdb86d851be46d8e54ecc375a3dd88ef6635a098cb3cda6aada.jpg",
+        "descricao": "Um jovem da classe média que se torna o rei do tráfico de drogas da zona sul do Rio de Janeiro. O rapaz inteligente e adorado pelos pais passa a ser investigado pela polícia e enfrenta a dura realidade de um criminoso.",
+        "server": "3",
+        "subfolder": "ondemand",
+        "tipo": "filme"
+      },
+      {
+        "nome": "Matrix",
+        "codigo": "MTRX",
+        "src": "imagens/banner-matrix.png",
+        "url_capa": "https://eldoradocarajas.wordpress.com/wp-content/uploads/2015/10/6984matrix.jpg?w=1024&h=768&crop=1",
+        "descricao": "A vida de Neo muda com a revelação de que ele pode ser o salvador da humanidade contra o sistema de inteligência artificial chamado Matrix.",
+        "server": "3",
+        "subfolder": "ondemand",
+        "tipo": "filme"
+      },
+      {
+        "nome": "O-Exterminador-do-futuro",
+        "codigo": "OEXTRMDRDFUT1",
+        "src": "imagens/banner-o-exterminador-do-futuro.png",
+        "url_capa": "https://i.ytimg.com/vi/8Btq9PuwSxc/maxresdefault.jpg",
+        "descricao": "Um assassino do futuro é enviado para Los Angeles.",
+        "server": "2",
+        "subfolder": "ondemand",
+        "tipo": "filme"
+      },
+      {
+        "nome": "Click",
+        "codigo": "CLCK",
+        "src": "imagens/banner-click.png",
+        "url_capa": "https://www.fetchtv.com.au/v2/vod/titles/9929/landscape_thumbnail/334x188",
+        "descricao": "O estressado Michael Newman não tem tempo para sua esposa e filhos.Então,consegue um controle remoto mágico que lhe permite contornar pequenas distrações cotidianas.",
+        "server": "2",
+        "subfolder": "ondemand",
+        "tipo": "filme"
+      },
+      {
+        "nome": "A-Rede-Social",
+        "codigo": "ARDSCIL",
+        "src": "imagens/banner-a-rede-social.png",
+        "url_capa": "https://cdn.techshake.com/imagens/a-rede-social-filme-sobre-o-facebook-tera-continuacao-revela-roteirista-og.jpg?class=ogImageWide",
+        "descricao": "Um gênio punk provocou uma revolução e mudou a maneira pela qual as pessoas interagem por uma geração, e talvez para sempre. Desenvolvido com brutalidade emocional e humor inesperado, este filme magnificamente trabalhado faz uma crônica sobre a formação do Facebook.",
+        "server": "2",
+        "subfolder": "ondemand",
+        "tipo": "filme"
+      },
+      {
+        "nome": "Homem-aranha-sem-volta-para-casa",
+        "codigo": "bleble",
+        "src": "imagens/banner-homem-aranha-sem-volta-para-casa.png",
+        "descricao": "Peter Parker tem a sua identidade secreta revelada e pede ajuda ao Doutor Estranho. Quando um feitiço para reverter o evento não sai como o esperado, o Homem-Aranha e seu companheiro dos Vingadores precisam enfrentar inimigos de todo o multiverso.",
+        "server": "3",
+        "subfolder": "ondemand",
+        "tipo": "filme"
+      },
+      {
+        "nome": "The-Good-Doctor",
+        "codigo": "OBMDTR",
+        "src": "imagens/banner-good-doctor.png",
+        "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/3ff30b12b4f71e882737209da3613b67dfd8080867f42d93687502bb5f4572ff.jpg",
+        "descricao": "Um jovem médico com autismo começa a trabalhar em um famoso hospital. Além dos desafios da profissão, ele terá também que provar sua capacidade a seus colegas e superiores.",
+        "server": "12",
+        "subfolder": "ondemand",
+        "tipo": "serie"
+      },
+      {
+        "nome": "Peaky-Blinders",
+        "codigo": "PEKYBLNDRSAN",
+        "src": "imagens/banner-peaky-blinders.png",
+        "url_capa": "https://ntvb.tmsimg.com/assets/p10182728_b_h8_bd.jpg?w=1280&h=720",
+        "descricao": "Uma notória gangue da Inglaterra de 1919 é liderada pelo cruel Tommy Shelby, um criminoso disposto a subir na vida a qualquer preço.",
+        "server": "04",
+        "subfolder": "ondemand",
+        "tipo": "serie"
+      },
+      {
+        "nome": "Mr-Robot",
+        "codigo": "MROB",
+        "src": "imagens/banner-mr-robot.png",
+        "url_capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7gN4C5-yY1ccQUAQYEr5p3W-DdlW08RCAMw&s",
+        "descricao": "Sociedade Hacker acompanha Elliot Alderson, um jovem engenheiro de segurança cibernética, que se envolve com a Fsociety, um grupo de hackers secreto, depois de ser recrutado por seu misterioso líder.",
+        "server": "10",
+        "subfolder": "ondemand",
+        "tipo": "serie"
+      },
+      {
+        "nome": "Supernatural",
+        "codigo": "SPN",
+        "src": "imagens/banner-supernatural.png",
+        "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/da965f3ac7162bf10c0f8d99c7b33846fe7ca055e71ed0286732ecea974be565.jpg",
+        "descricao": "Após a perda da mãe, os irmãos Sam e Dean Winchester atravessam o país combatendo todas as ameaças sobrenaturais que encontram pelo caminho.",
+        "server": "01",
+        "subfolder": "videos",
+        "tipo": "serie"
+      },
+      {
+        "nome": "Lupin",
+        "codigo": "LPN",
+        "src": "imagens/banner-lupin.png",
+        "url_capa": "https://tm.ibxk.com.br/sites/6/2021/05/609aebb2ec664.jpg",
+        "descricao": "Inspirado pelas aventuras de Arsène Lupin, o ladrão gentil Assane Diop quer se vingar de uma família rica por uma injustiça cometida contra o pai dele.",
+        "server": "15",
+        "subfolder": "ondemand",
+        "tipo": "serie"
+      },
+      {
+        "nome": "Dexter",
+        "codigo": "DEXTER",
+        "src": "imagens/banner-dexter.png",
+        "url_capa": "https://ambrosia.com.br/wp-content/uploads/2023/02/series-dexter-ambrosia-noticias.jpeg",
+        "descricao": "Dexter é um especialista forense que passa o dia solucionando crimes e a noite cometendo assassinatos. Inteligente e bonito, o assassino em série vive em conflito com seu instinto de matador e o desejo pela felicidade.",
+        "server": "01",
+        "subfolder": "videos",
+        "tipo": "serie"
+      },
+      {
+        "nome": "Prison-Break",
+        "codigo": "PRBK",
+        "src": "imagens/banner-prison-break.png",
+        "url_capa": "https://www.em.com.br/emfoco/wp-content/uploads/2025/02/esse-75.jpg",
+        "descricao": "Michael Scofield tem seu irmão condenado por um crime que não cometeu e colocado no corredor da morte. Michael rende um banco para ser preso junto ao irmão e colocar em ação um plano de fuga.",
+        "server": "01",
+        "subfolder": "videos",
+        "tipo": "serie"
+      },
+      {
+        "nome": "The-Blacklist",
+        "codigo": "THEBLCKLST",
+        "src": "imagens/banner-the-blacklist.png",
+        "url_capa": "https://trintaeumas.com.br/wp-content/uploads/2016/11/20161130-blacklist.jpg",
+        "descricao": "Após se entregar à polícia, um brilhante fugitivo oferece ajuda ao FBI, mas apenas se a novata Elizabeth Keen for sua parceira.",
+        "server": "09",
+        "subfolder": "ondemand",
+        "tipo": "serie"
+      },
+      {
+        "nome": "Suits",
+        "codigo": "SUTS",
+        "src": "imagens/banner-suits.png",
+        "url_capa": "https://cinemus.com.br/wp-content/uploads/2023/09/Suits-Wallpaper-9-temporada.jpg",
+        "descricao": "Mike Ross, um jovem talentoso que nunca terminou seus estudos, que começa a trabalhar como associado para Harvey Specter que fica impressionado com a inteligência e conhecimento de leis de Mike, além do desejo genuíno de se tornar um advogado e o contrata. Trabalham juntos, e ao mesmo tempo escondem o segredo sobre Mike não ter formação para exercer a profissão.",
+        "server": "04",
+        "subfolder": "ondemand",
+        "tipo": "serie"
+      },
+      {
+        "nome": "Breaking-Bad",
+        "codigo": "BB",
+        "src": "imagens/banner-breaking-bad.png",    
+        "url_capa": "https://seriemaniacos.tv/wp-content/uploads/2011/01/Breaking-Bad.jpg",
+        "descricao": "O prof. de química Walter White não acredita que sua vida possa piorar ainda mais. Quando descobre que tem câncer terminal, ele decide arriscar tudo para ganhar dinheiro enquanto pode, transformando sua van em um laboratório de metanfetamina.",
+        "server": "05",
+        "subfolder": "ondemand",
+        "tipo": "serie"
+      }
+
+]

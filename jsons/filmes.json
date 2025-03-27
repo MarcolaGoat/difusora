@@ -1,0 +1,465 @@
+[
+{
+    "nome": "Entre-Montanhas",
+    "codigo": "ENTRMTNHS",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/be15bfe77030301ed91e20c941a6e2393aedbd94715703c77d76c64c8666e2ba.jpg",
+    "server": "3",
+    "categoria": "Suspense"
+  },
+  {
+    "nome": "Entre-Irmãos",
+    "codigo": "ENTIRMS",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/bf7e64db21a04dbb147b570a18a9fa5a150e35971b021caa132e04f82fce641e.jpg",
+    "server": "4",
+    "categoria": "Drama"
+  },
+  {
+    "nome": "Par-Perfeito",
+    "codigo": "PARPRFTO2010",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/d9c742012ce36b9c827004ed69a534fa2a496c91db17edec8aa67a28507ee232.jpg",
+    "server": "3",
+    "categoria": "Comédia"
+  },
+  {
+    "nome": "O-Auto-da-Compadecida",
+    "codigo": "OATDCPDCDA",
+    "url_capa": "https://img22.tokyvideo.com/videos/313/313246/previews/previews_0012_custom_1692290724.4686.jpg",
+    "server": "3",
+    "categoria": "Comédia"
+  },
+  {
+    "nome": "O-Auto-da-Compadecida-2",
+    "codigo": "OATDCPDCDA2",
+    "url_capa": "https://cdn.folhape.com.br/img/pc/1100/1/dn_arquivo/2024/12/design-sem-nome-7_2.jpg",
+    "server": "3",
+    "categoria": "Comédia"
+  },
+  {
+    "nome": "Deadpool-e-Woverine",
+    "codigo": "DEADPEWLVRNE",
+    "url_capa": "https://edilenemafra.com/wp-content/uploads/2024/07/Deadpool-Wolverine-Foto-Divulgacao--1024x576.jpg.webp",
+    "server": "3",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Paddington-uma-aventura-na-floresta",
+    "codigo": "PNGTNUMAVNTRANFLRSTA",
+    "url_capa": "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/10/poster-de-paddington-em-peru.jpg?w=1024",
+    "server": "3",
+    "categoria": "Aventura"
+  },
+  {
+    "nome": "Velozes-e-furiosos-1",
+    "codigo": "VLZEFROSOS01",
+    "url_capa": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisHXWS357YWLudvpFHVdwqwmS5G1Zp3qQmw8OFXzPHTQRKXNKql_DTZG-kapTHxP4PqyBHT80GYbUcuXr5OaW4AIRx9h3YO84A1DAGbjxYEo2rVPns8hRTvsU_jF3ap1_G-5Pc1hjw930/s1600/infografico-velozes-furiosos-topo.jpg",
+    "server": "1",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Velozes-e-furiosos-2",
+    "codigo": "VLZEFROSOS02",
+    "url_capa": "https://ntvb.tmsimg.com/assets/p32092_v_h8_ba.jpg?w=1280&h=720",
+    "server": "1",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Velozes-e-Furiosos-Desafio-em-Tóquio",
+    "codigo": "VLZEFROSOS03",
+    "url_capa": "https://img41.tokyvideo.com/videos/407/407727/previews/previews_0012_custom_1700660392.848.jpg",
+    "server": "1",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Velozes-e-furiosos-4",
+    "codigo": "VLZEFROSOS04",
+    "url_capa": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOtiq1DSRAeg2CkSUINY03poz3cLHJVuEUE0SUJjTfO8OErrxYwXs1thkBjsjOgkDGMia3wQEmgBF5Lp-wAioxb64SJJI8FTD3EyfhWIGgwISInhFpe6MP-tSv_1l1mf_F1qRfbcQciAtUc84x-RGmhCT4JnPw8TvUzT7yTMHYV9-7Bz05a-Ba5J8n/s2400/Velozes%20e%20Furiosos%204%20(2009)-Repassando.jpg",
+    "server": "1",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Velozes-e-furiosos-5",
+    "codigo": "VLZEFROSOS05",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/e9c1979927663ead04ea4b53c447c4561a0903f302ee767d81fa4bf79147912b.jpg",
+    "server": "1",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Velozes-e-furiosos-6",
+    "codigo": "VLZEFROSOS06",
+    "url_capa": "https://www.acidadeon.com/tudoep/wp-content/uploads/sites/10/2024/09/E-2024-09-13T170842.038_2024-09-13_20-14-57_jpg_2024-09-13_20-14-57.webp",
+    "server": "1",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Velozes-e-furiosos-7",
+    "codigo": "VLZEFROSOS07",
+    "url_capa": "https://i.ytimg.com/vi/pgodQwuynaY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAGnBwmdlzaJzEqpNEuNsCp6opQDw",
+    "server": "1",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Homem-Aranha-1",
+    "codigo": "HMNARNH01",
+    "url_capa": "https://pipocasclub.com.br/wp-content/uploads/2024/04/Homem-Aranha-Tobey-Maguire.jpg",
+    "server": "1",
+    "categoria": "Ficção Científica"
+  },
+  {
+    "nome": "Homem-Aranha-2",
+    "codigo": "HMNARNH02",
+    "url_capa": "https://i.ytimg.com/vi/OKyqvyGW9EE/maxresdefault.jpg",
+    "server": "1",
+    "categoria": "Ficção Científica"
+  },
+  {
+    "nome": "Homem-Aranha-3",
+    "codigo": "HMNARNH03",
+    "url_capa": "https://wallpaper.forfun.com/fetch/ce/ced1dc5bc481cea01fee37cefcf45c60.jpeg",
+    "server": "1",
+    "categoria": "Ficção Científica"
+  },
+  {
+    "nome": "Homem-Aranha-de-volta-ao-lar",
+    "codigo": "HOMARNHDVLTALR",
+    "url_capa": "https://dropcultura.com.br/wp-content/uploads/2021/08/homecoming.jpg",
+    "server": "4",
+    "categoria": "Ficção Científica"
+  },
+  {
+    "nome": "As-Aventuras-de-Tintin",
+    "codigo": "AAVTRSDTNFILME",
+    "url_capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbc2301IodZtVFGfkD3BdQVdNd5WHuq1nnxFSCE0C5p-CHoO_B7ygLPcQEMZvlQZUnNjU&usqp=CAU",
+    "server": "1",
+    "categoria": "Aventura"
+  },
+  {
+    "nome": "Tropa-de-Elite",
+    "codigo": "TRPDELT1",
+    "url_capa": "https://www.palestraspimentel.com/wp-content/uploads/backup/2019/08/capitao-nascimento-ator-wagner-moura.jpg",
+    "server": "1",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Tropa-de-Elite-2",
+    "codigo": "TRPDELT2",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/1f10996aa54ec3c49a252448d0fbde96b98895b36f7d9d61764eed91948fae3a.jpg",
+    "server": "1",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Rocky-um-lutador",
+    "codigo": "RCKY1",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/4adb062cf2f7e19f4a02500f5be900a68a70a036bacd3a5e97d8ac8fe2d7628b.jpg",
+    "server": "1",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Rocky-2-a-revanche",
+    "codigo": "RCKY2",
+    "url_capa": "https://ntvb.tmsimg.com/assets/p6773_v_h8_ao.jpg?w=960&h=540",
+    "server": "1",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Rocky-3-o-desafio-supremo",
+    "codigo": "RCKY3",
+    "url_capa": "https://wallpaper.forfun.com/fetch/6c/6c28da600dcfa607bd15a7fc728ae04e.jpeg",
+    "server": "1",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Rocky-4",
+    "codigo": "RCKY4",
+    "url_capa": "https://i.ytimg.com/vi/BbvC9pcypQE/maxresdefault.jpg",
+    "server": "1",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Rocky-5",
+    "codigo": "RCKY5",
+    "url_capa": "https://i.ytimg.com/vi/WtS2vcOWUws/maxresdefault.jpg",
+    "server": "1",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Rocky-Balboa",
+    "codigo": "RCKYBLBOA",
+    "url_capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxotWpDvqHtzCgOeDJrK_5PYioRJA71HHl-Mr3YrX12P9jS8P7LdR0NeX_YLntspwv22w&usqp=CAU",
+    "server": "1",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Karate-kid-a-hora-da-verdade",
+    "codigo": "KRTKD1",
+    "url_capa": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/056dfe5a-8245-490b-a76f-a9081c3a76bc/750e9fb641e8aa4dcb6023e6a615f1d2c0e9631d.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "server": "1",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Karate-kid-2-a-hora-da-verdade-continua",
+    "codigo": "KRTKD2",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/b572390893be7977dd392185c58abf1a43e40d4affb367bf26d8eee7737f1aec.jpg",
+    "server": "1",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "karate-kid-3-o-desafio-final",
+    "codigo": "KRTKD3",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/ee9f1a68cee1a650e1edfc2f0f9b62bd79c583dc5aaef51fa83d2a9fa30c3b6a._UR1920,1080_SX500_FMjpg_.jpg",
+    "server": "1",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Karate-kid-4-a-nova-aventura",
+    "codigo": "KRTKD4",
+    "url_capa": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/a52a9266-340a-488c-925f-f760d42be943/a8018534-17de-420b-ad8f-9636985bea85?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "server": "1",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Toy-Story",
+    "codigo": "TYSTRY1",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/8F161B52338EE723D8F1C5DA31740A434E4A85F8749F9E2B9984309C287B90CF/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "1",
+    "categoria": "Animações"
+  },
+  {
+    "nome": "Toy-Story-2",
+    "codigo": "TYSTRY2",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4667D541430B42E82AF161915C9EA0CE13A4108C4ECA15AC6DBFA3A0030B3F6B/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "1",
+    "categoria": "Animações"
+  },
+  {
+    "nome": "Toy-Story-3",
+    "codigo": "TYSTRY3",
+    "url_capa": "https://dimoflix.com.br/wp-content/uploads/2023/12/resumo-do-filme-toy-story-3.jpg",
+    "server": "1",
+    "categoria": "Animações"
+  },
+  {
+    "nome": "O-Exterminador-do-futuro",
+    "codigo": "OEXTRMDRDFUT1",
+    "url_capa": "https://i.ytimg.com/vi/8Btq9PuwSxc/maxresdefault.jpg",
+    "server": "2",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "O-Exterminador-do-futuro-2-o-julgamento-final",
+    "codigo": "OEXTRMDRDFUT2",
+    "url_capa": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRZcEeP1wdmiXR5x2LqnrB9vjT-ZDMA6eyrux2690j9XPzJjW6pSxWBMGsiRBPwURwsvk2kY1GHQ-RcstuQitk0rZTod6TMIa1nIe8MDEwx_GX1JiRfD5rZbQxa8piB4XOjUqLetMvFJgA/w625-h351/Terminator.jpg",
+    "server": "2",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "O-Exterminador-do-futuro-3-a-rebeliao-das-maquinas",
+    "codigo": "OEXTRMDRDFUT3",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/0bdd3cdbb48a7ff5d5858f4ad28732a22cc97068bafdaa7d0c076aa9c307b863.jpg",
+    "server": "2",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Interestelar",
+    "codigo": "INTRSTLAR",
+    "url_capa": "https://www.palmas.to.gov.br/wp-content/uploads/2025/01/ef8f48ab9eac42cd9a57df65cd885a75.jpg",
+    "server": "2",
+    "categoria": "Ficção Científica"
+  },
+  {
+    "nome": "A-Rede-Social",
+    "codigo": "ARDSCIL",
+    "url_capa": "https://cdn.techshake.com/imagens/a-rede-social-filme-sobre-o-facebook-tera-continuacao-revela-roteirista-og.jpg?class=ogImageWide",
+    "server": "2",
+    "categoria": "Drama"
+  },
+  {
+    "nome": "Click",
+    "codigo": "CLCK",
+    "url_capa": "https://www.fetchtv.com.au/v2/vod/titles/9929/landscape_thumbnail/334x188",
+    "server": "2",
+    "categoria": "Comédia"
+  },
+  {
+    "nome": "Batman-vs-superman-a-origem-da-justica",
+    "codigo": "BTMNVSPRMNAODJT",
+    "url_capa": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/f672e34c-6103-4a1c-a925-e131b6b70761/bfd23c31-d3f4-40f0-89b4-ab70f41e0322?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "server": "2",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Matrix",
+    "codigo": "MTRX",
+    "url_capa": "https://eldoradocarajas.wordpress.com/wp-content/uploads/2015/10/6984matrix.jpg?w=1024&h=768&crop=1",
+    "server": "3",
+    "categoria": "Ficção Científica"
+  },
+  {
+    "nome": "Matrix-Reloaded",
+    "codigo": "MTRXRLD",
+    "url_capa": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/15f1f852-5a97-4e78-b509-e045dbc1ba37/45f63719-9e6f-4503-ade8-49cb7cbe154a?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "server": "3",
+    "categoria": "Ficção Científica"
+  },
+  {
+    "nome": "Matrix-Revolutions",
+    "codigo": "MTRXREV",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/a4b90ede23260152c82266a08e007a6e20f2c32b5483d7a1d4eec198be78759e._SX1080_FMjpg_.jpg",
+    "server": "3",
+    "categoria": "Ficção Científica"
+  },
+  {
+    "nome": "Ate-o-ultimo-homem",
+    "codigo": "ATOULHMN",
+    "url_capa": "https://tf-univervideo-blog.s3-accelerate.amazonaws.com/blog_img_abre_rate_ultimo_homem_0e73f1fbb9.jpg",
+    "server": "3",
+    "categoria": "Drama"
+  },
+  {
+    "nome": "Em-Ritmo-de-Fuga",
+    "codigo": "EMRTMDFG",
+    "url_capa": "https://akamai.sscdn.co/uploadfile/letras/playlists/1/6/4/e/164ec4a991ac48a494ffb212ac3556da.jpg",
+    "server": "4",
+    "categoria": "Aventura"
+  },
+  {
+    "nome": "Pantera-Negra",
+    "codigo": "PNTRNGR",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E4475104C984F5D9F6E97DC692DB0FAD25980507FE06A7B4550371096397E4A5/scale?width=440&aspectRatio=1.78&format=webp",
+    "server": "4",
+    "categoria": "Ficção Científica"
+  },
+  {
+    "nome": "A-Barraca-do-Beijo",
+    "codigo": "ABARCDBJ",
+    "url_capa": "https://dayaneguimaraes.com/wp-content/uploads/2018/06/a-barraca-do-beijo-exclusivo-disnick-e1528992522905.jpg?w=795&h=1&crop=1",
+    "server": "4",
+    "categoria": "Romance"
+  },
+  {
+    "nome": "A-Barraca-do-Beijo-2",
+    "codigo": "ABARCDBJ2",
+    "url_capa": "https://akamai.sscdn.co/uploadfile/letras/playlists/d/2/f/d/d2fdb25b9fc0404f8f6a7371cc6e4f52.jpg",
+    "server": "5",
+    "categoria": "Romance"
+  },
+  {
+    "nome": "Psicopata-Americano",
+    "codigo": "PSCPTAMRCNO",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/3538af8e466c5ab8ec64439e6b13afe43ec209558db939b07e56f41ec774a298.jpg",
+    "server": "4",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Psicopata-Americano-2",
+    "codigo": "PSCPTAMRCNO2",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/06faaad2833224dfc237d9f7a0be4717ccff8f31790be836edd37d390bbd1b2f.jpg",
+    "server": "4",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Vingadores-guerra-infinita",
+    "codigo": "VNGDRSGRAINFNTLEG",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/188202B7E3D6E31A026D9EAC7E14D56309EB6F51A7C0601668B89014376DCA09/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "4",
+    "categoria": "Ficção Científica"
+  },
+  {
+    "nome": "Intocáveis",
+    "codigo": "INTCVS",
+    "url_capa": "https://assets.mubicdn.net/images/artworks/528282/images-original.png?1678878328",
+    "server": "4",
+    "categoria": "Drama"
+  },
+  {
+    "nome": "A-prova-de-fogo",
+    "codigo": "APRVDFGO",
+    "url_capa": "https://i.ytimg.com/vi/xYWwUI3j4_Q/sddefault.jpg",
+    "server": "4",
+    "categoria": "Romance"
+  },
+  {
+    "nome": "Creed-nascido-para-lutar",
+    "codigo": "CRDNSCDPRLTR",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/12c462818b246e55319be5f385842b5ca6ffea2adfbf97103e44f14339ca0e85.jpg",
+    "server": "4",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Creed-2",
+    "codigo": "CRED2",
+    "url_capa": "https://musicart.xboxlive.com/7/7be85000-0000-0000-0000-000000000002/504/image.jpg",
+    "server": "2",
+    "categoria": "Ação"
+  },
+  {
+    "nome": "Homem-formiga-e-a-vespa",
+    "codigo": "HMNFRMGEVSPALEG",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9E381E117F8CFB769CBD037ACE460874B406F76F8AD2522E30783D03A0A2C72D/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "4",
+    "categoria": "Ficção Científica"
+  },
+  {
+    "nome": "Hotel-transilvania-3-ferias-monstruosas",
+    "codigo": "HTLTRNSVN3",
+    "url_capa": "https://cloudfront-us-east-1.images.arcpublishing.com/newr7/CNJE2JSJZRLKBMM4HAWZPOV7WA.jpg",
+    "server": "3",
+    "categoria": "Animações"
+  },
+  {
+    "nome": "Os-incriveis",
+    "codigo": "OSINCRVS",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/FF4FAFFCF9914FF5ADE9309C32509C11AA267DD6DE12B2553DCE33684B7F5C1C/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "3",
+    "categoria": "Animações"
+  },
+  {
+    "nome": "Os-incriveis-2",
+    "codigo": "OSINCRVS2",
+    "url_capa": "https://akamai.sscdn.co/uploadfile/letras/playlists/a/5/9/b/a59b8824170a857466b5dfeb3108bc06.jpg",
+    "server": "3",
+    "categoria": "Animações"
+  },
+  {
+    "nome": "Meu-nome-não-é-Johnny",
+    "codigo": "MEUNMNEJHNY",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/f1015dad598fdfdb86d851be46d8e54ecc375a3dd88ef6635a098cb3cda6aada.jpg",
+    "server": "3",
+    "categoria": "Drama"
+  },
+  {
+    "nome": "Eu-robô",
+    "codigo": "EURBO",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5CA018CCA046BBE859EB1E629CBE0D0AEEC28853DC2E7B128A80F4E30ECD22BD/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "3",
+    "categoria": "Ficção Científica"
+  },
+  {
+    "nome": "Buscando",
+    "codigo": "BSCNDO",
+    "url_capa": "https://cloudfront-us-east-1.images.arcpublishing.com/newr7/ND32CUKBPBJ2JPH6UHINIAKF5M.jpg",
+    "server": "2",
+    "categoria": "Suspense"
+  },
+  {
+    "nome": "Venom",
+    "codigo": "VENOM",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/afc7c3a8aace039d53f5d73d30bd163ed12e98737b9206bde34668c2a8617c60.jpg",
+    "server": "2",
+    "categoria": "Ficção Científica"
+  },
+  {
+    "nome": "Oh-Ramona",
+    "codigo": "OHRMNA",
+    "url_capa": "https://i.ytimg.com/vi/Uy1oC-5q0wg/maxresdefault.jpg",
+    "server": "2",
+    "categoria": "Romance"
+  },
+  {
+    "nome": "After",
+    "codigo": "AFTR",
+    "url_capa": "https://www.sociedadenerd.com.br/wp-content/uploads/2023/01/after-1024x538.jpeg",
+    "server": "2",
+    "categoria": "Romance"
+  }
+
+]

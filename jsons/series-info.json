@@ -1,0 +1,784 @@
+[
+  {
+    "nome": "The-Blacklist",
+    "url_capa": "https://trintaeumas.com.br/wp-content/uploads/2016/11/20161130-blacklist.jpg",
+    "codigo": "THEBLCKLST",
+    "server": "09",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 22 },
+      { "temporada": 2, "episodios": 22 },
+      { "temporada": 3, "episodios": 23 },
+      { "temporada": 4, "episodios": 22 },
+      { "temporada": 5, "episodios": 22 },
+      { "temporada": 6, "episodios": 22 },
+      { "temporada": 7, "episodios": 19 },
+      { "temporada": 8, "episodios": 22 },
+      { "temporada": 9, "episodios": 22 },
+      { "temporada": 10, "episodios": 22 }
+    ]
+  },
+  {
+    "nome": "Suits",
+    "url_capa": "https://cinemus.com.br/wp-content/uploads/2023/09/Suits-Wallpaper-9-temporada.jpg",
+    "codigo":"SUTS",
+    "server":"04",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 12 },
+      { "temporada": 2, "episodios": 16 },
+      { "temporada": 3, "episodios": 16 },
+      { "temporada": 4, "episodios": 16 },
+      { "temporada": 5, "episodios": 16 },
+      { "temporada": 6, "episodios": 16 },
+      { "temporada": 7, "episodios": 16 },
+      { "temporada": 8, "episodios": 16 },
+      { "temporada": 9, "episodios": 10 }
+    ]
+  },
+
+  {
+    "nome": "Breaking-bad",
+    "url_capa": "https://seriemaniacos.tv/wp-content/uploads/2011/01/Breaking-Bad.jpg",
+    "codigo":"BB",
+    "server":"05",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 7 },
+      { "temporada": 2, "episodios": 13 },
+      { "temporada": 3, "episodios": 13 },
+      { "temporada": 4, "episodios": 13 },
+      { "temporada": 5, "episodios": 16 }
+    ]
+  },
+
+  {
+    "nome": "Round6",
+    "url_capa": "https://sm.ign.com/ign_br/screenshot/default/squid-game_44qj.jpg",
+    "codigo": "ROND6",
+    "server":"08",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 9 },
+      { "temporada": 2, "episodios": 7 }
+    ]
+  },
+
+  {
+    "nome": "Dexter",
+    "url_capa": "https://ambrosia.com.br/wp-content/uploads/2023/02/series-dexter-ambrosia-noticias.jpeg",
+    "codigo": "DEXTER",
+    "server":"01",
+    "categoria": "Séries",
+    "subfolder": "videos",
+    "temporadas": [
+      { "temporada": 1, "episodios": 12 },
+      { "temporada": 2, "episodios": 12 },
+      { "temporada": 3, "episodios": 12 },
+      { "temporada": 4, "episodios": 12 },
+      { "temporada": 5, "episodios": 12 },
+      { "temporada": 6, "episodios": 12 },
+      { "temporada": 7, "episodios": 12 },
+      { "temporada": 8, "episodios": 12 }
+    ]
+  },
+  {
+    "nome": "Jane-the-virgin",
+    "url_capa": "https://guiadanetflix.com.br/wp-content/uploads/2017/08/jane-the-virgem.jpg",
+    "codigo": "JNEAVRGN",
+    "server":"07",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 22 },
+      { "temporada": 2, "episodios": 22 },
+      { "temporada": 3, "episodios": 20 },
+      { "temporada": 4, "episodios": 17 },
+      { "temporada": 5, "episodios": 19 }
+    ]
+  },
+  {
+    "nome": "Prison-Break",
+    "url_capa": "https://www.em.com.br/emfoco/wp-content/uploads/2025/02/esse-75.jpg",
+    "codigo": "PRBK",
+    "server":"01",
+    "categoria": "Séries",
+    "subfolder": "videos",
+    "temporadas": [
+      { "temporada": 1, "episodios": 22 },
+      { "temporada": 2, "episodios": 22 },
+      { "temporada": 3, "episodios": 13 },
+      { "temporada": 4, "episodios": 24 },
+      { "temporada": 5, "episodios": 9 }
+    ]
+  },
+  {
+    "nome": "Todo-Mundo-Odeia-O-Chris",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/bba44266d3c0c2a3bba4358b3f603d39406f35854a2ab0303f602c72b68113a3.jpg",
+    "codigo": "TDMNDOC",
+    "server":"01",
+    "categoria": "Séries",
+    "subfolder": "videos",
+    "temporadas": [
+      { "temporada": 1, "episodios": 22 },
+      { "temporada": 2, "episodios": 22 },
+      { "temporada": 3, "episodios": 22 },
+      { "temporada": 4, "episodios": 22 }
+    ]
+  },
+  {
+    "nome": "Hawaii-Five_0",
+    "url_capa": "https://cinepop.com.br/wp-content/uploads/2020/04/Hawaii-Five-0.jpg",
+    "codigo": "HWAIFVE0",
+    "server": "14",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 24 },
+      { "temporada": 2, "episodios": 23 },
+      { "temporada": 3, "episodios": 24 },
+      { "temporada": 4, "episodios": 22 },
+      { "temporada": 5, "episodios": 25 },
+      { "temporada": 6, "episodios": 25 },
+      { "temporada": 7, "episodios": 25 },
+      { "temporada": 8, "episodios": 25 },
+      { "temporada": 9, "episodios": 25 },
+      { "temporada": 10, "episodios": 22 }
+    ]
+  },
+  {
+    "nome": "Supernatural",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/da965f3ac7162bf10c0f8d99c7b33846fe7ca055e71ed0286732ecea974be565.jpg",
+    "codigo": "SPN",
+    "server": "01",
+    "categoria": "Séries",
+    "subfolder": "videos",
+    "temporadas": [
+      { "temporada": 1, "episodios": 22 },
+      { "temporada": 2, "episodios": 22 },
+      { "temporada": 3, "episodios": 16 },
+      { "temporada": 4, "episodios": 22 },
+      { "temporada": 5, "episodios": 22 },
+      { "temporada": 6, "episodios": 22 },
+      { "temporada": 7, "episodios": 23 },
+      { "temporada": 8, "episodios": 23 },
+      { "temporada": 9, "episodios": 23 },
+      { "temporada": 10, "episodios": 23 },
+      { "temporada": 11, "episodios": 23 },
+      { "temporada": 12, "episodios": 23 },
+      { "temporada": 13, "episodios": 23 },
+      { "temporada": 14, "episodios": 20 },
+      { "temporada": 15, "episodios": 20 }
+    ]
+  },
+  {
+    "nome": "largados-e-pelados",
+    "codigo": "LRGDSEPLDSLTNS",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/aefac6f8777515626c10a4fc2211928cae2fe19ca10f9c20a63d68318da8e9af.jpg",
+    "server": "22",
+    "categoria": "Programas de TV",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 7 },
+      { "temporada": 2, "episodios": 7 }
+    ]
+  },
+  {
+    "nome": "Fbi-casos-reais",
+    "codigo": "FBICSRS",
+    "url_capa": "https://cdn.fstatic.com/media/movies/covers/2024/01/369228_background.jpg",
+    "server": "22",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 30 }
+    ]
+  },
+  {
+    "nome": "Mayday-desastres-aereos",
+    "codigo": "MAYDADSTRSARS",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/45B499187C1098FDD1B33D774F470CA54A9B9EE8AEA77CFB2704C27C837E616F/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "22",
+    "categoria": "Programas de TV",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 20, "episodios": 10 },
+      { "temporada": 21, "episodios": 10 },
+      { "temporada": 22, "episodios": 10 }
+    ]
+  },
+  {
+    "nome": "Wandinha",
+    "codigo": "WNDNHA",
+    "url_capa": "https://rickkytrips.com.br/wp-content/uploads/2024/05/AAAABeMZkNnHuV8Y6pFrWEjxEZG8xvjo-JqEJzrBVbBo76pxXC9QOCBcJZZU0KjD8hONdRR6x9QAGgpUZCLr0ljFcZlBS1gjBo-Y5D6--1024x576.jpg",
+    "server": "18",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 8 }
+    ]
+  },
+  {
+    "nome": "Neymar-o-caos-perfeito",
+    "codigo": "NEYMROCSPRF",
+    "url_capa": "https://jpimg.com.br/uploads/2022/01/caos-perfeiito.jpeg",
+    "server": "13",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 3 }
+    ]
+  },
+  {
+    "nome": "La-casa-de-papel",
+    "codigo": "LCSDPL",
+    "url_capa": "https://4kwallpapers.com/images/wallpapers/la-casa-de-papel-tv-2560x1440-18748.jpg",
+    "server": "14",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 13 },
+      { "temporada": 2, "episodios": 9 },
+      { "temporada": 3, "episodios": 8 },
+      { "temporada": 4, "episodios": 8 },
+      { "temporada": 5, "episodios": 10 }
+    ]
+  },
+  {
+    "nome": "Lupin",
+    "codigo": "LPN",
+    "url_capa": "https://tm.ibxk.com.br/sites/6/2021/05/609aebb2ec664.jpg",
+    "server": "15",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 10 },
+      { "temporada": 2, "episodios": 7 }
+    ]
+  },
+  {
+    "nome": "O-gambito-da-rainha",
+    "codigo": "OGMBTODRNHA",
+    "url_capa": "https://occ-0-8407-90.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABaOBaOxTt7UGsqviij4bixYHbUeS74C88q5okMDPIqS1wLvi8cawXr92n7iF2OVOeZQx83a8dRAXwxgvLfZJ_jX-86AjmC1bn14Ga3-WSF9aWnimx6lGW2Fs1Hy07l5sffhgLg.jpg?r=164",
+    "server": "02",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 7 }
+    ]
+  },
+  {
+    "nome": "Patrulha-salvadora",
+    "codigo": "PTRLHSLVDR",
+    "url_capa": "https://i.ytimg.com/vi/n7UhqWbHUSk/maxresdefault.jpg",
+    "server": "03",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 26 },
+      { "temporada": 2, "episodios": 26 }
+    ]
+  },
+  {
+    "nome": "The-Crown",
+    "codigo": "THCRWN",
+    "url_capa": "https://static.poder360.com.br/2022/09/netflix-the-crown-848x477.jpeg",
+    "server": "03",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 10 },
+      { "temporada": 2, "episodios": 10 },
+      { "temporada": 3, "episodios": 10 },
+      { "temporada": 4, "episodios": 10 },
+      { "temporada": 5, "episodios": 10 },
+      { "temporada": 6, "episodios": 10 }
+    ]
+  },
+  {
+    "nome": "Mr-Bean",
+    "codigo": "MRBEN",
+    "url_capa": "https://http2.mlstatic.com/D_NQ_NP_994889-MLA72062944351_102023-B.webp",
+    "server": "14",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 15 }
+    ]
+  },
+  {
+    "nome": "Sintonia",
+    "codigo": "SNTNIA",
+    "url_capa": "https://www.em.com.br/emfoco/wp-content/uploads/2024/12/sintonia-capa-protocolo-xp-e1733427807281.jpg",
+    "server": "04",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 6 },
+      { "temporada": 2, "episodios": 6 },
+      { "temporada": 3, "episodios": 6 },
+      { "temporada": 4, "episodios": 8 }
+    ]
+  },
+  {
+    "nome": "Mr-robot",
+    "codigo": "MROB",
+    "url_capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7gN4C5-yY1ccQUAQYEr5p3W-DdlW08RCAMw&s",
+    "server": "10",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 10 },
+      { "temporada": 2, "episodios": 12 },
+      { "temporada": 3, "episodios": 10 },
+      { "temporada": 4, "episodios": 13 }
+    ]
+  },
+  {
+    "nome": "Mentalista",
+    "codigo": "TMENT",
+    "url_capa": "https://livrosfilmes2017.wordpress.com/wp-content/uploads/2017/08/o-mentalista-4.jpg?w=1200",
+    "server": "01",
+    "categoria": "Séries",
+    "subfolder": "videos",
+    "temporadas": [
+      { "temporada": 1, "episodios": 23 },
+      { "temporada": 2, "episodios": 23 },
+      { "temporada": 3, "episodios": 24 },
+      { "temporada": 4, "episodios": 24 },
+      { "temporada": 5, "episodios": 22 },
+      { "temporada": 6, "episodios": 22 },
+      { "temporada": 7, "episodios": 13 }
+    ]
+  },
+  {
+    "nome": "Desanventuras-em-series",
+    "codigo": "DSVNTRESR",
+    "url_capa": "https://occ-0-8407-1007.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABV3CvqdhMq-WCpxQQRdQ9j597du7pnY1ADsr5vk7alWyA2Ohha190R9oBdMTsJUrbpeM1NvfMzdwTq59iPG6qVK3843VStnpL3eA.jpg?r=894",
+    "server": "11",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 8 },
+      { "temporada": 2, "episodios": 10 },
+      { "temporada": 3, "episodios": 7 }
+    ]
+  },
+  {
+    "nome": "peaky-blinders",
+    "codigo": "PEKYBLNDRSAN",
+    "url_capa": "https://ntvb.tmsimg.com/assets/p10182728_b_h8_bd.jpg?w=1280&h=720",
+    "server": "04",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 6 },
+      { "temporada": 2, "episodios": 6 },
+      { "temporada": 3, "episodios": 6 },
+      { "temporada": 4, "episodios": 6 },
+      { "temporada": 5, "episodios": 6 },
+      { "temporada": 6, "episodios": 6 }
+    ]
+  },
+  {
+    "nome": "Dr-House",
+    "codigo": "HOUSE",
+    "url_capa": "https://www.recensionedigitale.it/wp-content/uploads/2018/09/House-MD.png",
+    "server": "01",
+    "categoria": "Séries",
+    "subfolder": "videos",
+    "temporadas": [
+      { "temporada": 1, "episodios": 22 },
+      { "temporada": 2, "episodios": 24 },
+      { "temporada": 3, "episodios": 24 },
+      { "temporada": 4, "episodios": 16 },
+      { "temporada": 5, "episodios": 24 },
+      { "temporada": 6, "episodios": 21 },
+      { "temporada": 7, "episodios": 23 },
+      { "temporada": 8, "episodios": 22 }
+    ]
+  },
+  {
+    "nome": "Chaves",
+    "codigo": "CHVS",
+    "url_capa": "https://ichef.bbci.co.uk/ace/ws/640/amz/worldservice/live/assets/images/2015/12/12/151212110035_chaves1_640x360_ap_nocredit.jpg.webp",
+    "server": "12",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 34 },
+      { "temporada": 2, "episodios": 35 },
+      { "temporada": 3, "episodios": 36 },
+      { "temporada": 4, "episodios": 40 },
+      { "temporada": 5, "episodios": 42 },
+      { "temporada": 6, "episodios": 39 },
+      { "temporada": 7, "episodios": 49 }
+    ]
+  },
+  {
+    "nome": "Um-maluco-no-pedaco",
+    "codigo": "UMLCONPDCO",
+    "url_capa": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/d3f86fb1-c3d6-4715-874a-579689f5f437/aec7d238ffd6fca252a0f3555ec9b06426203c7d.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "server": "03",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 25 },
+      { "temporada": 2, "episodios": 24 },
+      { "temporada": 3, "episodios": 24 },
+      { "temporada": 4, "episodios": 26 },
+      { "temporada": 5, "episodios": 25 },
+      { "temporada": 6, "episodios": 24 }
+    ]
+  },
+  {
+    "nome": "Cobra-Kai",
+    "codigo": "CBRKA",
+    "url_capa": "https://br.web.img2.acsta.net/img/34/88/34889cb2c70bc85563061bff9d5c88da.jpg",
+    "server": "12",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 25 },
+      { "temporada": 2, "episodios": 24 },
+      { "temporada": 3, "episodios": 24 },
+      { "temporada": 4, "episodios": 26 },
+      { "temporada": 5, "episodios": 25 },
+      { "temporada": 6, "episodios": 24 }
+    ]
+  },
+  {
+    "nome": "Muquiranas-Brasil",
+    "codigo": "MQRANSBR",
+    "url_capa": "https://ofuxico.com.br/wp-content/uploads/2024/07/muquiranas-brasil.jpg",
+    "server": "24",
+    "categoria": "Programas de TV",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 8 }
+    ]
+  },
+  {
+    "nome": "Os-Muquiranas",
+    "codigo": "MQRANS",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/695eace26811dcb81ace74b765cfe235846b1bf60afcc9dfacb88436f281f3f8.jpg",
+    "server": "19",
+    "categoria": "Programas de TV",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 6 },
+      { "temporada": 2, "episodios": 8 },
+      { "temporada": 3, "episodios": 10 }
+    ]
+  },
+  {
+    "nome": "Demolidor-Renascido",
+    "codigo": "DMLDRNSCDO",
+    "url_capa": "https://recreio.com.br/media/uploads/2025/01/demolidor_renascido.jpg",
+    "server": "25",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 2 }
+    ]
+  },
+  {
+    "nome": "Senna",
+    "codigo": "SENNA",
+    "url_capa": "https://cdn-1.motorsport.com/images/amp/0JBZmXE0/s6/dbfnklbgflnkojgbsn.jpg",
+    "server": "24",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      {
+        "temporada": 1, "episodios": 6
+      }
+    ]
+  },
+  {
+    "nome": "Como-se-tornar-um-chefe-do-crime",
+    "codigo": "CMOSTRNRUMCHFEDCRME",
+    "url_capa": "https://i.ytimg.com/vi/tZ8_DMiDebo/maxresdefault.jpg",
+    "server": "24",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      {
+        "temporada": 1, "episodios": 6
+      }
+    ]
+  },
+  {
+    "nome": "The-Good_Doctor",
+    "codigo": "OBMDTR",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/3ff30b12b4f71e882737209da3613b67dfd8080867f42d93687502bb5f4572ff.jpg",
+    "server": "12",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 18 },
+      { "temporada": 2, "episodios": 18 },
+      { "temporada": 3, "episodios": 20 },
+      { "temporada": 4, "episodios": 20 },
+      { "temporada": 5, "episodios": 18 },
+      { "temporada": 6, "episodios": 22 },
+      { "temporada": 7, "episodios": 10 }
+    ]
+  },
+  {
+    "nome": "The-Boys",
+    "codigo": "THEBOS",
+    "url_capa": "https://www.jornalismo.ufv.br/cinecom/wp-content/uploads/2020/09/The-Boys-Wall-1080x675-1.jpg",
+    "server": "04",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 8 },
+      { "temporada": 2, "episodios": 8 },
+      { "temporada": 3, "episodios": 8 },
+      { "temporada": 4, "episodios": 8 }
+    ]
+  },
+  {
+    "nome": "Bridgerton",
+    "codigo": "BRDGRTN",
+    "url_capa": "https://viagemefamilia.com/wordpress/wp-content/files/viagemefamilia.com/2024/12/bridgerton.png",
+    "server": "15",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 8 },
+      { "temporada": 2, "episodios": 8 },
+      { "temporada": 3, "episodios": 8 }
+    ]
+  },
+  {
+    "nome": "La-casa-de-papel-coreia",
+    "codigo": "LCSDPLKR",
+    "url_capa": "https://revistaforum.com.br/u/fotografias/m/2022/6/24/f850x638-83553_161042_5050.jpg",
+    "server": "16",
+    "categoria": "Séries",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 12 }
+    ]
+  },
+  {
+    "nome": "Aeroporto-Area-Restrita",
+    "codigo": "AERPRTOARSTRA",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/87d93b5920ac8b0cd3b681c428f3d1ed0fc616bdf545333fbeffd9f610e4d055.jpg",
+    "server": "18",
+    "categoria": "Programas de TV",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 12 },
+      { "temporada": 2, "episodios": 12 },
+      { "temporada": 3, "episodios": 12 },
+      { "temporada": 4, "episodios": 12 },
+      { "temporada": 5, "episodios": 12 }
+    ]
+  },
+  {
+    "nome": "Blaze-e-os-monsters-machines",
+    "codigo": "BLZEOSMNTRMCHNE",
+    "url_capa": "https://i.pinimg.com/736x/f4/5d/6e/f45d6e254c28fbe12493c9e2307ac11b.jpg",
+    "server": "22",
+    "categoria": "Desenhos",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 20 },
+      { "temporada": 2, "episodios": 20 },
+      { "temporada": 3, "episodios": 20 },
+      { "temporada": 4, "episodios": 20 },
+      { "temporada": 5, "episodios": 20 },
+      { "temporada": 6, "episodios": 25 },
+      { "temporada": 7, "episodios": 13 }
+    ]
+  },
+  {
+    "nome": "Bob-esponja",
+    "codigo": "BOBESPJ",
+    "url_capa": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/6237f381-2ab7-41ca-8e73-e177033de02f/bf2f7417-b348-11ef-9fed-0affd17b6387?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "server": "01",
+    "categoria": "Desenhos",
+    "subfolder": "videos",
+    "temporadas": [
+      { "temporada": 1, "episodios": 41 },
+      { "temporada": 2, "episodios": 39 },
+      { "temporada": 3, "episodios": 37 },
+      { "temporada": 4, "episodios": 38 },
+      { "temporada": 5, "episodios": 41 },
+      { "temporada": 6, "episodios": 48 },
+      { "temporada": 7, "episodios": 50 },
+      { "temporada": 8, "episodios": 47 },
+      { "temporada": 9, "episodios": 49 },
+      { "temporada": 10, "episodios": 22 },
+      { "temporada": 11, "episodios": 50 },
+      { "temporada": 12, "episodios": 49 },
+      { "temporada": 13, "episodios": 52 }
+    ]
+  },
+  {
+    "nome": "O-mundo-de-Greg",
+    "codigo": "OMNDOSGRG",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/3b8a970f2e2f24bd5cce336a75ba6d944d8eaba756c2c9c91f655d92b41fe1b9.jpg",
+    "server": "15",
+    "categoria": "Desenhos",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 40 },
+      { "temporada": 2, "episodios": 38 },
+      { "temporada": 3, "episodios": 37 },
+      { "temporada": 4, "episodios": 35 }
+    ]
+  },
+  {
+    "nome": "Clarêncio-o-otimista",
+    "codigo": "CLRCIOTMSTA",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/cdf44ee7db82bd951c2f4b5ca946a55e28a0f00a3aa0e29005446d13a7b7c478._SX1080_FMjpg_.jpg",
+    "server": "02",
+    "categoria": "Desenhos",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 51 },
+      { "temporada": 2, "episodios": 26 },
+      { "temporada": 3, "episodios": 26 },
+      { "temporada": 4, "episodios": 26 }
+    ]
+  },
+  {
+    "nome": "Ursos-sem-curso",
+    "codigo": "URSNCRSO",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/200c243dcc69f9391f30446a817fd508f186bb81365e895288fbff58366ce23d.jpg",
+    "server": "05",
+    "categoria": "Desenhos",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 13 },
+      { "temporada": 2, "episodios": 13 },
+      { "temporada": 3, "episodios": 38 },
+      { "temporada": 4, "episodios": 24 }
+    ]
+  },
+  {
+    "nome": "Chaves-em-desenho",
+    "codigo": "CHVSEMDSNHANMD",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/e1ea623c8e25c61dc1dfcd2b196ff76ac617f95a56a6d5222a3c6e997dd0bd29.jpg",
+    "server": "03",
+    "categoria": "Desenhos",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 26 },
+      { "temporada": 2, "episodios": 26 },
+      { "temporada": 3, "episodios": 26 },
+      { "temporada": 4, "episodios": 22 },
+      { "temporada": 5, "episodios": 13 },
+      { "temporada": 6, "episodios": 13 },
+      { "temporada": 7, "episodios": 7 }
+    ]
+  },
+  {
+    "nome": "Bojack-horseman",
+    "codigo": "BJKHRSMN",
+    "url_capa": "https://cdn.lareviewofbooks.org/unsafe/3840x0/filters:format(jpeg):quality(75)/https%3A%2F%2Fassets.lareviewofbooks.org%2Fuploads%2F201608maxresdefault.jpg",
+    "server": "09",
+    "categoria": "Desenhos",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 13 },
+      { "temporada": 2, "episodios": 12 },
+      { "temporada": 3, "episodios": 12 },
+      { "temporada": 4, "episodios": 12 },
+      { "temporada": 5, "episodios": 12 },
+      { "temporada": 6, "episodios": 16 }
+    ]
+  },
+  {
+    "nome": "Apenas-um-show",
+    "codigo": "APNSUSW",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/4467381f8ccbbc2d17e06f78f3961adedaedc40293abd78a7a2948daf4b52096.jpg",
+    "server": "05",
+    "categoria": "Desenhos",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 12 },
+      { "temporada": 2, "episodios": 28 },
+      { "temporada": 3, "episodios": 40 },
+      { "temporada": 4, "episodios": 37 },
+      { "temporada": 5, "episodios": 37 },
+      { "temporada": 6, "episodios": 28 },
+      { "temporada": 7, "episodios": 36 },
+      { "temporada": 8, "episodios": 29 }
+    ]
+  },
+  {
+    "nome": "Spy-x-family",
+    "codigo": "SPYXFMLY",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/d05988c74950a1f5e022cfefa693d4f4fcb941e2f4b3cd7993d71de310dcbc1e.jpg",
+    "server": "16",
+    "categoria": "Desenhos",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 25 },
+      { "temporada": 2, "episodios": 11 }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "nome": "Meu-coração-é-teu",
+    "codigo": "MEUCRCAETEU",
+    "url_capa": "https://imagem.natelinha.uol.com.br/original/meu-coracao-%C3%A9-teu-consolidado-audiencia_2ea4e33f332768bd5eecc11a7955cf5ca116d7fb.jpeg",
+    "server": "22",
+    "categoria": "Novelas",
+    "subfolder": "ondemand",
+    "temporadas": [
+      { "temporada": 1, "episodios": 177 }
+    ]
+  },
+
+
+
+
+
+
+  {
+    "nome": "Naruto-Clássico",
+    "codigo": "NRTO",
+    "url_capa": "https://ovicio.com.br/wp-content/uploads/2022/09/20220920-naruto-lego-910x520-1.jpg",
+    "server": "01",
+    "categoria": "Animes",
+    "subfolder": "videos",
+    "temporadas": [
+      { "temporada": 1, "episodios": 220 }
+    ]
+  },
+  {
+    "nome": "Death-Note",
+    "codigo": "DTHNT",
+    "url_capa": "https://i0.wp.com/cloud.estacaonerd.com/wp-content/uploads/2017/03/22135741/Death-Note.jpg?fit=1680%2C1050&ssl=1https://i0.wp.com/cloud.estacaonerd.com/wp-content/uploads/2017/03/22135741/Death-Note.jpg?fit=1680%2C1050&ssl=1",
+    "server": "01",
+    "categoria": "Animes",
+    "subfolder": "videos",
+    "temporadas": [
+      { "temporada": 1, "episodios": 38 }
+    ]
+  }
+
+
+
+]

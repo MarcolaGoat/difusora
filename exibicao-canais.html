@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistir ao vivo</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<style>
+main {
+    display: flex;
+}
+.canais-list {
+    background-color: #191919;
+    border-radius: 5px;
+    display: block;
+    min-width: 230px;
+    max-width: 250px;
+    max-height: 520px;
+    margin: 20px 0px auto 25px;
+    overflow-y: auto;
+}
+
+@media (max-width: 430px) {
+    main {
+        flex-direction: column-reverse;
+    } 
+    #iframe-container {
+        margin-top: 30px;
+        width: 332px;
+        height: 208px;
+    }
+    .canais-list {
+    margin: auto;
+    }
+}
+
+</style>
+<body>
+<div class="pc">
+        <header>
+            <div class="logo">  Difusora </div>
+            <nav>
+                <a href="index.html" >Início</a>
+                <a href="filmes.html">Filmes</a>
+                <a href="series.html">Séries</a>
+                <a href="canais.html">Canais</a>
+                <a href="minhalista.html">Minha lista</a>
+            </nav>
+  
+        </header>
+        <main>
+            <div class="canais-list">
+                <p>Lista de Canais</p>
+                <ul class="lista-exi">
+                    <li><a href="exibicao-canais.html?canal=boborj">Globo</a></li>
+                    <li><a href="exibicao-canais.html?canal=sbt">Sbt</a></li>
+                    <li><a href="exibicao-canais.html?canal=record">Record</a></li>
+                    <li><a href="exibicao-canais.html?canal=band">Band</a></li>
+                    <li><a href="exibicao-canais.html?canal=globonews">Globo News</a></li>
+                    <li><a href="exibicao-canais.html?canal=recordnews">Record News</a></li>
+                    <li><a href="exibicao-canais.html?canal=bandnews">Band News</a></li>
+                    <li><a href="exibicao-canais.html?canal=cnnbrasil">CNN Brasil</a></li>
+                    <li><a href="exibicao-canais.html?canal=animalplanet">Animal Planet</a></li>
+                    <li><a href="exibicao-canais.html?canal=discovery">Discovery Channel</a></li>
+                    <li><a href="exibicao-canais.html?canal=hitory">History</a></li>
+                    <li><a href="exibicao-canais.html?canal=cinemax">Cinemax</a></li>
+                    <li><a href="exibicao-canais.html?canal=comedycentral">Comedy</a></li>
+                    <li><a href="exibicao-canais.html?canal=hbo">HBO</a></li>
+                    <li><a href="exibicao-canais.html?canal=megapix">Megapix</a></li>
+                    <li><a href="exibicao-canais.html?canal=space">Space</a></li>
+                    <li><a href="exibicao-canais.html?canal=tntseries">TNT Series</a></li>
+                    <li><a href="exibicao-canais.html?canal=cartoon">Cartoon Network</a></li>
+                    <li><a href="exibicao-canais.html?canal=discoverykids">Discovery Kids</a></li>
+                    <li><a href="exibicao-canais.html?canal=disney">Disney Channel</a></li>
+                    <li><a href="exibicao-canais.html?canal=gloob">Gloob</a></li>
+                    <li><a href="exibicao-canais.html?canal=nick">Nickelodeon</a></li>
+                    <li><a href="exibicao-canais.html?canal=combate">Combate</a></li>
+                    <li><a href="exibicao-canais.html?canal=espn">ESPN</a></li>
+                    <li><a href="exibicao-canais.html?canal=espn2">ESPN 2</a></li>
+                    <li><a href="exibicao-canais.html?canal=premiereclubes">Premiere</a></li>
+                    <li><a href="exibicao-canais.html?canal=premiere2">Premiere 2</a></li>
+                    <li><a href="exibicao-canais.html?canal=sportv">Sportv</a></li>
+                    <li><a href="exibicao-canais.html?canal=sportv2">Sportv 2</a></li>
+                    <li><a href="exibicao-canais.html?canal=nossofutebol">Nosso Futebol</a></li>
+                    <li><a href="exibicao-canais.html?canal=tnt">TNT</a></li>
+                    <li><a href="exibicao-canais.html?canal=bbb25a">BBB</a></li>
+                </ul>
+            </div>
+            <div id="iframe-container"> </div>
+        </main>
+</div>
+
+<!-- ========================================= -->
+
+<div class="cel"> <!-- INICIO DA DIV PARA TELAS PEQUENAS -->
+    <header class="header-mobile">
+      
+      <div class="logo-mobile">  Difusora   </div>
+      <i class="fas fa-search" id="lupa" onclick="realizarPesquisa()"></i>
+          
+    </header>
+    
+    <div id="menu-suspenso">
+        <input type="text" maxlength="18" placeholder="  Buscar" id="input-pesq" class="input-mobile">
+      
+        <nav class="nav-mobile">
+          <a href="index.html">Início</a>
+          <a href="filmes.html">Filmes</a>
+          <a href="series.html">Séries</a>
+          <a href="canais.html">Canais</a>
+          <a href="minhalista.html">Minha lista</a>
+      </nav>
+  
+    </div>
+      
+    <main>
+        <div class="canais-list">
+            <p>Lista de Canais</p>
+            <ul class="lista-exi">
+                <li><a href="exibicao-canais.html?canal=boborj">Globo</a></li>
+                <li><a href="exibicao-canais.html?canal=sbt">Sbt</a></li>
+                <li><a href="exibicao-canais.html?canal=record">Record</a></li>
+                <li><a href="exibicao-canais.html?canal=band">Band</a></li>
+                <li><a href="exibicao-canais.html?canal=globonews">Globo News</a></li>
+                <li><a href="exibicao-canais.html?canal=recordnews">Record News</a></li>
+                <li><a href="exibicao-canais.html?canal=bandnews">Band News</a></li>
+                <li><a href="exibicao-canais.html?canal=cnnbrasil">CNN Brasil</a></li>
+                <li><a href="exibicao-canais.html?canal=animalplanet">Animal Planet</a></li>
+                <li><a href="exibicao-canais.html?canal=discovery">Discovery Channel</a></li>
+                <li><a href="exibicao-canais.html?canal=hitory">History</a></li>
+                <li><a href="exibicao-canais.html?canal=cinemax">Cinemax</a></li>
+                <li><a href="exibicao-canais.html?canal=comedycentral">Comedy</a></li>
+                <li><a href="exibicao-canais.html?canal=hbo">HBO</a></li>
+                <li><a href="exibicao-canais.html?canal=megapix">Megapix</a></li>
+                <li><a href="exibicao-canais.html?canal=space">Space</a></li>
+                <li><a href="exibicao-canais.html?canal=tntseries">TNT Series</a></li>
+                <li><a href="exibicao-canais.html?canal=cartoon">Cartoon Network</a></li>
+                <li><a href="exibicao-canais.html?canal=discoverykids">Discovery Kids</a></li>
+                <li><a href="exibicao-canais.html?canal=disney">Disney Channel</a></li>
+                <li><a href="exibicao-canais.html?canal=gloob">Gloob</a></li>
+                <li><a href="exibicao-canais.html?canal=nick">Nickelodeon</a></li>
+                <li><a href="exibicao-canais.html?canal=combate">Combate</a></li>
+                <li><a href="exibicao-canais.html?canal=espn">ESPN</a></li>
+                <li><a href="exibicao-canais.html?canal=espn2">ESPN 2</a></li>
+                <li><a href="exibicao-canais.html?canal=premiereclubes">Premiere</a></li>
+                <li><a href="exibicao-canais.html?canal=premiere2">Premiere 2</a></li>
+                <li><a href="exibicao-canais.html?canal=sportv">Sportv</a></li>
+                <li><a href="exibicao-canais.html?canal=sportv2">Sportv 2</a></li>
+                <li><a href="exibicao-canais.html?canal=nossofutebol">Nosso Futebol</a></li>
+                <li><a href="exibicao-canais.html?canal=tnt">TNT</a></li>
+                <li><a href="exibicao-canais.html?canal=bbb25a">BBB</a></li>
+            </ul>
+        </div>
+        <div id="iframe-container"> </div>
+    </main>
+        
+  </div> <!-- FIM DA DIV PARA TELAS PEQUENAS -->
+
+<script src="script/exibirCanais.js"></script> 
+</body> 
+</html>
