@@ -15,10 +15,10 @@ function carregarMinhalista() {
     favoritos.forEach(item => {
         const div = document.createElement('div');
         
-        if (item.tipo === 'serie') {
-            div.innerHTML = `<a href="exibicao-series.html?serie=${item.nome}"><img src="${item.url_capa}" alt="${item.nome}" loading="lazy" /></a>`;
+        if (item.tipo === 'filme') {
+            div.innerHTML = `<a href="exibicao-filmes.html?filme=${item.nome}"><img src="${item.url_capa}" alt="${item.nome}" loading="lazy" /></a>`; 
         } else {
-            div.innerHTML = `<a href="exibicao-filmes.html?filme=${item.nome}"><img src="${item.url_capa}" alt="${item.nome}" loading="lazy" /></a>`;
+            div.innerHTML = `<a href="exibicao-series.html?serie=${item.nome}"><img src="${item.url_capa}" alt="${item.nome}" loading="lazy" /></a>`;
         }
 
         container.appendChild(div);

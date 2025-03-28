@@ -4,742 +4,754 @@
     "codigo": "ENTRMTNHS",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/be15bfe77030301ed91e20c941a6e2393aedbd94715703c77d76c64c8666e2ba.jpg",
     "server": "3",
-    "categoria": "Suspense"
+    "categoria": "Suspense",    "tipo": "filme"  
   },
   {
     "nome": "Entre-Irmãos",
     "codigo": "ENTIRMS",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/bf7e64db21a04dbb147b570a18a9fa5a150e35971b021caa132e04f82fce641e.jpg",
     "server": "4",
-    "categoria": "Drama"
+    "categoria": "Drama",    "tipo": "filme"  
   },
   {
     "nome": "Par-Perfeito",
     "codigo": "PARPRFTO2010",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/d9c742012ce36b9c827004ed69a534fa2a496c91db17edec8aa67a28507ee232.jpg",
     "server": "3",
-    "categoria": "Comédia"
+    "categoria": "Comédia",    "tipo": "filme"  
   },
   {
     "nome": "O-Auto-da-Compadecida",
     "codigo": "OATDCPDCDA",
     "url_capa": "https://img22.tokyvideo.com/videos/313/313246/previews/previews_0012_custom_1692290724.4686.jpg",
     "server": "3",
-    "categoria": "Comédia"
+    "categoria": "Comédia",    "tipo": "filme"  
   },
   {
     "nome": "O-Auto-da-Compadecida-2",
     "codigo": "OATDCPDCDA2",
     "url_capa": "https://cdn.folhape.com.br/img/pc/1100/1/dn_arquivo/2024/12/design-sem-nome-7_2.jpg",
     "server": "3",
-    "categoria": "Comédia"
+    "categoria": "Comédia",    "tipo": "filme"  
   },
   {
     "nome": "Deadpool-e-Woverine",
     "codigo": "DEADPEWLVRNE",
     "url_capa": "https://edilenemafra.com/wp-content/uploads/2024/07/Deadpool-Wolverine-Foto-Divulgacao--1024x576.jpg.webp",
     "server": "3",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Paddington-uma-aventura-na-floresta",
     "codigo": "PNGTNUMAVNTRANFLRSTA",
     "url_capa": "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/10/poster-de-paddington-em-peru.jpg?w=1024",
     "server": "3",
-    "categoria": "Aventura"
+    "categoria": "Aventura",    "tipo": "filme"  
   },
   {
     "nome": "Velozes-e-furiosos-1",
     "codigo": "VLZEFROSOS01",
     "url_capa": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisHXWS357YWLudvpFHVdwqwmS5G1Zp3qQmw8OFXzPHTQRKXNKql_DTZG-kapTHxP4PqyBHT80GYbUcuXr5OaW4AIRx9h3YO84A1DAGbjxYEo2rVPns8hRTvsU_jF3ap1_G-5Pc1hjw930/s1600/infografico-velozes-furiosos-topo.jpg",
     "server": "1",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Velozes-e-furiosos-2",
     "codigo": "VLZEFROSOS02",
     "url_capa": "https://ntvb.tmsimg.com/assets/p32092_v_h8_ba.jpg?w=1280&h=720",
     "server": "1",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Velozes-e-Furiosos-Desafio-em-Tóquio",
     "codigo": "VLZEFROSOS03",
     "url_capa": "https://img41.tokyvideo.com/videos/407/407727/previews/previews_0012_custom_1700660392.848.jpg",
     "server": "1",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Velozes-e-furiosos-4",
     "codigo": "VLZEFROSOS04",
     "url_capa": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOtiq1DSRAeg2CkSUINY03poz3cLHJVuEUE0SUJjTfO8OErrxYwXs1thkBjsjOgkDGMia3wQEmgBF5Lp-wAioxb64SJJI8FTD3EyfhWIGgwISInhFpe6MP-tSv_1l1mf_F1qRfbcQciAtUc84x-RGmhCT4JnPw8TvUzT7yTMHYV9-7Bz05a-Ba5J8n/s2400/Velozes%20e%20Furiosos%204%20(2009)-Repassando.jpg",
     "server": "1",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Velozes-e-furiosos-5",
     "codigo": "VLZEFROSOS05",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/e9c1979927663ead04ea4b53c447c4561a0903f302ee767d81fa4bf79147912b.jpg",
     "server": "1",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Velozes-e-furiosos-6",
     "codigo": "VLZEFROSOS06",
     "url_capa": "https://www.acidadeon.com/tudoep/wp-content/uploads/sites/10/2024/09/E-2024-09-13T170842.038_2024-09-13_20-14-57_jpg_2024-09-13_20-14-57.webp",
     "server": "1",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Velozes-e-furiosos-7",
     "codigo": "VLZEFROSOS07",
     "url_capa": "https://i.ytimg.com/vi/pgodQwuynaY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAGnBwmdlzaJzEqpNEuNsCp6opQDw",
     "server": "1",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Homem-Aranha-1",
     "codigo": "HMNARNH01",
     "url_capa": "https://pipocasclub.com.br/wp-content/uploads/2024/04/Homem-Aranha-Tobey-Maguire.jpg",
     "server": "1",
-    "categoria": "Ficção Científica"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Homem-Aranha-2",
     "codigo": "HMNARNH02",
     "url_capa": "https://i.ytimg.com/vi/OKyqvyGW9EE/maxresdefault.jpg",
     "server": "1",
-    "categoria": "Ficção Científica"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Homem-Aranha-3",
     "codigo": "HMNARNH03",
     "url_capa": "https://wallpaper.forfun.com/fetch/ce/ced1dc5bc481cea01fee37cefcf45c60.jpeg",
     "server": "1",
-    "categoria": "Ficção Científica"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Homem-Aranha-de-volta-ao-lar",
     "codigo": "HOMARNHDVLTALR",
     "url_capa": "https://dropcultura.com.br/wp-content/uploads/2021/08/homecoming.jpg",
     "server": "4",
-    "categoria": "Ficção Científica"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "As-Aventuras-de-Tintin",
     "codigo": "AAVTRSDTNFILME",
     "url_capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbc2301IodZtVFGfkD3BdQVdNd5WHuq1nnxFSCE0C5p-CHoO_B7ygLPcQEMZvlQZUnNjU&usqp=CAU",
     "server": "1",
-    "categoria": "Aventura"
+    "categoria": "Aventura",    "tipo": "filme"  
   },
   {
     "nome": "Tropa-de-Elite",
     "codigo": "TRPDELT1",
     "url_capa": "https://www.palestraspimentel.com/wp-content/uploads/backup/2019/08/capitao-nascimento-ator-wagner-moura.jpg",
     "server": "1",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Tropa-de-Elite-2",
     "codigo": "TRPDELT2",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/1f10996aa54ec3c49a252448d0fbde96b98895b36f7d9d61764eed91948fae3a.jpg",
     "server": "1",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Rocky-um-lutador",
     "codigo": "RCKY1",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/4adb062cf2f7e19f4a02500f5be900a68a70a036bacd3a5e97d8ac8fe2d7628b.jpg",
     "server": "1",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Rocky-2-a-revanche",
     "codigo": "RCKY2",
     "url_capa": "https://ntvb.tmsimg.com/assets/p6773_v_h8_ao.jpg?w=960&h=540",
     "server": "1",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Rocky-3-o-desafio-supremo",
     "codigo": "RCKY3",
     "url_capa": "https://wallpaper.forfun.com/fetch/6c/6c28da600dcfa607bd15a7fc728ae04e.jpeg",
     "server": "1",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Rocky-4",
     "codigo": "RCKY4",
     "url_capa": "https://i.ytimg.com/vi/BbvC9pcypQE/maxresdefault.jpg",
     "server": "1",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Rocky-5",
     "codigo": "RCKY5",
     "url_capa": "https://i.ytimg.com/vi/WtS2vcOWUws/maxresdefault.jpg",
     "server": "1",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Rocky-Balboa",
     "codigo": "RCKYBLBOA",
     "url_capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxotWpDvqHtzCgOeDJrK_5PYioRJA71HHl-Mr3YrX12P9jS8P7LdR0NeX_YLntspwv22w&usqp=CAU",
     "server": "1",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Karate-kid-a-hora-da-verdade",
     "codigo": "KRTKD1",
     "url_capa": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/056dfe5a-8245-490b-a76f-a9081c3a76bc/750e9fb641e8aa4dcb6023e6a615f1d2c0e9631d.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
     "server": "1",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Karate-kid-2-a-hora-da-verdade-continua",
     "codigo": "KRTKD2",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/b572390893be7977dd392185c58abf1a43e40d4affb367bf26d8eee7737f1aec.jpg",
     "server": "1",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "karate-kid-3-o-desafio-final",
     "codigo": "KRTKD3",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/ee9f1a68cee1a650e1edfc2f0f9b62bd79c583dc5aaef51fa83d2a9fa30c3b6a._UR1920,1080_SX500_FMjpg_.jpg",
     "server": "1",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Karate-kid-4-a-nova-aventura",
     "codigo": "KRTKD4",
     "url_capa": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/a52a9266-340a-488c-925f-f760d42be943/a8018534-17de-420b-ad8f-9636985bea85?host=wbd-images.prod-vod.h264.io&partner=beamcom",
     "server": "1",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Toy-Story",
     "codigo": "TYSTRY1",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/8F161B52338EE723D8F1C5DA31740A434E4A85F8749F9E2B9984309C287B90CF/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "1",
-    "categoria": "Animações"
+    "categoria": "Animação",    "tipo": "filme"  
   },
   {
     "nome": "Toy-Story-2",
     "codigo": "TYSTRY2",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4667D541430B42E82AF161915C9EA0CE13A4108C4ECA15AC6DBFA3A0030B3F6B/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "1",
-    "categoria": "Animações"
+    "categoria": "Animação",    "tipo": "filme"  
   },
   {
     "nome": "Toy-Story-3",
     "codigo": "TYSTRY3",
     "url_capa": "https://dimoflix.com.br/wp-content/uploads/2023/12/resumo-do-filme-toy-story-3.jpg",
     "server": "1",
-    "categoria": "Animações"
+    "categoria": "Animação"
+,    "tipo": "filme"  
   },
   {
     "nome": "O-Exterminador-do-futuro",
     "codigo": "OEXTRMDRDFUT1",
     "url_capa": "https://i.ytimg.com/vi/8Btq9PuwSxc/maxresdefault.jpg",
     "server": "2",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "O-Exterminador-do-futuro-2-o-julgamento-final",
     "codigo": "OEXTRMDRDFUT2",
     "url_capa": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRZcEeP1wdmiXR5x2LqnrB9vjT-ZDMA6eyrux2690j9XPzJjW6pSxWBMGsiRBPwURwsvk2kY1GHQ-RcstuQitk0rZTod6TMIa1nIe8MDEwx_GX1JiRfD5rZbQxa8piB4XOjUqLetMvFJgA/w625-h351/Terminator.jpg",
     "server": "2",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "O-Exterminador-do-futuro-3-a-rebeliao-das-maquinas",
     "codigo": "OEXTRMDRDFUT3",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/0bdd3cdbb48a7ff5d5858f4ad28732a22cc97068bafdaa7d0c076aa9c307b863.jpg",
     "server": "2",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Interestelar",
     "codigo": "INTRSTLAR",
     "url_capa": "https://www.palmas.to.gov.br/wp-content/uploads/2025/01/ef8f48ab9eac42cd9a57df65cd885a75.jpg",
     "server": "2",
-    "categoria": "Ficção Científica"
+    "categoria": "Ficção Científica",    "tipo": "filme"  
   },
   {
     "nome": "A-Rede-Social",
     "codigo": "ARDSCIL",
     "url_capa": "https://cdn.techshake.com/imagens/a-rede-social-filme-sobre-o-facebook-tera-continuacao-revela-roteirista-og.jpg?class=ogImageWide",
     "server": "2",
-    "categoria": "Drama"
+    "categoria": "Drama",    "tipo": "filme"  
   },
   {
     "nome": "Click",
     "codigo": "CLCK",
     "url_capa": "https://www.fetchtv.com.au/v2/vod/titles/9929/landscape_thumbnail/334x188",
     "server": "2",
-    "categoria": "Comédia"
+    "categoria": "Comédia",    "tipo": "filme"  
   },
   {
     "nome": "Batman-vs-superman-a-origem-da-justica",
     "codigo": "BTMNVSPRMNAODJT",
     "url_capa": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/f672e34c-6103-4a1c-a925-e131b6b70761/bfd23c31-d3f4-40f0-89b4-ab70f41e0322?host=wbd-images.prod-vod.h264.io&partner=beamcom",
     "server": "2",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Matrix",
     "codigo": "MTRX",
     "url_capa": "https://eldoradocarajas.wordpress.com/wp-content/uploads/2015/10/6984matrix.jpg?w=1024&h=768&crop=1",
     "server": "3",
-    "categoria": "Ficção Científica"
+    "categoria": "Ficção Científica",    "tipo": "filme"  
   },
   {
     "nome": "Matrix-Reloaded",
     "codigo": "MTRXRLD",
     "url_capa": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/15f1f852-5a97-4e78-b509-e045dbc1ba37/45f63719-9e6f-4503-ade8-49cb7cbe154a?host=wbd-images.prod-vod.h264.io&partner=beamcom",
     "server": "3",
-    "categoria": "Ficção Científica"
+    "categoria": "Ficção Científica",    "tipo": "filme"  
   },
   {
     "nome": "Matrix-Revolutions",
     "codigo": "MTRXREV",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/a4b90ede23260152c82266a08e007a6e20f2c32b5483d7a1d4eec198be78759e._SX1080_FMjpg_.jpg",
     "server": "3",
-    "categoria": "Ficção Científica"
+    "categoria": "Ficção Científica",    "tipo": "filme"  
   },
   {
     "nome": "Ate-o-ultimo-homem",
     "codigo": "ATOULHMN",
     "url_capa": "https://tf-univervideo-blog.s3-accelerate.amazonaws.com/blog_img_abre_rate_ultimo_homem_0e73f1fbb9.jpg",
     "server": "3",
-    "categoria": "Drama"
+    "categoria": "Drama",    "tipo": "filme"  
   },
   {
     "nome": "Em-Ritmo-de-Fuga",
     "codigo": "EMRTMDFG",
     "url_capa": "https://akamai.sscdn.co/uploadfile/letras/playlists/1/6/4/e/164ec4a991ac48a494ffb212ac3556da.jpg",
     "server": "4",
-    "categoria": "Aventura"
+    "categoria": "Aventura",    "tipo": "filme"  
   },
   {
     "nome": "Pantera-Negra",
     "codigo": "PNTRNGR",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E4475104C984F5D9F6E97DC692DB0FAD25980507FE06A7B4550371096397E4A5/scale?width=440&aspectRatio=1.78&format=webp",
     "server": "4",
-    "categoria": "Ficção Científica"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "A-Barraca-do-Beijo",
     "codigo": "ABARCDBJ",
     "url_capa": "https://dayaneguimaraes.com/wp-content/uploads/2018/06/a-barraca-do-beijo-exclusivo-disnick-e1528992522905.jpg?w=795&h=1&crop=1",
     "server": "4",
-    "categoria": "Romance"
+    "categoria": "Romance",    "tipo": "filme"  
   },
   {
     "nome": "A-Barraca-do-Beijo-2",
     "codigo": "ABARCDBJ2",
     "url_capa": "https://akamai.sscdn.co/uploadfile/letras/playlists/d/2/f/d/d2fdb25b9fc0404f8f6a7371cc6e4f52.jpg",
     "server": "5",
-    "categoria": "Romance"
+    "categoria": "Romance",    "tipo": "filme"  
   },
   {
     "nome": "Psicopata-Americano",
     "codigo": "PSCPTAMRCNO",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/3538af8e466c5ab8ec64439e6b13afe43ec209558db939b07e56f41ec774a298.jpg",
     "server": "4",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Psicopata-Americano-2",
     "codigo": "PSCPTAMRCNO2",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/06faaad2833224dfc237d9f7a0be4717ccff8f31790be836edd37d390bbd1b2f.jpg",
     "server": "4",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Vingadores-guerra-infinita",
     "codigo": "VNGDRSGRAINFNTLEG",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/188202B7E3D6E31A026D9EAC7E14D56309EB6F51A7C0601668B89014376DCA09/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "4",
-    "categoria": "Ficção Científica"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Intocáveis",
     "codigo": "INTCVS",
     "url_capa": "https://assets.mubicdn.net/images/artworks/528282/images-original.png?1678878328",
     "server": "4",
-    "categoria": "Drama"
+    "categoria": "Drama",    "tipo": "filme"  
   },
   {
     "nome": "A-prova-de-fogo",
     "codigo": "APRVDFGO",
     "url_capa": "https://i.ytimg.com/vi/xYWwUI3j4_Q/sddefault.jpg",
     "server": "4",
-    "categoria": "Romance"
+    "categoria": "Drama",    "tipo": "filme"  
   },
   {
     "nome": "Creed-nascido-para-lutar",
     "codigo": "CRDNSCDPRLTR",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/12c462818b246e55319be5f385842b5ca6ffea2adfbf97103e44f14339ca0e85.jpg",
     "server": "4",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Creed-2",
     "codigo": "CRED2",
     "url_capa": "https://musicart.xboxlive.com/7/7be85000-0000-0000-0000-000000000002/504/image.jpg",
     "server": "2",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Homem-formiga-e-a-vespa",
     "codigo": "HMNFRMGEVSPALEG",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9E381E117F8CFB769CBD037ACE460874B406F76F8AD2522E30783D03A0A2C72D/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "4",
-    "categoria": "Ficção Científica"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Hotel-transilvania-3-ferias-monstruosas",
     "codigo": "HTLTRNSVN3",
     "url_capa": "https://cloudfront-us-east-1.images.arcpublishing.com/newr7/CNJE2JSJZRLKBMM4HAWZPOV7WA.jpg",
     "server": "3",
-    "categoria": "Animações"
+    "categoria": "Animação",    "tipo": "filme"  
   },
   {
     "nome": "Os-incriveis",
     "codigo": "OSINCRVS",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/FF4FAFFCF9914FF5ADE9309C32509C11AA267DD6DE12B2553DCE33684B7F5C1C/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "3",
-    "categoria": "Animações"
+    "categoria": "Animação",    "tipo": "filme"  
   },
   {
     "nome": "Os-incriveis-2",
     "codigo": "OSINCRVS2",
     "url_capa": "https://akamai.sscdn.co/uploadfile/letras/playlists/a/5/9/b/a59b8824170a857466b5dfeb3108bc06.jpg",
     "server": "3",
-    "categoria": "Animações"
+    "categoria": "Animação",    "tipo": "filme"  
   },
   {
     "nome": "Meu-nome-não-é-Johnny",
     "codigo": "MEUNMNEJHNY",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/f1015dad598fdfdb86d851be46d8e54ecc375a3dd88ef6635a098cb3cda6aada.jpg",
     "server": "3",
-    "categoria": "Drama"
+    "categoria": "Drama",    "tipo": "filme"  
   },
   {
     "nome": "Eu-robô",
     "codigo": "EURBO",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5CA018CCA046BBE859EB1E629CBE0D0AEEC28853DC2E7B128A80F4E30ECD22BD/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "3",
-    "categoria": "Ficção Científica"
+    "categoria": "Ficção Científica",    "tipo": "filme"  
   },
   {
     "nome": "Buscando",
     "codigo": "BSCNDO",
     "url_capa": "https://cloudfront-us-east-1.images.arcpublishing.com/newr7/ND32CUKBPBJ2JPH6UHINIAKF5M.jpg",
     "server": "2",
-    "categoria": "Suspense"
+    "categoria": "Suspense",    "tipo": "filme"  
   },
   {
     "nome": "Venom",
     "codigo": "VENOM",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/afc7c3a8aace039d53f5d73d30bd163ed12e98737b9206bde34668c2a8617c60.jpg",
     "server": "2",
-    "categoria": "Ficção Científica"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Oh-Ramona",
     "codigo": "OHRMNA",
     "url_capa": "https://i.ytimg.com/vi/Uy1oC-5q0wg/maxresdefault.jpg",
     "server": "2",
-    "categoria": "Romance"
+    "categoria": "Romance",    "tipo": "filme"  
   },
   {
     "nome": "After",
     "codigo": "AFTR",
     "url_capa": "https://www.sociedadenerd.com.br/wp-content/uploads/2023/01/after-1024x538.jpeg",
     "server": "2",
-    "categoria": "Romance"
+    "categoria": "Romance",    "tipo": "filme"  
   },
   {
     "nome": "Vingadores-Ultimato",
     "codigo": "VNGDRSULTMTO",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/64EB1E97BD6DD3DE23D3C195BDA2672A251E23D27DC9C6831339A9EA87B16238/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "1",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "O-Incrível-Hulk",
     "codigo": "OINCVLHLK",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/0e82138e5b0ad3a82e2e04fafcff4c51186dab8dbb295ad814b11634ed5b1838._UR1920,1080_.jpg",
     "server": "1",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Homem-de-ferro",
     "codigo": "HMNDEFRO01",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/000C2DF0912A62F2135D5BA0B84DE1C1AEE9038DCAC18B7AA6DFFD8F33716D61/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "1",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Homem-de-ferro-2",
     "codigo": "HMNDEFRO02",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/0A2C59BE2EF8E3C95BD6A69AE050198F4E44123D4B5C070DA3F62EE076F4AD92/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "1",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Homem-de-ferro-3",
     "codigo": "HMNDEFRO03",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/9b62f41eedf0c9732724c40a0e52247baf003fbe50c686e0d69dc7b4490ed155.jpg",
     "server": "1",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Capitã-Marvel",
     "codigo": "CPTMRVL",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A7A739328AEA669E1696FE036B2BF7DFAB88225A0844F200AFF5C4BD83492579/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "2",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Capitão-América-o-primeiro-vingador",
     "codigo": "CAPTAMRC1",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B9252D7E636001C57A286E647CFA3B4956D0E175270BBE5E909E474FDFAE870E/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "2",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Capitão-América-soldado-invernal",
     "codigo": "CAPTAMRC2",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A377F25FC8FC41456AA38C02BF65E01CC973F1614DA02A93EEA9EC7FE0F2B0BD/scale?width=506&aspectRatio=2.00&format=webp",
     "server": "2",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Capitão-América-Guerra-Civil",
     "codigo": "CAPTAMRC3",
     "url_capa": "https://recantododragao.com.br/wp-content/uploads/2016/05/poltrona-guerra-civil-teaser-trailer.jpg",
     "server": "3",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Thor",
     "codigo": "THOR",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/800B9617037560508DDF60257EBCB835A802CABCDA969EF808F41C4C83F8698E/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "1",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Thor-o-mundo-sombrio",
     "codigo": "THOROMNDSBR",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6C0DA086AB8A1A6EAD9138C6189AE2F0338ABE94E1F88B0A4E2D63B3ADF1E5BA/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "1",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Os-vingadores",
     "codigo": "OSVGDRS",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/CFD7C3216AF3EB4186365EEB331AEAC1527553076B8A4B6E0097A53FA00783AB/scale?width=506&aspectRatio=2.00&format=webp",
     "server": "1",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Vingadores-Era-de-Ultron",
     "codigo": "VNGDRSEDURON",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/59E5979F563C9465C1D8F20364A7A6CAB9A9DF58C4606D50EE6D97D020886CE3/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "3",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Guardiões-da-galáxia",
     "codigo": "GRDOESDGLXIA",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/429C34A901894AA6A843A6ED5D2F80A4AE621C0002373047A90B384BD75D47DD/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "2",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Guardiões-da-galáxia-2",
     "codigo": "GRDOESDGLXIAVL2",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/10565615E8ABFCBAF82F4AF4EA237D5EA0842024E4241036B7F7840A059D737C/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "4",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Homem-Formiga",
     "codigo": "HMNFRMGA",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/57DB2EF2BF00E176695BF156D65AF178A5C368136F5779243C194CE437185386/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "2",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Thor-Ragnarok",
     "codigo": "THORAGORK",
     "url_capa": "https://quartaparede.com.br/wp-content/uploads/2022/03/thor-ragnarok-end-credits-avengers-infinity-war-870508.jpg",
     "server": "4",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Dr-Estranho",
     "codigo": "DRESTNHO",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/052CC4F9AECB74103CB42D96AF82C1B551C02AF607D408D60CCAA792C840B171/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "3",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Homem-Aranha-longe-de-casa",
     "codigo": "HMEMARNHLNGDCSA",
     "url_capa": "https://i0.wp.com/cromossomonerd.com.br/wp-content/uploads/2019/05/Capa-Site-5.png?fit=1060%2C600&ssl=1",
     "server": "1",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Toy-Story-4",
     "codigo": "TYSTRY4",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/702FE7EC12664DF554BA168BC28E057B20057720FC5D7EAC69ABE907A37F43F8/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "1",
-    "categoria": "Animação"
+    "categoria": "Animação",    "tipo": "filme"  
   },
   {
     "nome": "O-preço-do-amanhã",
     "codigo": "OPRCDAMNHA",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2203853316D5CD88E5A1A659E8EB17DC31364BC6A0BA77C37C60E6C0513FBF39/scale?width=506&aspectRatio=2.00&format=webp",
     "server": "5",
-    "categoria": "Ficção Científica"
+    "categoria": "Ficção Científica",    "tipo": "filme"  
   },
   {
     "nome": "Aviões",
     "codigo": "AVIOES",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/66072CDD69675E071936137BA00865C6FCC7020A7F1CEDCD6C452DAE13E06C2E/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "5",
-    "categoria": "Animação"
+    "categoria": "Animação",    "tipo": "filme"  
   },
   {
     "nome": "After-depois-da-verdade",
     "codigo": "AFTRDPSDVRD",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/edd447d036e65745fda32575088f162b18fa925707eb42c637f1d10ad0200518.jpg",
     "server": "5",
-    "categoria": "Romance"
+    "categoria": "Romance",    "tipo": "filme"  
   },
   {
     "nome": "KING-KONG",
     "codigo": "KNKONG2005",
     "url_capa": "https://material.asset.catchplay.com/NBC-IN-001-A0036/artworks/posters/NBC-IN-001-A0036-P448.jpg?hash=1704189737",
     "server": "4",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Viúva-Negra",
     "codigo": "VIUVNGRA",
     "url_capa": "https://www.indopraorlando.com.br/wp-content/uploads/2021/07/Viuva-Negra-1.jpeg",
     "server": "5",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "A-Barraca-do-beijo-3",
     "codigo": "ABARCDBJ3",
     "url_capa": "https://akamai.sscdn.co/uploadfile/letras/playlists/7/6/5/4/76542375bf664394982dd3baae19fde5.jpg",
     "server": "5",
-    "categoria": "Romance"
+    "categoria": "Romance",    "tipo": "filme"  
   },
   {
     "nome": "Lucy",
     "codigo": "LCY",
     "url_capa": "https://mundodeadan.wordpress.com/wp-content/uploads/2014/09/lucy-hd-wallpaper.jpg",
     "server": "5",
-    "categoria": "Ação"
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "After-depois-do-desencontro",
     "codigo": "AFTRDPSDSCNTRO",
     "url_capa": "https://uploads.metroimg.com/wp-content/uploads/2021/12/08155609/After-1.jpg",
     "server": "4",
-    "categoria": "Romance"
+    "categoria": "Romance",    "tipo": "filme"  
   },
   {
     "nome": "Venom-tempo-de-carnificina",
     "codigo": "VENOMTMPDCRNFNA",
     "url_capa": "https://disneyplusbrasil.com.br/wp-content/uploads/2021/05/Venom-Tempo-de-Carnificina-Primeiro-Trailer.jpg",
     "server": "4",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    
+    "tipo": "filme"  
   },
   {
     "nome": "Matrix-resurrections",
     "codigo": "MTRXRSRCTNS",
     "url_capa": "https://turnmundonerd.com.br/wp-content/uploads/2022/01/matrix-resurrections-original-references.jpg",
     "server": "5",
-    "categoria": "Ficção Científica"
+    "categoria": "Ficção Científica",    "tipo": "filme"  
   },
   {
     "nome": "Homem-aranha-sem-volta-para-casa",
     "codigo": "HMEMARNHSMVLTPRCSA",
     "url_capa": "https://manualdosgames.com/wp-content/uploads/2022/06/Blu-ray-de-Homem-Aranha-Sem-Volta-Para-Casa.jpg",
     "server": "5",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    
+    "tipo": "filme"  
   },
   {
     "nome": "Sonic-2",
     "codigo": "SONC2OFLM",
     "url_capa": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2022/04/14/2023121475896/STH2_SAlone_16_9_1920x1080_1322128_1920x1080.jpg",
     "server": "5",
-    "categoria": "Aventura"
+    "categoria": "Aventura",    
+    "tipo": "filme"  
   },
   {
     "nome": "Doutor-estranho-no-multiverso-da-loucura",
     "codigo": "DRESTNHONMLTVSODLCRA",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B4F7AB402C49B5BAB437FF07F9DBB603C3D290E88DAAAE28917FC2A47891A0E8/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "5",
-    "categoria": "Marvel"
+    "categoria": "Marvel",    
+    "tipo": "filme"  
   },
   {
     "nome": "Lightyear",
     "codigo": "LGHTYR",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/8322F69965CBC34996939EADE20559071CFD92B1BD32F5E387B0279E5D758238/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "5",
-    "categoria": "Animação"
+    "categoria": "Animação",    
+    "tipo": "filme"  
   },
   {
     "nome": "Top-gun-maverick",
     "codigo": "TOPGNMVRCK",
     "url_capa": "https://m.media-amazon.com/images/I/71lvUYzEe9L.jpg",
     "server": "5",
-    "categoria": "Ação"
+    "categoria": "Ação",    
+    "tipo": "filme"  
   },
   {
     "nome": "Minions-2-a-origem-de-gru",
     "codigo": "MINIONS2AORGMDGRU",
     "url_capa": "https://akamai.sscdn.co/uploadfile/letras/playlists/5/3/b/9/53b9ce4f85c0455c81bbbff0dbf53528.jpg",
     "server": "5",
-    "categoria": "Animação"
+    "categoria": "Animação",    
+    "tipo": "filme"  
   },
   {
     "nome": "After-depois-da-promessa",
     "codigo": "AFTRDPSDPRMSA",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/e0c12f18616c4a70ba6f78b6198927ba99fff8fe40533f1b3941641ff64d1ab1.png",
     "server": "5",
-    "categoria": "Romance"
+    "categoria": "Romance",    
+    "tipo": "filme"  
   },
   {
     "nome": "Thor-amor-e-trovao",
     "codigo": "THORAMRETRVAO",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A0781641D82D0817FF2907FB306C9789FF365B36EE4A3B2E790C47E1E94B19F8/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "5",
-    "categoria": "Marvel"
+    "categoria": "Marvel",
+    "tipo": "filme"  
   },
   {
     "nome": "Pantera-negra-wakanda-para-sempre",
     "codigo": "PNTRNGRWKNDPRSMPR",
     "url_capa": "https://s2-techtudo.glbimg.com/sswBkHxGpNaBp-mfBIml7szPirs=/0x0:1200x675/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2022/p/o/nk8Ar7QuC2NgmSeXxaVg/pantera-negra-wakanda-forever-para-sempre-sinopse-elenco-trailer-filme.jpg",
     "server": "5",
-    "categoria": "Marvel"
+    "categoria": "Marvel",
+    "tipo": "filme"  
   },
   {
     "nome": "A-baleia",
     "codigo": "ABLEIA2022",
     "url_capa": "https://i.ytimg.com/vi/d6icqaZE85Q/maxresdefault.jpg",
     "server": "4",
-    "categoria": "Drama"
+    "categoria": "Drama",    
+    "tipo": "filme"
+ 
   }
 ]
-
