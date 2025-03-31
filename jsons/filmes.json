@@ -98,6 +98,13 @@
     "categoria": "Ação",    "tipo": "filme"  
   },
   {
+    "nome": "Velozes-e-furiosos-10",
+    "codigo": "VLZEFROSOS10",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/a6ef56eaf94550639c1d5191d685379ca63b7c2e8f7f643ef40e231c313fd1b2.jpg",
+    "server": "4",
+    "categoria": "Ação",    "tipo": "filme"  
+  },
+  {
     "nome": "Homem-Aranha-1",
     "codigo": "HMNARNH01",
     "url_capa": "https://pipocasclub.com.br/wp-content/uploads/2024/04/Homem-Aranha-Tobey-Maguire.jpg",
@@ -124,6 +131,21 @@
     "url_capa": "https://dropcultura.com.br/wp-content/uploads/2021/08/homecoming.jpg",
     "server": "4",
     "categoria": "Marvel",    "tipo": "filme"  
+  },
+  {
+    "nome": "Homem-Aranha-longe-de-casa",
+    "codigo": "HMEMARNHLNGDCSA",
+    "url_capa": "https://i0.wp.com/cromossomonerd.com.br/wp-content/uploads/2019/05/Capa-Site-5.png?fit=1060%2C600&ssl=1",
+    "server": "1",
+    "categoria": "Marvel",    "tipo": "filme"  
+  },
+  {
+    "nome": "Homem-aranha-sem-volta-para-casa",
+    "codigo": "HMEMARNHSMVLTPRCSA",
+    "url_capa": "https://manualdosgames.com/wp-content/uploads/2022/06/Blu-ray-de-Homem-Aranha-Sem-Volta-Para-Casa.jpg",
+    "server": "5",
+    "categoria": "Marvel",    
+    "tipo": "filme"  
   },
   {
     "nome": "As-Aventuras-de-Tintin",
@@ -235,8 +257,22 @@
     "codigo": "TYSTRY3",
     "url_capa": "https://dimoflix.com.br/wp-content/uploads/2023/12/resumo-do-filme-toy-story-3.jpg",
     "server": "1",
-    "categoria": "Animação"
-,    "tipo": "filme"  
+    "categoria": "Animação",    "tipo": "filme"  
+  },
+  {
+    "nome": "Toy-Story-4",
+    "codigo": "TYSTRY4",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/702FE7EC12664DF554BA168BC28E057B20057720FC5D7EAC69ABE907A37F43F8/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "1",
+    "categoria": "Animação",    "tipo": "filme"  
+  },
+  {
+    "nome": "Lightyear",
+    "codigo": "LGHTYR",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/8322F69965CBC34996939EADE20559071CFD92B1BD32F5E387B0279E5D758238/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "5",
+    "categoria": "Animação",    
+    "tipo": "filme"  
   },
   {
     "nome": "O-Exterminador-do-futuro",
@@ -344,6 +380,13 @@
     "categoria": "Romance",    "tipo": "filme"  
   },
   {
+    "nome": "A-Barraca-do-beijo-3",
+    "codigo": "ABARCDBJ3",
+    "url_capa": "https://akamai.sscdn.co/uploadfile/letras/playlists/7/6/5/4/76542375bf664394982dd3baae19fde5.jpg",
+    "server": "5",
+    "categoria": "Romance",    "tipo": "filme"  
+  },
+  {
     "nome": "Psicopata-Americano",
     "codigo": "PSCPTAMRCNO",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/3538af8e466c5ab8ec64439e6b13afe43ec209558db939b07e56f41ec774a298.jpg",
@@ -393,13 +436,6 @@
     "categoria": "Ação",    "tipo": "filme"  
   },
   {
-    "nome": "Homem-formiga-e-a-vespa",
-    "codigo": "HMNFRMGEVSPALEG",
-    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9E381E117F8CFB769CBD037ACE460874B406F76F8AD2522E30783D03A0A2C72D/scale?width=1200&aspectRatio=1.78&format=webp",
-    "server": "4",
-    "categoria": "Marvel",    "tipo": "filme"  
-  },
-  {
     "nome": "Hotel-transilvania-3-ferias-monstruosas",
     "codigo": "HTLTRNSVN3",
     "url_capa": "https://cloudfront-us-east-1.images.arcpublishing.com/newr7/CNJE2JSJZRLKBMM4HAWZPOV7WA.jpg",
@@ -442,11 +478,11 @@
     "categoria": "Suspense",    "tipo": "filme"  
   },
   {
-    "nome": "Venom",
-    "codigo": "VENOM",
-    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/afc7c3a8aace039d53f5d73d30bd163ed12e98737b9206bde34668c2a8617c60.jpg",
-    "server": "2",
-    "categoria": "Marvel",    "tipo": "filme"  
+    "nome": "Desaparecida",
+    "codigo": "DSPRCDA2023",
+    "url_capa": "https://images.justwatch.com/backdrop/304784155/s640/missing-2023",
+    "server": "4",
+    "categoria": "Suspense",    "tipo": "filme"  
   },
   {
     "nome": "Oh-Ramona",
@@ -540,6 +576,21 @@
     "categoria": "Marvel",    "tipo": "filme"  
   },
   {
+    "nome": "Thor-Ragnarok",
+    "codigo": "THORAGORK",
+    "url_capa": "https://quartaparede.com.br/wp-content/uploads/2022/03/thor-ragnarok-end-credits-avengers-infinity-war-870508.jpg",
+    "server": "4",
+    "categoria": "Marvel",    "tipo": "filme"  
+  },
+  {
+    "nome": "Thor-amor-e-trovao",
+    "codigo": "THORAMRETRVAO",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A0781641D82D0817FF2907FB306C9789FF365B36EE4A3B2E790C47E1E94B19F8/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "5",
+    "categoria": "Marvel",
+    "tipo": "filme"  
+  },
+  {
     "nome": "Os-vingadores",
     "codigo": "OSVGDRS",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/CFD7C3216AF3EB4186365EEB331AEAC1527553076B8A4B6E0097A53FA00783AB/scale?width=506&aspectRatio=2.00&format=webp",
@@ -568,6 +619,13 @@
     "categoria": "Marvel",    "tipo": "filme"  
   },
   {
+    "nome": "Guardiões-da-galáxia-3",
+    "codigo": "GRDOESDGLXIAVL3",
+    "url_capa": "https://delfos.net.br/wp-content/uploads/2023/05/guardioes-da-galaxia-3-destaque.jpg",
+    "server": "4",
+    "categoria": "Marvel",    "tipo": "filme"  
+  },
+  {
     "nome": "Homem-Formiga",
     "codigo": "HMNFRMGA",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/57DB2EF2BF00E176695BF156D65AF178A5C368136F5779243C194CE437185386/scale?width=1200&aspectRatio=1.78&format=webp",
@@ -575,9 +633,9 @@
     "categoria": "Marvel",    "tipo": "filme"  
   },
   {
-    "nome": "Thor-Ragnarok",
-    "codigo": "THORAGORK",
-    "url_capa": "https://quartaparede.com.br/wp-content/uploads/2022/03/thor-ragnarok-end-credits-avengers-infinity-war-870508.jpg",
+    "nome": "Homem-formiga-e-a-vespa",
+    "codigo": "HMNFRMGEVSPALEG",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9E381E117F8CFB769CBD037ACE460874B406F76F8AD2522E30783D03A0A2C72D/scale?width=1200&aspectRatio=1.78&format=webp",
     "server": "4",
     "categoria": "Marvel",    "tipo": "filme"  
   },
@@ -589,18 +647,12 @@
     "categoria": "Marvel",    "tipo": "filme"  
   },
   {
-    "nome": "Homem-Aranha-longe-de-casa",
-    "codigo": "HMEMARNHLNGDCSA",
-    "url_capa": "https://i0.wp.com/cromossomonerd.com.br/wp-content/uploads/2019/05/Capa-Site-5.png?fit=1060%2C600&ssl=1",
-    "server": "1",
-    "categoria": "Marvel",    "tipo": "filme"  
-  },
-  {
-    "nome": "Toy-Story-4",
-    "codigo": "TYSTRY4",
-    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/702FE7EC12664DF554BA168BC28E057B20057720FC5D7EAC69ABE907A37F43F8/scale?width=1200&aspectRatio=1.78&format=webp",
-    "server": "1",
-    "categoria": "Animação",    "tipo": "filme"  
+    "nome": "Doutor-estranho-no-multiverso-da-loucura",
+    "codigo": "DRESTNHONMLTVSODLCRA",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B4F7AB402C49B5BAB437FF07F9DBB603C3D290E88DAAAE28917FC2A47891A0E8/scale?width=1200&aspectRatio=1.78&format=webp",
+    "server": "5",
+    "categoria": "Marvel",    
+    "tipo": "filme"  
   },
   {
     "nome": "O-preço-do-amanhã",
@@ -638,13 +690,6 @@
     "categoria": "Marvel",    "tipo": "filme"  
   },
   {
-    "nome": "A-Barraca-do-beijo-3",
-    "codigo": "ABARCDBJ3",
-    "url_capa": "https://akamai.sscdn.co/uploadfile/letras/playlists/7/6/5/4/76542375bf664394982dd3baae19fde5.jpg",
-    "server": "5",
-    "categoria": "Romance",    "tipo": "filme"  
-  },
-  {
     "nome": "Lucy",
     "codigo": "LCY",
     "url_capa": "https://mundodeadan.wordpress.com/wp-content/uploads/2014/09/lucy-hd-wallpaper.jpg",
@@ -657,6 +702,13 @@
     "url_capa": "https://uploads.metroimg.com/wp-content/uploads/2021/12/08155609/After-1.jpg",
     "server": "4",
     "categoria": "Romance",    "tipo": "filme"  
+  },
+  {
+    "nome": "Venom",
+    "codigo": "VENOM",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/afc7c3a8aace039d53f5d73d30bd163ed12e98737b9206bde34668c2a8617c60.jpg",
+    "server": "2",
+    "categoria": "Marvel",    "tipo": "filme"  
   },
   {
     "nome": "Venom-tempo-de-carnificina",
@@ -674,14 +726,6 @@
     "categoria": "Ficção Científica",    "tipo": "filme"  
   },
   {
-    "nome": "Homem-aranha-sem-volta-para-casa",
-    "codigo": "HMEMARNHSMVLTPRCSA",
-    "url_capa": "https://manualdosgames.com/wp-content/uploads/2022/06/Blu-ray-de-Homem-Aranha-Sem-Volta-Para-Casa.jpg",
-    "server": "5",
-    "categoria": "Marvel",    
-    "tipo": "filme"  
-  },
-  {
     "nome": "Sonic-2",
     "codigo": "SONC2OFLM",
     "url_capa": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2022/04/14/2023121475896/STH2_SAlone_16_9_1920x1080_1322128_1920x1080.jpg",
@@ -690,68 +734,59 @@
     "tipo": "filme"  
   },
   {
-    "nome": "Doutor-estranho-no-multiverso-da-loucura",
-    "codigo": "DRESTNHONMLTVSODLCRA",
-    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B4F7AB402C49B5BAB437FF07F9DBB603C3D290E88DAAAE28917FC2A47891A0E8/scale?width=1200&aspectRatio=1.78&format=webp",
-    "server": "5",
-    "categoria": "Marvel",    
-    "tipo": "filme"  
-  },
-  {
-    "nome": "Lightyear",
-    "codigo": "LGHTYR",
-    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/8322F69965CBC34996939EADE20559071CFD92B1BD32F5E387B0279E5D758238/scale?width=1200&aspectRatio=1.78&format=webp",
-    "server": "5",
-    "categoria": "Animação",    
-    "tipo": "filme"  
-  },
-  {
     "nome": "Top-gun-maverick",
     "codigo": "TOPGNMVRCK",
     "url_capa": "https://m.media-amazon.com/images/I/71lvUYzEe9L.jpg",
     "server": "5",
-    "categoria": "Ação",    
-    "tipo": "filme"  
+    "categoria": "Ação",    "tipo": "filme"  
   },
   {
     "nome": "Minions-2-a-origem-de-gru",
     "codigo": "MINIONS2AORGMDGRU",
     "url_capa": "https://akamai.sscdn.co/uploadfile/letras/playlists/5/3/b/9/53b9ce4f85c0455c81bbbff0dbf53528.jpg",
     "server": "5",
-    "categoria": "Animação",    
-    "tipo": "filme"  
+    "categoria": "Animação",    "tipo": "filme"  
   },
   {
     "nome": "After-depois-da-promessa",
     "codigo": "AFTRDPSDPRMSA",
     "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/e0c12f18616c4a70ba6f78b6198927ba99fff8fe40533f1b3941641ff64d1ab1.png",
     "server": "5",
-    "categoria": "Romance",    
-    "tipo": "filme"  
-  },
-  {
-    "nome": "Thor-amor-e-trovao",
-    "codigo": "THORAMRETRVAO",
-    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A0781641D82D0817FF2907FB306C9789FF365B36EE4A3B2E790C47E1E94B19F8/scale?width=1200&aspectRatio=1.78&format=webp",
-    "server": "5",
-    "categoria": "Marvel",
-    "tipo": "filme"  
+    "categoria": "Romance",    "tipo": "filme"  
   },
   {
     "nome": "Pantera-negra-wakanda-para-sempre",
     "codigo": "PNTRNGRWKNDPRSMPR",
     "url_capa": "https://s2-techtudo.glbimg.com/sswBkHxGpNaBp-mfBIml7szPirs=/0x0:1200x675/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2022/p/o/nk8Ar7QuC2NgmSeXxaVg/pantera-negra-wakanda-forever-para-sempre-sinopse-elenco-trailer-filme.jpg",
     "server": "5",
-    "categoria": "Marvel",
-    "tipo": "filme"  
+    "categoria": "Marvel","tipo": "filme"  
   },
   {
     "nome": "A-baleia",
     "codigo": "ABLEIA2022",
     "url_capa": "https://i.ytimg.com/vi/d6icqaZE85Q/maxresdefault.jpg",
     "server": "4",
-    "categoria": "Drama",    
-    "tipo": "filme"
- 
+    "categoria": "Drama",    "tipo": "filme"
+  },
+  {
+    "nome": "Barbie",
+    "codigo": "BRBIE2023",
+    "url_capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0y_Qj6b3gyIVV33xyeyIez4E1yLtF5CDkog&s",
+    "server": "4",
+    "categoria": "Aventura",    "tipo": "filme"
+  },
+  {
+    "nome": "Homem-aranha-atraves-do-aranhaverso",
+    "codigo": "HOMARNHATRVSDARNVRSOBETA",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/7bac8684a6962bb7b21c921adc42ab2f3717df7d8f62ce7ea01f3bc5ef6f5666.jpg",
+    "server": "4",
+    "categoria": "Animação",    "tipo": "filme"
+  },
+  {
+    "nome": "Oppenheimer",
+    "codigo": "OPENHMER",
+    "url_capa": "https://manualdosgames.com/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-19-at-10.08.39.jpg",
+    "server": "4",
+    "categoria": "Suspense",    "tipo": "filme"
   }
 ]

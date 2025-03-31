@@ -72,7 +72,7 @@ function carregarBtnSerie() {
                 const pBtn = btnAdc.querySelector('p');
                 
                 if (favoritos.some(s => s.nome == serie.nome)) {
-                    pBtn.textContent = 'x'; 
+                    pBtn.textContent = '×'; 
                     btnAdc.title = 'Remover da minha lista';
                 } else {
                     pBtn.textContent = '+'; 
