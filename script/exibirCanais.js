@@ -15,8 +15,8 @@ function getParameterByName(name) {
 
 // Função para definir o iframe com base no canal
 function loadIframe(canal) {
-    if (canal) {
-        let iframeUrl = `<iframe name=Player "" src="//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=${canal}" frameborder=0 height=400 scrolling=no width=640 allow="encrypted-media" allowFullScreen> </iframe>`; 
+    if (canal) {                                      
+        let iframeUrl = `<iframe name=Player "" src="//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%67%73/player3/ch.php?canal=${canal}" frameborder=0 height=400 scrolling=no width=640 allow="encrypted-media" allowFullScreen> </iframe>`; 
         document.getElementById('iframe-container').innerHTML = iframeUrl;
     } else {   iframeHtml = `<p>Canal não encontrado.</p>`;}
 
