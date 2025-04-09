@@ -5,73 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assistir series online</title>
 
-    <link rel="manifest" href="jsons/manifest.json">
-    
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/style-mobile.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 </head>
-<style>
-main {
-    display: flex;
-    margin: auto;
-}
-.ep-list {
-    background-color: #191919;
-    border-radius: 5px;
-    display: block;
-    min-width: 230px;
-    max-width: 250px;
-    max-height: 500px;
-    margin: 20px 0px auto 25px;
-    overflow-y: auto;
-}
-
-p {
-    margin: 10px auto;
-    text-align: center;
-    font-size: 23px;
-    font-weight: bold;
-    color: #ffffff;
-}
-
-h3 {
-    text-align: center;
-    margin-bottom: 3px;
-}
-
-#serie-info {
-  width: 200px;
-  max-height: 500px;
-  /* background-image: url('imagens/anuncio2.png'); */
-  margin-right: 10px;
-}
-
-@media (max-width: 430px) {
-    main {
-        flex-direction: column-reverse;
-    } 
-    #iframe-container {
-        margin-top: 30px;
-        width: 332px;
-        height: 208px;
-    }
-    .ep-list {
-    margin: auto;
-    }
-
-    h5 {
-      margin-top: 30px;
-    }
-}
-
-</style>
 <body>
-<div class="pc">
   <header>
     <div class="logo">   Difusora   </div>
 
@@ -84,147 +27,39 @@ h3 {
     </nav>
           
       <search class="search">
-        <input type="text" maxlength="18" placeholder="  Buscar" id="input-pesq"> <i class="fas fa-search" id="lupa" onclick="realizarPesquisa()"></i>
+        <input type="text" maxlength="18" placeholder="Buscar" id="input-pesq"> <i class="iconePesquisa" id="lupa"></i>
       </search>
   </header>
-      
-      <h5 id="info-episodio"></h5>
-      <main>
-          <div class="ep-list" id="tempContainer">   </div>
-      
-          <div id="iframe-container">  </div>
-      
-          <div id="serie-info">   </div>
-      </main>
 
-      <div class="btn-adc" id="btn-adc" title="Adicionar a minha lista"><p>+</p></div>
-</div>
+  <nav id="nav-mobile">
+    <a href="index.html">Início</a>
+    <a href="filmes.html">Filmes</a>
+    <a href="series.html">Séries</a>
+    <a href="canais.html">Canais</a>
+    <a href="minhalista.html">Minha lista</a>
+  </nav>
 
-<!--  ===================================================================================== -->
+  <h3 id="info-ep">Escolha um episódio</h3>
+  <section>
+    
+    <div class="lista-de-episodios">
+        <!-- <p>Tempora 1</p>
+        <ul class="lista-de-links">
+          <li><a href="">Episódio 1</a></li>
+          <li><a href="">Episódio 2</a></li>
+          <li><a href="">Episódio 3</a></li>
+        </ul> -->
+    </div>
 
+    <div class="containar-do-iframe"></div>
 
-<script src="script/series.js"></script>
-<script src="script/adicionarFav.js"></script>
-<script>
-    function getParameterByName(name) {
-  const urlParams = new URLSearchParams(window.location.search);
-  return urlParams.get(name);
-}
+    <div class="anuncio"></div>
+</section>
 
-// Função para carregar as informações da série
-function loadSerie(serieNome, data) {
-  const serie = data.find(serie => serie.nome == serieNome);
+<div class="btn-adc" id="btn-adc"  title="Adicionar a minha lista"><p>+</p></div>
 
-  if (serie) {
-    const temporadasContainer = document.getElementById('tempContainer');
-    const divIfram = document.getElementById('iframe-container');
-
-    divIfram.style.backgroundImage = `url('${serie.url_capa}')`;
-
-    // Exibe as temporadas e episódios
-    serie.temporadas.forEach(temporada => {
-      const temporadaDiv = document.createElement('div');
-      temporadaDiv.classList.add('temporada');
-
-      const tituloTemporada = document.createElement('p');
-      tituloTemporada.textContent = `Temporada ${temporada.temporada}`;
-      temporadaDiv.appendChild(tituloTemporada);
-
-      const listaEpisodios = document.createElement('ul');
-      listaEpisodios.classList.add('lista-exi');
-
-      for (let i = 1; i <= temporada.episodios; i++) {
-        const itemEpisodio = document.createElement('li');
-
-        // Criando o link para o episódio
-        const linkEpisodio = document.createElement('a'); 
-         linkEpisodio.href = `exibicao-series.html?serie=${serie.nome}&temp=${temporada.temporada}&ep=${i}`;  // Link com parâmetros
-        linkEpisodio.textContent = `Episódio ${i}`;  // Texto do episódio
-
-        itemEpisodio.appendChild(linkEpisodio);
-        listaEpisodios.appendChild(itemEpisodio);
-      }
-
-      temporadaDiv.appendChild(listaEpisodios);
-      temporadasContainer.appendChild(temporadaDiv);
-    });
-  } else {
-    document.getElementById('serie-info').innerText = 'Série não encontrada.';
-  }
-}
-
-// Pega o nome da série da URL e carrega as informações
-const serieNome = getParameterByName('serie');
-if (serieNome) {
-  fetch('../jsons/series-info.json')
-    .then(response => response.json())
-    .then(data => loadSerie(serieNome, data))
-    .catch(error => {
-      console.error('Erro ao carregar o arquivo JSON:', error);
-    });
-} else {
-  document.getElementById('serie-info').innerText = 'Série não encontrada.';
-}
-
-// CARREGANDO O IFRAME DO EPISÓDIO
-
-// Função para carregar o episódio no iframe
-function loadEpisodio(data) {
-  const serieNome = getParameterByName('serie');  // Pega o nome da série da URL
-  const temporada = getParameterByName('temp');  // Pega a temporada da URL
-  const episodio = getParameterByName('ep');    // Pega o episódio da URL
-
-  const serie = data.find(serie => serie.nome === serieNome);
-
-  if (serie && temporada && episodio) {
-    // Criando o identificador de vídeo (vid), com base no código da série, temporada e episódio
-    let vid;
-    if (serie.categoria !== "Novelas" && serie.categoria !== "Animes") {
-      vid = `${serie.codigo}T${temporada.padStart(2, '0')}EP${episodio.padStart(2, '0')}`;
-    } else if (serie.categoria === "Novelas") {
-      vid = `${serie.codigo}CP${episodio.toString().padStart(3, '0')}`;
-    } else if (serie.categoria === "series") {
-      const quantidadeEpisodios = serie.temporadas[0].episodios; // Pega o número de episódios da temporada 1
-      if (quantidadeEpisodios > 99) {
-        vid = `${serie.codigo}EP${episodio.toString().padStart(3, '0')}`;
-      } else {
-        vid = `${serie.codigo}EP${episodio.toString().padStart(2, '0')}`;
-  }
-}
-
-
-    const server = serie.server;
-    const sb = serie.subfolder;
-
-    // Montando a URL do iframe
-    const iframeSrc = `//%72%65%64%65%63%61%6E%61%69%73%2E%67%73/player3/server.php?server=RCServer${server}&subfolder=${sb}&vid=${vid}`;
-
-    // Montando o HTML do iframe com a URL gerada
-    const iframeURL = `<iframe name=Player "" src="${iframeSrc}" frameborder="0" height=400 width=640 scrolling="no" allow="encrypted-media" allowfullscreen></iframe>`;
-
-    // Inserindo o HTML do iframe dentro da div com id "iframe-container"
-    const iframeContainer = document.getElementById('iframe-container');
-    iframeContainer.innerHTML = iframeURL;
-
-    // Exibe as informações do episódio
-    const infoContainer = document.getElementById('info-episodio');
-    infoContainer.textContent = `Temp: ${temporada} Ep: ${episodio}`;
-  } else {
-    const infoContainer = document.getElementById('info-episodio');
-    infoContainer.textContent = 'Escolha um episódio.';
-  }
-}
-
-
-fetch('../jsons/series-info.json')
-  .then(response => response.json())
-  .then(data => loadEpisodio(data))  
-  .catch(error => {
-    console.error('Erro ao carregar o arquivo JSON:', error);
-    document.getElementById('info-episodio').textContent = 'Erro ao carregar dados.';
-  });
-
-</script>
-<script src="script/pesquisas.js">  </script>
+<script src="scripts/pesquisa.js"></script>
+<script src="scripts/adcFav.js"></script>
+<script src="scripts/exibirSeries.js"></script>
 </body> 
 </html>

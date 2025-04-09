@@ -4,109 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Canais ao vivo</title>
-    <link rel="shortcut icon" href="imagens/ds-favicon.png" type="image/x-icon">
-    <link rel="manifest" href="jsons/manifest.json">
-
 
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/style-mobile.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-    <style>
-main {
-    margin-top: 5px;
-    padding: 15px;
-}
-
-
-main img:hover {
-    scale: 1.1;
-}
-
-.container-canais, .container-canai {
-    display: flex;
-    height: 100px;
-    align-items: center;
-    margin: 5px 10px 15px 10px;
-    padding: 0 2px 5px auto;
-}
-
-
-.canal {
-    border-radius: 8px;
-    display: flex;
-    width: 100px;
-    height: 100px;
-    margin-top: 0px;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.canal img {
-    margin: auto;
-}
-
-.canais-mobile {
-    display: none;
-}
-
-.h2mob {
-    display: none;
-}
-    </style>
-
 </head>
+
 <body>
-<div class="pc">
-        <header>
-            <div class="logo">   Difusora   </div>
-            <nav>
-                <a href="index.html">Início</a>
-                <a href="filmes.html">Filmes</a>
-                <a href="series.html">Séries</a>
-                <a href="canais.html" style="font-weight: 700; color: white;">Canais</a>
-                <a href="minhalista.html">Minha lista</a>
-            </nav>
-        </header>
-
-        <main id="main"> </main>
-
-</div>
-
-<!--  ===================================================================================== -->
-
-<div class="cel"> <!-- INICIO DA DIV PARA TELAS PEQUENAS -->
-    <div class="header-mobile">
-    
-        <div class="logo-mobile">    Difusora    </div>
-        <i class="fas fa-search" id="lupa" onclick="realizarPesquisa()"></i>
-        
-    </div>
-    
-    <div id="menu-suspenso" style="box-shadow: none;">
-        <input type="text" maxlength="18" placeholder="  Buscar" id="input-pesq" class="input-mobile">
-    
-        <nav class="nav-mobile">
-            <a href="index.html">Início</a>
+    <header>
+        <div class="logo">  Difusora </div>
+        <nav>
+            <a href="index.html" >Início</a>
             <a href="filmes.html">Filmes</a>
             <a href="series.html">Séries</a>
             <a href="canais.html" style="font-weight: 700; color: white;">Canais</a>
             <a href="minhalista.html">Minha lista</a>
         </nav>
+    </header>
+
+    <nav id="nav-mobile">
+        <a href="index.html">Início</a>
+        <a href="filmes.html">Filmes</a>
+        <a href="series.html">Séries</a>
+        <a href="canais.html" style="font-weight: 700; color: white;">Canais</a>
+        <a href="minhalista.html">Minha lista</a>
+      </nav>
+
+    <div class="container-de-canais">
+        <h2>Canais Abertos</h2>
+        <div> 
+            <a href="exibicao-canais.html?canal=boborj"><img src="imagens/boborj-logo.png" alt="Globo" class="canal"></a> 
+            <a href="exibicao-canais.html?canal=sbt"><img src="imagens/sbt-logo.png" alt="SBT" class="canal"></a>
+            <a href="exibicao-canais.html?canal=record"><img src="imagens/record-logo.png" alt="Record" class="canal"></a>
+            <a href="exibicao-canais.html?canal=band"><img src="imagens/band-logo.png" alt="Band" class="canal"></a>
+        </div>
+
+        <h2>Canais de Notícias</h2>
+        <div> 
+            <a href="exibicao-canais.html?canal=globonews"><img src="imagens/globonews-logo.png" alt="globonews" class="canal"></a>
+            <a href="exibicao-canais.html?canal=recordnews"><img src="imagens/recordnews-logo.png" alt="Record-news" class="canal"></a>
+            <a href="exibicao-canais.html?canal=bandnews"><img src="imagens/bandnews-logo.png" alt="bandnews" class="canal"></a>
+            <a href="exibicao-canais.html?canal=cnnbrasil"><img src="imagens/cnnbrasil-logo.png" alt="cnn" class="canal"></a>
+        </div>
+
+        <h2>Canais de Documentários</h2>
+        <div> 
+            <a href="exibicao-canais.html?canal=animalplanet"><img src="imagens/animalplanet-logo.png" alt="animal planet" class="canal"></a>
+            <a href="exibicao-canais.html?canal=discovery"><img src="imagens/discovery-logo.png" alt="discovery" class="canal"></a>
+            <a href="exibicao-canais.html?canal=hitory"><img src="imagens/history-logo.png" alt="history" class="canal"></a>
+        </div>
+
+        <h2>Canais de Entretenimento</h2>
+        <div> 
+            <a href="exibicao-canais.html?canal=cinemax"><img src="imagens/cinemax-logo.png" alt="cinemax" class="canal"></a>
+            <a href="exibicao-canais.html?canal=comedycentral"><img src="imagens/comedycentral-logo.png" alt="comedy" class="canal"></a>
+            <a href="exibicao-canais.html?canal=hbo"><img src="imagens/hbo-logo.png" alt="hbo" class="canal"></a>
+            <a href="exibicao-canais.html?canal=megapix"><img src="imagens/megapix-logo.png" alt="megapix" class="canal"></a>
+            <a href="exibicao-canais.html?canal=space"><img src="imagens/space-logo.png" alt="space" class="canal"></a>
+            <a href="exibicao-canais.html?canal=tntseries"><img src="imagens/tntseries-logo.png" alt="tnt series" class="canal"></a>
+            <a href="exibicao-canais.html?canal=bbb"><img src="imagens/bbb25a-logo.png" alt="BBB" class="canal"></a>
+        </div>
+
+        <h2>Canais Infantis</h2>
+        <div> 
+            <a href="exibicao-canais.html?canal=cartoon"><img src="imagens/cartoon-logo.png" alt="cartoon" class="canal"></a>
+            <a href="exibicao-canais.html?canal=discoverykids"><img src="imagens/discoverykids-logo.png" alt="discovery kids" class="canal"></a>
+            <a href="exibicao-canais.html?canal=disney"><img src="imagens/disney-logo.png" alt="disney" class="canal"></a>
+            <a href="exibicao-canais.html?canal=gloob"><img src="imagens/gloob-logo.png" alt="gloob" class="canal"></a>
+            <a href="exibicao-canais.html?canal=nick"><img src="imagens/nick-logo.png" alt="nickelodeon" class="canal"></a>
+        </div>
+
+        <h2>Canais de Esportes</h2>
+        <div> 
+            <a href="exibicao-canais.html?canal=combate"><img src="imagens/combate-logo.png" alt="combate" class="canal"></a>
+            <a href="exibicao-canais.html?canal=espn"><img src="imagens/espn-logo.png" alt="espn" class="canal"></a>
+            <a href="exibicao-canais.html?canal=espn2"><img src="imagens/espn2-logo.png" alt="espn2" class="canal"></a>
+            <a href="exibicao-canais.html?canal=premiereclubes"><img src="imagens/premiereclubes-logo.png" alt="premiere" class="canal"></a>
+            <a href="exibicao-canais.html?canal=premiere2"><img src="imagens/premiere2-logo.png" alt="premiere 2" class="canal"></a>
+            <a href="exibicao-canais.html?canal=sportv"><img src="imagens/sportv-logo.png" alt="sportv" class="canal"></a>
+            <a href="exibicao-canais.html?canal=sportv2"><img src="imagens/sportv2-logo.png" alt="sportv 2" class="canal"></a>
+            <a href="exibicao-canais.html?canal=nossofutebol"><img src="imagens/nossofutebol-logo.png" alt="Nosso futebol" class="canal"></a>
+            <a href="exibicao-canais.html?canal=tnt"><img src="imagens/tnt-logo.png" alt="tnt" class="canal"></a>
+        </div>
     </div>
-    
-        <div id="main-mobile"></div>
 
 
-</div> <!-- FIM DA DIV PARA TELAS PEQUENAS -->
-    
-      
-
-
-<footer><p>&copy;2025 Marcola_Goat Nenhum direito reservado.</p></footer> 
+    <footer><p>&copy;2025 Marcola_Goat Nenhum direito reservado.</p></footer> 
 </body> 
-<script src="script/canais.js"></script>
 </html>

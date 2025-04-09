@@ -5,11 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
 function carregarMinhalista() {
     let favoritos = JSON.parse(localStorage.getItem("favoritos")) || [];
 
-    const containerGeral = document.querySelector('.container-geral');
-    const container = document.getElementById('minhalista-container');
+    const container = document.querySelector('.container');
 
-    
-    // Clear container before appending
     container.innerHTML = "";
 
     favoritos.forEach(item => {
@@ -24,6 +21,4 @@ function carregarMinhalista() {
         container.appendChild(div);
     });
 
-    // Append the container to the main container once
-    containerGeral.appendChild(container);
 }

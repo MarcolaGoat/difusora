@@ -5,159 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assistir filmes online</title>
 
-    <link rel="manifest" href="jsons/manifest.json">
-    
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/style-mobile.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 </head>
-<style>
-main {
-    display: flex;
-}
-
-h3 {
-    text-align: center;
-}
-
-.ads {
-    width: 200px;
-    height: 500px;
-    background-color: #000000;
-    margin: auto;
-}
-
-p {
-    margin: 10px auto;
-    text-align: center;
-    font-size: 23px;
-    font-weight: bold;
-    color: #ffffff;
-}
-
-@media (max-width: 430px) {
-    main {
-        flex-direction: column-reverse;
-    } 
-    #iframe-container {
-        width: 332px;
-        height: 208px;
-        background-size:  332px 208px;
-        background-repeat: no-repeat;
-    }
-
-    h3 {
-        margin-top: 30px;
-    }
-
-    .ads {
-        display: none;
-    }
- 
-}
-</style>
 <body>
-<div class="pc">
-        <header>
-            <div class="logo">  Difusora  </div>
-            <nav>
-                <a href="index.html" >Início</a>
-                <a href="filmes.html">Filmes</a>
-                <a href="series.html">Séries</a>
-                <a href="canais.html">Canais</a>
-                <a href="minhalista.html">Minha lista</a>
-            </nav>
-            <search class="search">
-                <input type="text" maxlength="18" placeholder="  Buscar" id="input-pesq"> <i class="fas fa-search" id="lupa" onclick="realizarPesquisa()"></i>
-            </search>
-        </header>
-        <h3 id="filme-titulo">Nome do filme</h3>
-        <main>
-            <div class="ads"></div>
-            <div id="iframe-container"> </div>
-            <div class="ads"></div>
-        </main>
-        <div class="btn-adc" id="btn-adc"  title="Adicionar a minha lista"><p>+</p></div>
-</div>
-
- <!--  ===================================================================================== -->
-
-<div class="cel"> <!-- INICIO DA DIV PARA TELAS PEQUENAS -->
-    <header class="header-mobile">
-      
-      <div class="logo-mobile">  Difusora   </div>
-      <i class="fas fa-search" id="lupa-mobile"></i>
-          
+    <header>
+        <div class="logo">  Difusora  </div>
+        <nav>
+            <a href="index.html" >Início</a>
+            <a href="filmes.html">Filmes</a>
+            <a href="series.html">Séries</a>
+            <a href="canais.html">Canais</a>
+            <a href="minhalista.html">Minha lista</a>
+        </nav>
+        <search class="search">
+            <input type="text" maxlength="18" placeholder="Buscar" id="input-pesq"> <i class="iconePesquisa" id="lupa"></i>
+        </search>
     </header>
+
+    <nav id="nav-mobile">
+        <a href="index.html">Início</a>
+        <a href="filmes.html">Filmes</a>
+        <a href="series.html">Séries</a>
+        <a href="canais.html">Canais</a>
+        <a href="minhalista.html">Minha lista</a>
+    </nav>
+
+    <h3 id="titulo-filme">Nome do filme</h3>
+
+    <section>
+        <div class="anuncio"></div>
+
+        <div class="containar-do-iframe"></div>
     
-    <div id="menu-suspenso">
-        <input type="text" maxlength="18" placeholder="  Buscar" id="input-pesq-mobile" class="input-mobile">
-      
-        <nav class="nav-mobile">
-          <a href="index.html">Início</a>
-          <a href="filmes.html">Filmes</a>
-          <a href="series.html">Séries</a>
-          <a href="canais.html">Canais</a>
-          <a href="minhalista.html">Minha lista</a>
-      </nav>
-  
-    </div>
-      
-    <h3 id="filme-titulo">Nome do filme</h3>
-    <main>
-        <div class="ads"></div>
-        <div id="iframe-container"> </div>
-        <div class="ads"></div>
-    </main>
+        <div class="anuncio"></div>
+    </section>
+
+    <h2>Recomendados</h2>
+    <div id="filmes-recomendados" class="container"> </div>
+
+    <div class="btn-adc"  title="Adicionar a minha lista"><p>+</p></div>
         
-  </div> <!-- FIM DA DIV PARA TELAS PEQUENAS -->
-
-
+    <script src="scripts/pesquisa.js"></script>
+    <script src="scripts/adcFav.js"></script>
+    <script src="scripts/exibirFilmes.js"></script>
 </body> 
-
-<script>
-
-function getParameterByName(name) {
-    const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get(name);
-  }
-
-function loadFilme(data) {
-  const filmeNome = getParameterByName('filme');  
-
-  const filme = data.find(filme => filme.nome == filmeNome);
-
-
-  if (filme) {
-    const titulo = document.getElementById('filme-titulo');
-    titulo.textContent = filme.nome.replace(/-/g, ' ');
-
-    const vid = `${filme.codigo}`;
-
-    const server = filme.server;
-
-    const iframeSrc = `//%72%65%64%65%63%61%6E%61%69%73%2E%67%73/player3/server.php?server=RCFServer${server}&subfolder=ondemand&vid=${vid}`;
-
-    const iframeURL = `<iframe name=Player "" src="${iframeSrc}" frameborder="0" height=400 width=640 scrolling="no" allow="encrypted-media" allowfullscreen></iframe>`;
-
-    const iframeContainer = document.getElementById('iframe-container');
-    iframeContainer.innerHTML = iframeURL;
-
-  } 
-}
-
-fetch('../jsons/filmes.json')
-  .then(response => response.json())
-  .then(data => loadFilme(data))  
-  .catch(error => {
-    console.error('Erro ao carregar o arquivo JSON:', error);
-  });
-
-</script>
-<script src="script/pesquisas.js">  </script>
-<script src="script/adicionarFav.js"></script>
 </html>

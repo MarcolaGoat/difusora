@@ -7,9 +7,6 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/style-mobile.css">
 
-    <link rel="shortcut icon" href="imagens/ds-favicon.png" type="image/x-icon">
-    <link rel="manifest" href="jsons/manifest.json">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap" rel="stylesheet">
@@ -18,93 +15,70 @@
 
 </head>
 <body>
-    <div class="pc">
-        <div class="banner">
-            <img src="" alt="" id="banner-main">
-        </div>
-        <header>
-            <div class="logo">
-                Difusora
-            </div>
-            <nav>
-                <a href="index.html">Início</a>
-                <a href="filmes.html">Filmes</a>
-                <a href="series.html" style="font-weight: 700; color: white;">Séries</a>
-                <a href="canais.html">Canais</a>
-                <a href="minhalista.html">Minha lista</a>
-            </nav>
-            <search class="search">
-                <input type="text" maxlength="18" placeholder="  Buscar" id="input-pesq"> <i class="fas fa-search" id="lupa" onclick="realizarPesquisa()"></i>
-            </search>
-        </header>
-        <div id="desc">
-            <h1 id="titulo"></h1>
-            <p id="descricao">    </p>
-            <div>
-                <a href="" id="assistir">
-                    <button>
-                        <svg class="icone-play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                          <polygon points="8,5 8,19 19,12" />
-                        </svg> Assistir
-                    </button>
-                </a>
-                <div id="adc" title="Adicionar a minha lista">+</div>
-            </div>
-        </div>
-        <div class="container-geral">
-            <div class="container" id="series-container">
-            </div>
-        </div>
-    </div>
-
-<!--  ===================================================================================== -->
-
-<div class="cel"> <!-- INICIO DA DIV PARA TELAS PEQUENAS -->
-    <header class="header-mobile">
-      
-      <div class="logo-mobile">  Difusora   </div>
-      <i class="fas fa-search" id="lupa-mobile"></i>
-          
+    <header>
+        <div class="logo"> Difusora </div>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="filmes.html">Filmes</a>
+            <a href="series.html" style="font-weight: 700; color: white;">Séries</a>
+            <a href="canais.html">Canais</a>
+            <a href="minhalista.html">Minha lista</a>
+        </nav>
+        <search class="search">
+            <input type="text" maxlength="18" placeholder="  Buscar" id="input-pesq"> <i class="fas fa-search" id="lupa"></i>
+        </search>
     </header>
-    
-    <div id="menu-suspenso">
-        <input type="text" maxlength="18" placeholder="  Buscar" id="input-pesq-mobile" class="input-mobile">
-      
-        <nav class="nav-mobile">
-          <a href="index.html">Início</a>
-          <a href="filmes.html">Filmes</a>
-          <a href="series.html" style="font-weight: 700; color: white;">Séries</a>
-          <a href="canais.html">Canais</a>
-          <a href="minhalista.html">Minha lista</a>
-      </nav>
 
-    </div>
-      
-    <div class="banner-mobile"> <img src="" alt="imagem do banner" id="banner-main"> </div>
-    <h1 id="titulo" style="display: none;"> </h1>
-    <p id="descricao" style="display: none;">    </p>
-      
-    <div id="desc-mobile">
+    <nav id="nav-mobile">
+        <a href="index.html">Início</a>
+        <a href="filmes.html">Filmes</a>
+        <a href="series.html" style="font-weight: 700; color: white;">Séries</a>
+        <a href="canais.html">Canais</a>
+        <a href="minhalista.html">Minha lista</a>
+    </nav>
+
+    <div class="banner-div"> <img src="" alt="" id="banner"></div>
+
+    <div class="descricao">
+        <h1 id="titulo"> </h1>
+        
+        <p id="sinopse"> </p>
+        
         <div>
-              <a href="" id="assistir">
-                  <button>
-                      <svg class="icone-play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <polygon points="8,5 8,19 19,12" /></svg> 
-                      Assistir
-                  </button>
-              </a>
-                  <div id="adc-mobile" title="Adicionar na Minha lista">+</div>
-      
+            <a href="" id="assistir">
+                <button>
+                    <svg class="icone-play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <polygon points="8,5 8,19 19,12" />
+                    </svg> Assistir
+                </button>
+            </a>
+                <div id="adc" title="Adicionar na Minha lista">+</div>
+
         </div>
     </div>
 
-    <div class="container-geral-mobile">
-        <div class="container" id="series-container">  </div>
-    </div>
-        
-</div> <!-- FIM DA DIV PARA TELAS PEQUENAS -->
+    <div id="geral">
+        <h2>Séries </h2>
+        <div id="Séries" class="container"> </div>
 
+        <h2>Programas de TV</h2>
+        <div id="Programas-de-TV" class="container"> </div>
+
+        <h2>Desenhos</h2>
+        <div id="Desenhos" class="container">  </div>
+
+        <h2>Novelas</h2> 
+        <div id="Novelas" class="container"> </div>
+
+        <h2>series</h2>
+        <div id="series" class="container">  </div>
+
+    </div>
+
+    <footer><p>&copy;2025 Marcola_Goat Nenhum direito reservado.</p></footer>     
+    
+    <script src="scripts/pesquisa.js"></script>
+    <script src="scripts/banners.js"></script>
+    <script src="scripts/capasSeries.js"></script>
 </body> 
-<script src="script/bannerEfavoritos.js"></script>
-<script src="script/series.js"></script>
-<script src="script/pesquisas.js">  </script>
 </html>

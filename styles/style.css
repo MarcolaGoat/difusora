@@ -15,10 +15,15 @@ header {
     width: 100%;
     height: 70px;
     display: flex;
+    z-index: 1;
+}
+
+#nav-mobile {
+    display: none;
 }
 
 .logo {
-    margin: 18px 10px auto 25px;
+    margin: 18px 10px auto 30px;
     font-family: "Chau Philomene One", sans-serif;
     font-size: 25px;
     letter-spacing: 2px;
@@ -50,7 +55,7 @@ nav a:hover {
 }
 
 .search {
-    margin: 20px 15px auto auto;
+    margin: 15px 15px auto auto;
 }
 
 .search input {
@@ -70,46 +75,48 @@ nav a:hover {
 }
 
 .fas.fa-search {
-    position: relative;
-    top: 5px;
-    right: 35px;
+    position: absolute;
+    top: 23px;
+    right: 25px;
     color: #ffffff; 
-    cursor: pointer;font-size: 25px; 
+    cursor: pointer;
+    font-size: 25px; 
 }
 
 .fas.fa-search:hover {
     scale: 1.1;
 }
 
-.banner {
+.banner-div {
+    /* background-image: url(../imagens/banner-the-blacklist.png); */
     width: 750px;
     height: 400px;
-
     position: absolute;
     top: 0;
-    right: 40px;
+    right: 10px;
     z-index: 0;
 }
 
-.banner img {
+.banner-div img {
     width: 100%;
     height: 100%;
 }
 
-#desc {
+.descricao {
     width: 500px;
-    height: 235px;
-    margin: 40px auto 65px 25px;
+    height: 330px;
+    margin-left: 40px;
     padding: 10px;
-    /* position: relative;
-    z-index: 1; */
 }
 
-#desc h1 {
-    margin-bottom: 30px;
+#titulo {
+    margin-top: 40px;
+}
+#sinopse {
+    margin-top: 25px;
 }
 
-#desc div {
+.descricao div {
     display: flex;
 }
 
@@ -127,10 +134,11 @@ button {
     margin: 30px 0px auto 0px;
     padding: 10px;
     cursor: pointer;
+    transition: 0.4s;
 }
 
 button:hover {
-    border: solid 1px white;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.555);
     scale: 1.1;
 }
 
@@ -150,150 +158,196 @@ button:hover {
     align-items: center;
     justify-content: center;
     font-size: 32px;
+    cursor: pointer;
+    transition: 0.4s;
 }
 
 #adc:hover {
-    border: solid 1px white;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.555);
     scale: 1.1;
-    cursor: pointer;
 }
 
-#container-geral {
-    margin-bottom: 20px;
+h2 {
+    margin-top: 10px;
+    margin-left: 25px;
+    color: #c2c2c2;
+    font-size: 23px;
+    font-weight: 300;
 }
 
-.container {
-    margin: 5px auto 10px 25px;
-    display: flex;
-    flex-wrap: wrap;
-    overflow: hidden;
-    gap: 20px;
+h3 {
+    text-align: center;
+    color: #c2c2c2;
 }
 
-.container-canais {
-    margin: 5px auto auto 25px;
-    overflow: hidden;
-    gap: 20px;
+h4 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
 }
-
-.canaiss {
+#canais {
+    padding: 10px;
+    height: 140px;
     display: flex;
     flex-wrap: nowrap;
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none; 
     -ms-overflow-style: none;
-    width: 98%;
 }
-
-h2 {
-    font-size: 20px;
-    font-weight: 300;
-    color: #c2c2c2;
-    margin: 15px auto auto 25px;
-}
-
-
-h5{
-    text-align: center;
-    font-weight: 300;
-    color: #afafaf;
-}
-.container img {
-    margin: 10px 10px 10px auto;
-    width: 250px;
-    height: 150px;
-}
-
-.container div {
-    width: 250px;
-    height: 150px;
-    margin-bottom: 15px;
-}
-
-.container img:hover, .container-canais img:hover {
-    scale: 1.1;
-}
-
 .canal {
-    margin: 15px 15px auto 3px;
-    border-radius: 5px;
+    margin-right: 5px;
+    transition: 0.5s;
 }
 
-.lista-exi {
-    list-style: none;
-    font-size: 20px;
+.canal:hover {
+    scale: 1.2;
+}
+
+.a {
+    cursor: pointer;
+}
+
+.container-de-canais {
+    width: 95%;
+}
+
+.container-de-canais > div {
+    display: flex; 
+    padding-left: 20px; 
+    margin-top: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.container-de-canais > div img{
+    width: 90px;
+    height: 90px;
+}
+
+.container {
+    width: 99%;
+    margin: 10px;
     padding-left: 10px;
-}
-
-.lista-exi li {
-    padding: 10px;
-}
-
-.lista-exi a {
-    text-decoration: none;
-    color: #999;
-}
-
-.lista-exi a:hover {
-    color: #ffffff;
-}
-
-.lista-exi a:visited {
-    color: #2588f8;
-}
-
-
-
-#iframe-container {
-    margin: 20px auto;
-    width: 832px;
-    height: 520px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #191919;
-    border: solid 1px #151515;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
 
+
+.container img{
+    width: 300px;
+    height: 180px;
+    margin: 10px;
+    background-color: #1877e4;
+    transition: 0.5s;
+}
+
+.container img:hover {
+    scale: 1.1;
+    background-color: blueviolet;
+}
+
+.anuncio-horizontal {
+    width: 93%;
+    height: 150px;
+    margin: auto auto auto 30px;
+}
+
+.anuncio {
+    width: 220px;
+    height: 515px;
+    margin: 20px auto auto 10px; 
+    color: white;
+    /* background-color: #8b8b8b;   */
+}
+
+section {
+    display: flex;
+}
+
+.lista-de-canais, .lista-de-episodios {
+    background-color: #202020;
+    width: 250px;
+    height: 515px;
+    border-radius: 7px;
+    margin: 20px 0px auto 15px;
+    overflow-x: auto;
+}
+.lista-de-canais p, .lista-de-episodios p {
+    background-color: #202020;
+    width: 250px;
+    padding-top: 5px;
+    font-size: 23px;
+    position: fixed;
+    text-align: center;
+}
+
+.lista-de-links {
+    list-style: none;
+    margin-top: 33px;
+    padding-left: 15px;
+    font-size: 20px;
+    overflow: hidden;
+}
+.lista-de-links li {
+    margin: 15px auto;
+}
+.lista-de-links a {
+    color: #8b8b8b;
+    transition: 0.5s;
+}
+.lista-de-links a:hover {
+    color: white;
+    font-size: 21px;
+}
+.lista-de-links a:visited {
+    color: #2588f8;
+    font-size: 21px;
+}
+
+.containar-do-iframe {
+    width: 824px;
+    height: 515px;
+    margin: 20px auto auto auto;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
-
-#iframe-container iframe {
+.containar-do-iframe iframe {
     width: 100%;
     height: 100%;
 }
 
 .btn-adc {
     position: fixed;
-    bottom: 50px;   
-    right: 50px;     
+    bottom: 25px;
+    right: 25px;
     width: 50px;
     height: 50px;
-    background-color: #007bff; 
-    color: white;        
-    border: none;        
-    border-radius: 50%;    
-    cursor: pointer;    
-    transition: background-color 0.3s; 
-    align-items: center;
+    background-color: #2588f8;
+    color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+    cursor: pointer;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .btn-adc:hover {
-    background-color: #0056b3; 
+    scale: 1.1;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.555);
 }
 
 .btn-adc p {
-    font-size: 45px; 
-    height: 50px; 
-    margin: 0px; 
+    margin: 0;
+    font-size: 40px;
 }
-
 
 footer {
     background-color: #2588f8;
+    margin-top: 10px;
     height: 35px;
     width: 100%;
     display: flex;
