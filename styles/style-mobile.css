@@ -2,6 +2,7 @@
     header {
         position: static;
         height: 70px;
+        overflow: hidden;
     }
 
     .logo {
@@ -19,12 +20,13 @@
 
     nav a {
         font-size: 16px;
-        margin: auto 15px;
+        margin: auto 10px;
     }
 
     #nav-mobile {
         display: flex;
         margin: 5px auto 20px auto;
+        justify-content: center;
     }
     
     .search {
@@ -84,7 +86,10 @@
         margin-top: 10px;
         margin-left: 0px;
         text-align: center;
-        width: 410px;
+        width: 98%;
+    }
+    .link-de-h2 {
+        width: 98%;
     }
     
     #canais {
@@ -107,9 +112,9 @@
     }
     
     .container img {
-        width: 185px;
-        height: 111px;
-        margin: 7px;
+        width: 179px;
+        height: 108px;
+        margin: 5px;
     }
 
     section {

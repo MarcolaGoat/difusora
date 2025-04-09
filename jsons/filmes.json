@@ -788,5 +788,108 @@
       "url_capa": "https://manualdosgames.com/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-19-at-10.08.39.jpg",
       "server": "4",
       "categoria": "Suspense",    "tipo": "filme"
+    },
+    {
+      "nome": "Moana-2",
+      "codigo": "MOANA2",
+      "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E7969CDB6F7D30CE05984DC8D31429B38267AAD1C2B16B1545E6976B49F95120/scale?width=1200&aspectRatio=1.78&format=webp",
+      "server": "3",
+      "categoria": "Animação", "tipo": "filme"
+    },
+    {
+      "nome": "Venom-a-ultima-rodada",
+      "codigo": "VENOMAULTMRDADA",
+      "url_capa": "https://lojasetimaarte.com/cdn/shop/articles/qRQxyoWoJmQ.jpg?v=1726869896",
+      "server": "3",
+      "categoria": "Marvel",
+      "tipo": "filme"
+    },
+    {
+      "nome": "Sonic-3",
+      "codigo": "SONC3OFLM",
+      "url_capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSva5x2Hzy8yZbZa0TuCqo5aUg2EwVEO03XbwJW_EoQj1qRgE9aWX7uTfIUhExY2ul5A1s&usqp=CAU",
+      "server": "3",
+      "categoria": "Aventura",
+      "tipo": "filme"
+    },
+    {
+      "nome": "O-terno-de-2-bilhões-de-dolares",
+      "codigo": "OTRND2BLHSDLRS",
+      "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/207a41cf30a04f8fe0339617f06fb6054a64ac16c5ad5f950e77d133200fd899.png",
+      "server": "3",
+      "categoria": "Ficção Científica",
+      "tipo": "filme"
+    },
+    {
+      "nome": "American-Pie-a-1-vez-é-inesquecível",
+      "codigo": "AMRCNPIE1",
+      "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/a706c97cdc5aac626aaca09e37bf17bf6029a7c1457f6d03b19b28fbf90cc4c8.jpg",
+      "server": "1",
+      "categoria": "Comédia",
+      "tipo": "filme"
+    },
+    {
+      "nome": "American-Pie-a-2-vez-é-ainda-melhor",
+      "codigo": "AMRCNPIE2",
+      "url_capa": "https://ntvb.tmsimg.com/assets/p28143_v_h8_ad.jpg?w=1280&h=720",
+      "server": "1",
+      "categoria": "Comédia",
+      "tipo": "filme"
+    },
+    {
+      "nome": "American-Pie-o-casamento",
+      "codigo": "AMRCNPIE3",
+      "url_capa": "https://www.filmesbd.com/wp-content/uploads/2024/11/pie3.jpg",
+      "server": "1",
+      "categoria": "Comédia",
+      "tipo": "filme"
+    },
+    {
+      "nome": "American-Pie-4-tocando-a-maior-zona",
+      "codigo": "AMRCNPIE4",
+      "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/efac20aa2fb9688c56bc006a9f25f539d84d2aad622a605470793bc612d8ec16.jpg",
+      "server": "1",
+      "categoria": "Comédia",
+      "tipo": "filme"
+    },
+    {
+      "nome": "American-Pie-5-O-ultimo-stifler-virgem",
+      "codigo": "AMRCNPIE5",
+      "url_capa": "https://www.filmesbd.com/wp-content/uploads/2024/12/americanpie5.jpg",
+      "server": "1",
+      "categoria": "Comédia",
+      "tipo": "filme"
+    },
+    {
+      "nome": "American-Pie-Caindo-em-tentação",
+      "codigo": "AMRCNPIE6",
+      "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/a1281365d39a5f5c6ad6d03b6aef53c418e4de457d7d21104cdd96d2428c8f7b.jpg",
+      "server": "1",
+      "categoria": "Comédia",
+      "tipo": "filme"
+    },
+    {
+      "nome": "American-Pie-O-livro-do-amor",
+      "codigo": "AMRCNPIE7",
+      "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/1001fed5cb98d148046b96c0f32053be22fc1af5e06a310d59bea84693816d2d.jpg",
+      "server": "1",
+      "categoria": "Comédia",
+      "tipo": "filme"
+    },
+    {
+      "nome": "American-Pie-O-reencontro",
+      "codigo": "AMRCNPIE8",
+      "url_capa": "https://lh3.googleusercontent.com/ThGzS7ufX1ElNtfN-KMJsoRr49hTKUspSc4ShSJxXJfSQb0P2fO9yWYh2ax-OwcuHgXj8RrmWpkn",
+      "server": "1",
+      "categoria": "Comédia",
+      "tipo": "filme"
+    },
+    {
+      "nome": "American-Pie-apresenta-meninas-ao-ataque",
+      "codigo": "AMRCNPIEAPRSNTMNSAOATQ",
+      "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/939dfab940447a5e908b00526ef4a4fa386d82a29bbb5da1d1b8d8b19151318e.jpg",
+      "server": "5",
+      "categoria": "Comédia",
+      "tipo": "filme"
     }
-  ]
+]

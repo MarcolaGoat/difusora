@@ -18,6 +18,15 @@
     ]
   },
   {
+    "nome": "The-blacklist-redencao",
+    "url_capa": "https://seriemaniacos.tv/wp-content/uploads/2017/05/BlacklistRedemption-1068x600.jpg",
+    "codigo": "THEBLCKLSTRDP",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 8, "subfolder": "ondemand", "server": "11" }
+    ]
+  },
+  {
     "nome": "Suits",
     "url_capa": "https://cinemus.com.br/wp-content/uploads/2023/09/Suits-Wallpaper-9-temporada.jpg",
     "codigo":"SUTS",
@@ -48,7 +57,20 @@
       { "temporada": 5, "episodios": 16, "subfolder": "ondemand", "server":"05" }
     ]
   },
-
+  {
+    "nome": "Better-call-saul",
+    "url_capa": "https://img.odcdn.com.br/wp-content/uploads/2022/06/better-call-saul-cardiaco.jpg",
+    "codigo": "BTRCLSL",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 10, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 4, "episodios": 10, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 5, "episodios": 10, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 6, "episodios": 13, "subfolder": "ondemand", "server": "09" }
+    ]
+  },
   {
     "nome": "Round6",
     "url_capa": "https://sm.ign.com/ign_br/screenshot/default/squid-game_44qj.jpg",
@@ -736,12 +758,6 @@
     ]
   },
 
-
-
-
-
-
-
   {
     "nome": "Naruto-Clássico",
     "codigo": "NRTO",
@@ -767,6 +783,239 @@
     "categoria":"series",
     "temporadas": [
       {"temporada":1, "episodios": 98, "subfolder": "ondemand", "server": "22"}
+    ]
+  },
+
+  {
+    "nome": "Eu-as-patroa-e-as-crianças",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/C1294F62AF25C5C1FC7853853CE21632DB365D10BC06A4CF66E2D3C177BBEAF9/scale?width=1200&aspectRatio=1.78&format=webp",
+    "codigo": "EUAPTEAC",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 11, "subfolder": "videos", "server": "01" },
+      { "temporada": 2, "episodios": 29, "subfolder": "videos", "server": "01" },
+      { "temporada": 3, "episodios": 27, "subfolder": "videos", "server": "01" },
+      { "temporada": 4, "episodios": 30, "subfolder": "videos", "server": "01" },
+      { "temporada": 5, "episodios": 26, "subfolder": "videos", "server": "01" }
+    ]
+  },
+  {
+    "nome": "The-walking-dead",
+    "url_capa": "https://ogimg.infoglobo.com.br/economia/23084230-bbc-b7c/FT1086A/The-Walking-Dead.jpg",
+    "codigo": "TWD",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 6, "subfolder": "videos", "server": "01" },
+      { "temporada": 2, "episodios": 13, "subfolder": "videos", "server": "01" },
+      { "temporada": 3, "episodios": 16, "subfolder": "videos", "server": "01" },
+      { "temporada": 4, "episodios": 16, "subfolder": "videos", "server": "01" },
+      { "temporada": 5, "episodios": 16, "subfolder": "videos", "server": "01" },
+      { "temporada": 6, "episodios": 16, "subfolder": "videos", "server": "01" },
+      { "temporada": 7, "episodios": 16, "subfolder": "videos", "server": "01" },
+      { "temporada": 8, "episodios": 16, "subfolder": "videos", "server": "01" },
+      { "temporada": 9, "episodios": 16, "subfolder": "videos", "server": "01" },
+      { "temporada": 10, "episodios": 22, "subfolder": "videos", "server": "01" },
+      { "temporada": 11, "episodios": 24, "subfolder": "videos", "server": "01" }
+    ]
+  },
+  {
+    "nome": "Game-of-thrones",
+    "url_capa": "https://t.ctcdn.com.br/DSjFGCs4CprGpViQbmL1fj-nyw4=/1200x675/smart/i350335.jpeg",
+    "codigo": "GMOFTR",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 10, "subfolder": "videos", "server": "01" },
+      { "temporada": 2, "episodios": 10, "subfolder": "videos", "server": "01" },
+      { "temporada": 3, "episodios": 10, "subfolder": "videos", "server": "01" },
+      { "temporada": 4, "episodios": 10, "subfolder": "videos", "server": "01" },
+      { "temporada": 5, "episodios": 10, "subfolder": "videos", "server": "01" },
+      { "temporada": 6, "episodios": 10, "subfolder": "videos", "server": "01" },
+      { "temporada": 7, "episodios": 7, "subfolder": "videos", "server": "01" },
+      { "temporada": 8, "episodios": 6, "subfolder": "videos", "server": "01" }
+    ]
+  },
+  {
+    "nome": "Vikings",
+    "url_capa": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0bgT12R3vf9XAavhwvfChv4WGP3Ucx2kO2SUcNXPL5z6K_rN5jbDpfdfyjUOoZ0lwUEGEj7P588Wu3FP1gYGrcSPgUDtst07IUIreTngRtEWdTovnWyCFQ8TlehLhl6XxmRdj9_GlPUg/s512/Imagem+1+-+arte+promocional.jpg",
+    "codigo": "VKGS",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 9, "subfolder": "ondemand", "server": "08" },
+      { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "08" },
+      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "08" },
+      { "temporada": 4, "episodios": 20, "subfolder": "ondemand", "server": "08" },
+      { "temporada": 6, "episodios": 20, "subfolder": "ondemand", "server": "08" }
+    ]
+  },
+  {
+    "nome": "Brooklyn-nine-nine",
+    "url_capa": "https://cinepop.com.br/wp-content/uploads/2020/12/brooklyn-99-1.jpg",
+    "codigo": "BRKLNN",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 22, "subfolder": "ondemand", "server": "13" },
+      { "temporada": 2, "episodios": 23, "subfolder": "ondemand", "server": "13" },
+      { "temporada": 3, "episodios": 23, "subfolder": "ondemand", "server": "13" },
+      { "temporada": 4, "episodios": 22, "subfolder": "ondemand", "server": "13" },
+      { "temporada": 5, "episodios": 22, "subfolder": "ondemand", "server": "13" },
+      { "temporada": 6, "episodios": 18, "subfolder": "ondemand", "server": "13" },
+      { "temporada": 7, "episodios": 13, "subfolder": "ondemand", "server": "13" },
+      { "temporada": 8, "episodios": 10, "subfolder": "ondemand", "server": "13" }
+    ]
+  },
+  {
+    "nome": "The-flash",
+    "url_capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdMbz1oWmejsXkDFKDIoIVlP5XPMTBw_UkRg&s",
+    "codigo": "THEFLSH",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 23, "subfolder": "ondemand", "server": "19" },
+      { "temporada": 2, "episodios": 23, "subfolder": "ondemand", "server": "19" },
+      { "temporada": 3, "episodios": 23, "subfolder": "ondemand", "server": "19" },
+      { "temporada": 4, "episodios": 23, "subfolder": "ondemand", "server": "19" },
+      { "temporada": 5, "episodios": 22, "subfolder": "ondemand", "server": "19" },
+      { "temporada": 6, "episodios": 19, "subfolder": "ondemand", "server": "19" },
+      { "temporada": 7, "episodios": 18, "subfolder": "ondemand", "server": "19" },
+      { "temporada": 8, "episodios": 20, "subfolder": "ondemand", "server": "19" },
+      { "temporada": 9, "episodios": 13, "subfolder": "ondemand", "server": "19" }
+    ]
+  },
+  {
+    "nome": "Sherlock",
+    "url_capa": "https://http2.mlstatic.com/D_NQ_NP_876228-MLA72473850644_102023-B.webp",
+    "codigo": "SHRLCK",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 3, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 2, "episodios": 3, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 3, "episodios": 3, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 4, "episodios": 3, "subfolder": "ondemand", "server": "09" }
+    ]
+  },
+  {
+    "nome": "H2o-meninas-sereias",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/277271235bc99e4ff92a8c8ca8a7852336d187e36df5a938ea144ae2fda5c0ca._SX1080_FMjpg_.jpg",
+    "codigo": "H2OMNSRS",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 26, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 2, "episodios": 26, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 3, "episodios": 26, "subfolder": "ondemand", "server": "09" }
+    ]
+  },
+  {
+    "nome": "Mako-mermaids",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/ce4e718cd13422afb60f2e2c69b971f47cbb4cb946f6eb5c78dca8d343383286.jpg",
+    "codigo": "MKMRMDS",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 26, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 2, "episodios": 13, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 3, "episodios": 13, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 4, "episodios": 16, "subfolder": "ondemand", "server": "09" }
+    ]
+  },
+  {
+    "nome": "Kenan-e-kel",
+    "url_capa": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTcn0HQ8Y5LCUFQEZyYr1DuiEw0XWHcLPUNjZ-CAccegLEZdFt5bkhLAne_Tfr0CHPwc0c-f7NnByMbtib8ePxlpEmdgiFVy6EdqpH7zbAoB4IGdAZlJkoBPUD-HBIB4iSGT6uKsRbHD0Z_GY2w2hjIBxqmNK4jiJE2D0v_w4NvUZ7F8n90MuvlEmH/s1600/kenans2.jpg",
+    "codigo": "KNEKL",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 14, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 2, "episodios": 13, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 3, "episodios": 22, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 4, "episodios": 13, "subfolder": "ondemand", "server": "09" }
+    ]
+  },
+  {
+    "nome": "Stranger-things",
+    "url_capa": "https://upload.wikimedia.org/wikipedia/commons/3/38/Stranger_Things_logo.png",
+    "codigo": "STRNGRTHNG",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 8, "subfolder": "ondemand", "server": "16" },
+      { "temporada": 2, "episodios": 8, "subfolder": "ondemand", "server": "16" },
+      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "16" },
+      { "temporada": 4, "episodios": 9, "subfolder": "ondemand", "server": "16" }
+    ]
+  },
+  {
+    "nome": "Agente-kc",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/CC9D9D4ADA2F268D403D44CE52361C207CEB33DDEE9065DBD051FB0AED4618DF/scale?width=1200&aspectRatio=1.78&format=webp",
+    "codigo": "AGNTKC",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 27, "subfolder": "ondemand", "server": "10" },
+      { "temporada": 2, "episodios": 24, "subfolder": "ondemand", "server": "10" },
+      { "temporada": 3, "episodios": 24, "subfolder": "ondemand", "server": "10" }
+    ]
+  },
+  {
+    "nome": "Narcos",
+    "url_capa": "https://escotilha.com.br/wp-content/uploads/2015/11/serie-narcos-netflix-primeira-temporada-resenha-critica-750x375.jpeg",
+    "codigo": "NRCS",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 10, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "09" }
+    ]
+  },
+  {
+    "nome": "Csi-cyber",
+    "url_capa": "https://upload.wikimedia.org/wikipedia/en/a/a7/CSI-Cyber-Logo.jpg",
+    "codigo": "CSICBR",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 13, "subfolder": "ondemand", "server": "11" },
+      { "temporada": 2, "episodios": 18, "subfolder": "ondemand", "server": "11" }
+    ]
+  },
+  {
+    "nome": "Você",
+    "url_capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQU5LlhaLME6Hn8YmPzObYsh7hwZfsEVmLIzyF6Cy7dUzIKRtqoJLbElMSZhgL-dHnQPg&usqp=CAU",
+    "codigo": "VC",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 10, "subfolder": "ondemand", "server": "06" },
+      { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "06" },
+      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "06" },
+      { "temporada": 4, "episodios": 10, "subfolder": "ondemand", "server": "06" }
+    ]
+  },
+  {
+    "nome": "Billions",
+    "url_capa": "https://www.gleydson.com.br/wp-content/uploads/2023/09/Billions-01.jpg",
+    "codigo": "BLIONS",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 12, "subfolder": "ondemand", "server": "06" },
+      { "temporada": 2, "episodios": 12, "subfolder": "ondemand", "server": "06" },
+      { "temporada": 3, "episodios": 12, "subfolder": "ondemand", "server": "06" },
+      { "temporada": 4, "episodios": 12, "subfolder": "ondemand", "server": "06" },
+      { "temporada": 5, "episodios": 12, "subfolder": "ondemand", "server": "06" }
+    ]
+  },
+  {
+    "nome": "Dark",
+    "url_capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeDEgExjtKBmNN7kHda1C47Z8Pv_NjR8HnXg&s",
+    "codigo": "DRK",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 10, "subfolder": "ondemand", "server": "03" },
+      { "temporada": 2, "episodios": 8, "subfolder": "ondemand", "server": "03" },
+      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "03" }
+    ]
+  },
+  {
+    "nome": "Como-vender-drogas-online-rapido",
+    "url_capa": "https://occ-0-8407-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABb9p2zm3biS8pOJetiJLho_F_luAlLXlhfxWs6ljAG4D3BmnSNZXaeu9WH1sKJ2fyeRLriFy95P1M8lDLBFePvVKnZ7X2V7LgyjM-jPG10-6CJvSBnPzBeIuf4NKA8cX4ZcpjA.jpg?r=851",
+    "codigo": "CMVNDRDRGSONRPD",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 6, "subfolder": "ondemand", "server": "03" },
+      { "temporada": 2, "episodios": 6, "subfolder": "ondemand", "server": "03" },
+      { "temporada": 3, "episodios": 6, "subfolder": "ondemand", "server": "03" }
     ]
   }
 

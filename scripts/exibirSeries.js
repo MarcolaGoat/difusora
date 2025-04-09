@@ -93,7 +93,6 @@ function getParameterByName(name) {
   
       const iframeContainer = document.querySelector('.containar-do-iframe');
       iframeContainer.innerHTML = iframeURL;
-    //   const anun = document.querySelector('.anuncio').innerHTML = iframeSrc
   
       // Exibe as informações do episódio
       const infoContainer = document.getElementById('info-ep');
@@ -102,6 +101,8 @@ function getParameterByName(name) {
       const infoContainer = document.getElementById('info-ep');
       infoContainer.textContent = 'Escolha um episódio.';
     }
+
+    loadRecomendados(data, serie);
   }
   
   
@@ -112,3 +113,28 @@ function getParameterByName(name) {
       console.error('Erro ao carregar o arquivo JSON:', error);
       document.getElementById('info-ep').textContent = 'Erro ao carregar dados.';
     });
+
+function loadRecomendados(data, serie) {
+  let seriesRec = data.filter(item => item.categoria === serie.categoria && item.nome !== serie.nome);
+  
+  for (let i = seriesRec.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [seriesRec[i], seriesRec[j]] = [seriesRec[j], seriesRec[i]];
+  }
+
+  seriesRec = seriesRec.slice(0, 4);
+
+  seriesRec.map( (serie) => {
+    const div = document.createElement('div');
+
+    div.innerHTML = `
+        <a href="exibicao-series.html?serie=${encodeURIComponent(serie.nome)}" style="text-decoration: none;">
+        <img src="${serie.url_capa}" alt="${serie.nome}" loading="lazy" />
+        </a>`;
+        
+    let container = document.querySelector(`#recomendados`)
+    container.appendChild(div);
+    
+    })
+
+}
