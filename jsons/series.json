@@ -1017,6 +1017,51 @@
       { "temporada": 2, "episodios": 6, "subfolder": "ondemand", "server": "03" },
       { "temporada": 3, "episodios": 6, "subfolder": "ondemand", "server": "03" }
     ]
+  },
+  {
+    "nome": "The-Umbrella-Academy",
+    "url_capa": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/TheUmbrellaAcademy_logo.png/250px-TheUmbrellaAcademy_logo.png",
+    "codigo": "THUMBRLACDMY",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 10, "subfolder": "ondemand", "server": "04" },
+      { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "04" },
+      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "04" },
+      { "temporada": 3, "episodios": 6, "subfolder": "ondemand", "server": "04" }
+    ]
+  },
+  {
+    "nome": "Vis-a-Vis",
+    "url_capa": "VISAVIS",
+    "codigo": "https://m.media-amazon.com/images/S/pv-target-images/871b8bde4ce48ef2ba585d60a6ed282ca054f5cc20e9fcd17451829b232e7f1d.jpg",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 11, "subfolder": "ondemand", "server": "04" },
+      { "temporada": 2, "episodios": 13, "subfolder": "ondemand", "server": "04" },
+      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "04" },
+      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "04" }
+    ]
+  },
+  {
+    "nome": "Vis-a-Vis-El-Oasis",
+    "url_capa": "https://i.ytimg.com/vi/LKaGnAiaRuk/maxresdefault.jpg",
+    "codigo": "VISAVISELOSA",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 8, "subfolder": "ondemand", "server": "12" }
+    ]
+  },
+  {
+    "nome": "Outer-Banks",
+    "url_capa": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxR4tX44DLfqSJ8C6_sYCxtVOP7kGmWsDXNot0Os37g6yWjxZRVpQvtjVcmN7StJZSxdu6y0ooWFaa4H1-nFU4gjXpLOOaUjCqfavLA9twqAUTKrk1AqATyvAm70bPOvIMtjUTCV9s3QU/d/outerbanks.jpg",
+    "codigo": "OUTRBNKS",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 10, "subfolder": "ondemand", "server": "14" },
+      { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "14" },
+      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "14" },
+      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "14" }
+    ]
   }
 
 ]

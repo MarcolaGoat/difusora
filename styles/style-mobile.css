@@ -122,9 +122,9 @@
     }
 
     .anuncio {
-        width: 93%;
+        width: 300px;
         max-height: 250px;
-        margin: auto ;  
+        margin: auto;  
     }
 
     .containar-do-iframe {
