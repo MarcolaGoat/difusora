@@ -35,6 +35,14 @@
       "categoria": "Comédia",    "tipo": "filme"  
     },
     {
+      "nome": "El-Camino",
+      "codigo": "ELCMNOABRKNGBDMVE",
+      "url_capa": "https://occ-0-8407-90.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABYRDvEEq37EC4oafDUrCc9_E99b6JsW2oSuIeAof9BeQ3xvH8wlNdb3Xb-sEIKQxs0QUj9H7funoKvo9V5rcxkiViEABLUxpy1E9xTVuCpCbw2gsTWrFUsM9WWo5bLBot3wb.jpg?r=77d",
+      "server": "3",
+      "categoria": "Drama",
+      "tipo": "filme"
+    },
+    {
       "nome": "Deadpool-e-Woverine",
       "codigo": "DEADPEWLVRNE",
       "url_capa": "https://edilenemafra.com/wp-content/uploads/2024/07/Deadpool-Wolverine-Foto-Divulgacao--1024x576.jpg.webp",

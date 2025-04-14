@@ -15,7 +15,8 @@ lupa.addEventListener('click', () => {
 
 inputPesq.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
-        realizarPesquisa();
+        localStorage.setItem('pesquisaTexto', inputPesq.value);
+        window.location.href = 'pesquisa.html';
     }
 });
 
@@ -71,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 resultsDiv.appendChild(serieElement);
             });
         } else {
-            resultsDiv.innerText = 'Sem séries encontradas.';
+            resultsDiv.innerText = 'Sem resultados encontrados.';
         }
     }
     
