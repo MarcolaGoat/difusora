@@ -255,11 +255,10 @@ h4 {
 }
 
 .anuncio {
-    width: 301px;
-    height: 251px;
+    width: 300px;
+    height: 250px;
     margin: 20px auto auto auto; 
     color: white;
-    background-color: #8b8b8b;  
 }
 
 section {
@@ -348,7 +347,7 @@ section {
 .bannerADS {
     width: 320px;
     height: 90px;
-    margin: auto;
+    margin: 15px auto auto auto;
 }
 
 footer {
