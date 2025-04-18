@@ -15,6 +15,13 @@ function loadIframe(canal) {
 const canal = getParameterByName('canal');
 if (canal) {
     loadIframe(canal);
+    loadName(canal);
 } else {
     document.querySelector('.containar-do-iframe').innerText = 'Canal não encontrado.';
+}
+
+// Função para carregar o nome do canal no h2
+function loadName(canal) {
+    const nomeh2 = document.querySelector('#nome-canal');
+    nomeh2.innerHTML = `Canal: ${canal}`;
 }

@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             if (filme) {
                 let favoritos = JSON.parse(localStorage.getItem("favoritos")) || [];
-                const btnAdc = document.querySelector(".btn-adc");
+                const btnAdc = document.querySelector("#btn-adc");
                 const pBtn = btnAdc.querySelector('p');
                 
                 if (favoritos.some(f => f.nome == filme.nome)) {
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
               
               if (serie) {
                   let favoritos = JSON.parse(localStorage.getItem("favoritos")) || [];
-                  const btnAdc = document.querySelector(".btn-adc");
+                  const btnAdc = document.querySelector("#btn-adc");
                   const pBtn = btnAdc.querySelector('p');
                   
                   if (favoritos.some(s => s.nome == serie.nome)) {

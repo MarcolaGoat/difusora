@@ -15,74 +15,99 @@
     <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5733023860557125"
-     crossorigin="anonymous"></script>
-
 </head>
 <body>
     <header>
-        <div class="logo">  Difusora </div>
-        <nav>
-            <a href="index.html" >Início</a>
-            <a href="filmes.html">Filmes</a>
-            <a href="series.html">Séries</a>
-            <a href="canais.html" style="font-weight: 700; color: white;">Canais</a>
-            <a href="minhalista.html">Minha lista</a>
-        </nav>
+        <img src="imagens/menu-icone.png" alt="icone de menu" class="menu-icone">
+        <a href="index.html"> <div class="logo">  Difusora </div> </a>
     </header>
-
-    <nav id="nav-mobile">
-        <a href="index.html">Início</a>
-        <a href="filmes.html">Filmes</a>
-        <a href="series.html">Séries</a>
-        <a href="canais.html" style="font-weight: 700; color: white;">Canais</a>
-        <a href="minhalista.html">Minha lista</a>
-    </nav>
+    
+    <div class="sidebar">
+        <img src="imagens/fechar-icone.png" alt="" id="fechar-icone" title="Fechar menu">
+        <nav>
+          <a href="index.html" >Início</a>
+          <a href="filmes.html">Filmes</a>
+          <a href="series.html">Séries</a>
+          <a href="canais.html">Canais</a>
+          <a href="minhalista.html">Minha lista</a>
+        </nav>
+        <!-- <nav>
+          <a href="#" id="faz-pedidos">Fazer Pedidos</a>
+          <a href="#" id="relat-erros">Relatar Erro</a>
+        </nav> -->
+      </div>
+    
+      <div class="fundo-menu" title="Clicar aqui também fecha o menu"></div>
+    
+      <div class="modal" id="div-pedidos">
+        <img src="imagens/fechar-icone.png" alt="" id="fechar-div-pedidos" class="fechar-icone" title="Fechar">
+        <h3>Pedidos</h3>
+        <input type="text" placeholder="Nome da Série ou Filme">
+        <div class="btn-adc" id="btn-pedido"  title="Fazer pedido">Enviar</div>
+      </div>
+    
+      <div class="modal" id="div-erros">
+        <img src="imagens/fechar-icone.png" alt="" id="fechar-div-erros" class="fechar-icone" title="Fechar">
+        <h3>Relatar Erros</h3>
+        <p>Qual erro você encontrou? detalhe-o bem.</p>
+        <input type="text" placeholder="Descreva o erro encontrado">
+        <div class="btn-adc" id="btn-erros"  title="Fazer pedido">Enviar</div>
+      </div>
 
     <section>
-        <div class="lista-de-canais">
-            <p>Lista de Canais</p>
-            <ul class="lista-de-links">
-                <li><a href="exibicao-canais.html?canal=boborj">Globo</a></li>
-                <li><a href="exibicao-canais.html?canal=sbt">Sbt</a></li>
-                <li><a href="exibicao-canais.html?canal=record">Record</a></li>
-                <li><a href="exibicao-canais.html?canal=band">Band</a></li>
-                <li><a href="exibicao-canais.html?canal=globonews">Globo News</a></li>
-                <li><a href="exibicao-canais.html?canal=recordnews">Record News</a></li>
-                <li><a href="exibicao-canais.html?canal=bandnews">Band News</a></li>
-                <li><a href="exibicao-canais.html?canal=cnnbrasil">CNN Brasil</a></li>
-                <li><a href="exibicao-canais.html?canal=animalplanet">Animal Planet</a></li>
-                <li><a href="exibicao-canais.html?canal=discovery">Discovery Channel</a></li>
-                <li><a href="exibicao-canais.html?canal=hitory">History</a></li>
-                <li><a href="exibicao-canais.html?canal=cinemax">Cinemax</a></li>
-                <li><a href="exibicao-canais.html?canal=comedycentral">Comedy</a></li>
-                <li><a href="exibicao-canais.html?canal=hbo">HBO</a></li>
-                <li><a href="exibicao-canais.html?canal=megapix">Megapix</a></li>
-                <li><a href="exibicao-canais.html?canal=space">Space</a></li>
-                <li><a href="exibicao-canais.html?canal=tntseries">TNT Series</a></li>
-                <li><a href="exibicao-canais.html?canal=cartoon">Cartoon Network</a></li>
-                <li><a href="exibicao-canais.html?canal=discoverykids">Discovery Kids</a></li>
-                <li><a href="exibicao-canais.html?canal=disney">Disney Channel</a></li>
-                <li><a href="exibicao-canais.html?canal=gloob">Gloob</a></li>
-                <li><a href="exibicao-canais.html?canal=nick">Nickelodeon</a></li>
-                <li><a href="exibicao-canais.html?canal=combate">Combate</a></li>
-                <li><a href="exibicao-canais.html?canal=espn">ESPN</a></li>
-                <li><a href="exibicao-canais.html?canal=espn2">ESPN 2</a></li>
-                <li><a href="exibicao-canais.html?canal=premiereclubes">Premiere</a></li>
-                <li><a href="exibicao-canais.html?canal=premiere2">Premiere 2</a></li>
-                <li><a href="exibicao-canais.html?canal=sportv">Sportv</a></li>
-                <li><a href="exibicao-canais.html?canal=sportv2">Sportv 2</a></li>
-                <li><a href="exibicao-canais.html?canal=nossofutebol">Nosso Futebol</a></li>
-                <li><a href="exibicao-canais.html?canal=tnt">TNT</a></li>
-                <li><a href="exibicao-canais.html?canal=bbb25a">BBB</a></li>
-            </ul>
-        </div> 
 
-        <div class="containar-do-iframe"></div>
+        <div>
+            <div class="containar-do-iframe"></div>
+      
+            <div class="titulo-e-adc">
+              <h3 id="nome-canal"></h3>
+              <!-- <div class="btn-adc" id="relatar">Relatar Erro</div> -->
+            </div>
+          </div>
 
-        <div class="anuncio">
-            <script type="text/javascript" src="https://cdn.diclotrans.com/sdk/v1/49670/654859688e9c8cbeb371e53dac0bad017bd20e0f/lib.js"></script>
+        <div>
+            <div class="anuncio">
+                <script type="text/javascript" src="https://cdn.diclotrans.com/sdk/v1/49670/654859688e9c8cbeb371e53dac0bad017bd20e0f/lib.js"></script>
+            </div>
+            <div class="lista-de-canais">
+                <h3>Lista de Canais</h3>
+                <ul class="lista-de-links" style="column-count: 2;">
+                    <li><a href="exibicao-canais.html?canal=boborj">Globo</a></li>
+                    <li><a href="exibicao-canais.html?canal=sbt">Sbt</a></li>
+                    <li><a href="exibicao-canais.html?canal=record">Record</a></li>
+                    <li><a href="exibicao-canais.html?canal=band">Band</a></li>
+                    <li><a href="exibicao-canais.html?canal=globonews">Globo News</a></li>
+                    <li><a href="exibicao-canais.html?canal=recordnews">Record News</a></li>
+                    <li><a href="exibicao-canais.html?canal=bandnews">Band News</a></li>
+                    <li><a href="exibicao-canais.html?canal=cnnbrasil">CNN Brasil</a></li>
+                    <li><a href="exibicao-canais.html?canal=animalplanet">Animal Planet</a></li>
+                    <li><a href="exibicao-canais.html?canal=discovery">Discovery Channel</a></li>
+                    <li><a href="exibicao-canais.html?canal=hitory">History</a></li>
+                    <li><a href="exibicao-canais.html?canal=cinemax">Cinemax</a></li>
+                    <li><a href="exibicao-canais.html?canal=comedycentral">Comedy</a></li>
+                    <li><a href="exibicao-canais.html?canal=hbo">HBO</a></li>
+                    <li><a href="exibicao-canais.html?canal=megapix">Megapix</a></li>
+                    <li><a href="exibicao-canais.html?canal=space">Space</a></li>
+                    <li><a href="exibicao-canais.html?canal=tntseries">TNT Series</a></li>
+                    <li><a href="exibicao-canais.html?canal=cartoon">Cartoon Network</a></li>
+                    <li><a href="exibicao-canais.html?canal=discoverykids">Discovery Kids</a></li>
+                    <li><a href="exibicao-canais.html?canal=disney">Disney Channel</a></li>
+                    <li><a href="exibicao-canais.html?canal=gloob">Gloob</a></li>
+                    <li><a href="exibicao-canais.html?canal=nick">Nickelodeon</a></li>
+                    <li><a href="exibicao-canais.html?canal=combate">Combate</a></li>
+                    <li><a href="exibicao-canais.html?canal=espn">ESPN</a></li>
+                    <li><a href="exibicao-canais.html?canal=espn2">ESPN 2</a></li>
+                    <li><a href="exibicao-canais.html?canal=premiereclubes">Premiere</a></li>
+                    <li><a href="exibicao-canais.html?canal=premiere2">Premiere 2</a></li>
+                    <li><a href="exibicao-canais.html?canal=sportv">Sportv</a></li>
+                    <li><a href="exibicao-canais.html?canal=sportv2">Sportv 2</a></li>
+                    <li><a href="exibicao-canais.html?canal=nossofutebol">Nosso Futebol</a></li>
+                    <li><a href="exibicao-canais.html?canal=tnt">TNT</a></li>
+                    <li><a href="exibicao-canais.html?canal=bbb25a">BBB</a></li>
+                </ul>
+            </div>
         </div>
+
     </section>
 
     <script src="scripts/exbirCanais.js"></script>

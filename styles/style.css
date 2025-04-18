@@ -13,26 +13,85 @@ body {
 header {
     position: relative;
     width: 100%;
-    height: 70px;
+    height: 50px;
     display: flex;
     z-index: 1;
 }
 
-#nav-mobile {
-    display: none;
+.menu-icone {
+    width: 30px;
+    height: 30px;
+    margin: 12px 10px auto 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.menu-icone:hover {
+    scale: 1.1;
 }
 
+
 .logo {
-    margin: 18px 10px auto 30px;
+    margin: 10px auto auto 30px;
     font-family: "Chau Philomene One", sans-serif;
     font-size: 25px;
     letter-spacing: 2px;
     height: 40px;
+    cursor: pointer;
+}
+
+.fundo-menu {
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    max-height: 200%;
+    top: 0;
+    left: 0;
+    background-color: #8f8f8f4b;
+    z-index: 95;
+    display: none;
+}
+
+.sidebar {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 110%;
+    background-color: #101010;
+    padding-top: 50px;
+    box-shadow: 5px 0px 20px 3px #00000069;
+}
+
+
+.sidebar nav{
+    border-bottom: 1px solid #333;
+}
+
+.fechar-icone, #fechar-icone {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.fechar-icone {
+    top: 5px;
+}
+.fechar-icone:hover, #fechar-icone:hover {
+    scale: 1.1;
 }
 
 nav { 
-    margin: 30px auto auto 40px;
+    margin: auto;
+    padding-top: 10px;
     display: flex;
+    flex-direction: column;
+    width: 240px;
 }
 
 a {
@@ -44,7 +103,7 @@ nav a {
     color: rgb(187, 184, 184);
     border-bottom: solid 1px rgba(0, 0, 0, 0);
     font-size: 16px;
-    margin: 0px 20px auto 0px;
+    margin: 10px auto 10px 30px;
     transition: 0.5s;
 }
 
@@ -55,10 +114,10 @@ nav a:hover {
 }
 
 .search {
-    margin: 15px 15px auto auto;
+    margin: 10px 25px auto auto;
 }
 
-.search input {
+.search input, .modal input {
     background-color: #202020;
     border: none;
     border-radius: 5px;
@@ -70,14 +129,19 @@ nav a:hover {
     display: none;
 }
 
+.modal input{
+    display: block;
+    margin: 30px auto 30px 115px;
+}
+
 .search input:focus {
     box-shadow: 0px 0px 3px #2588f8;
 }
 
 .fas.fa-search {
     position: absolute;
-    top: 23px;
-    right: 25px;
+    top: 18px;
+    right: 35px;
     color: #ffffff; 
     cursor: pointer;
     font-size: 25px; 
@@ -85,6 +149,35 @@ nav a:hover {
 
 .fas.fa-search:hover {
     scale: 1.1;
+}
+
+.modal {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #101010;
+    box-shadow: 0px 0px 20px 3px #00000056;
+}
+
+.modal div {
+    margin-left: 150px;
+}
+
+.modal p {
+    width: 370px;
+    margin-left: 55px;
+    color: #777;
+}
+
+#div-erros input {
+    width: 300px;
+    margin-left: 50px;
 }
 
 .banner-div {
@@ -146,7 +239,7 @@ button:hover {
     width: 25px;  
     height: 25px;
     fill: #ffffff; 
-  }
+}
 
 #adc {
     background-color: #2589f8;
@@ -179,8 +272,15 @@ h2 {
 }
 
 h3 {
-    text-align: center;
     color: #c2c2c2;
+    margin: 14px 0px 10px 0px;
+    text-align: center;
+}
+
+
+#sinopse-do-ep, #sinopse-do-filme {
+    width: 824px;
+    margin-top: 20px;
 }
 
 h4 {
@@ -251,49 +351,78 @@ h4 {
     background-color: blueviolet;
 }
 
-.anuncio-horizontal {
-    width: 93%;
-    height: 150px;
-    margin: auto auto auto 30px;
-}
-
 .anuncio {
-    width: 300px;
+    width: 400px;
     height: 250px;
-    margin: 20px auto auto auto; 
-    color: white;
+    margin: 10px auto auto auto; 
+    display: flex;
+    justify-content: center;
 }
 
 section {
     display: flex;
+    padding:  0px 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.titulo-e-adc {
+    display: flex;
+    width: 824px;
+}
+
+.lista-de-canais {
+    height: 300px;
+    overflow-x: auto;
 }
 
 .lista-de-canais, .lista-de-episodios {
     background-color: #202020;
-    width: 200px;
-    height: 500px;
+    width: 400px;
+    max-height: 400px;
     border-radius: 7px;
-    margin: 20px 0px auto 15px;
-    overflow-x: auto;
-}
-.lista-de-canais p, .lista-de-episodios p {
-    background-color: #202020;
-    width: 200px;
-    padding-top: 5px;
-    font-size: 23px;
-    position: fixed;
+    margin: 10px 0px auto auto;
     text-align: center;
+    padding-top: 2px;
+}
+.lista-de-canais div, .lista-de-episodios div {
+    background-color: #101010;
+    width: 400px;
+    padding: 5px;
+    font-size: 23px;
+    display: flex;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin; 
+}
+
+span {
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.span-selecionado {
+    background-color: #2588f8;
+    /* border: solid 2px #1877e4; */
+    border-radius: 5px;
+}
+
+#epis-div {
+    height: 300px;
+    overflow: hidden;
 }
 
 .lista-de-links {
+    width: 400px;
     list-style: none;
     margin-top: 33px;
     padding-left: 15px;
     font-size: 20px;
-    overflow: hidden;
+    overflow: auto;
 }
 .lista-de-links li {
-    margin: 15px auto;
+    margin: 0px auto 30px 0px;
+    text-align: left;
 }
 .lista-de-links a {
     color: #8b8b8b;
@@ -301,7 +430,6 @@ section {
 }
 .lista-de-links a:hover {
     color: white;
-    font-size: 21px;
 }
 .lista-de-links a:visited {
     color: #2588f8;
@@ -311,8 +439,9 @@ section {
 .containar-do-iframe {
     width: 824px;
     height: 515px;
-    margin: 20px auto auto auto;
+    margin: 10px auto auto 0px;
     background-size: 100%;
+    background-position: 100%;
     background-repeat: no-repeat;
 }
 
@@ -322,14 +451,12 @@ section {
 }
 
 .btn-adc {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    width: 50px;
-    height: 50px;
-    background-color: #2588f8;
+    width: 110px;
+    height: 30px;
+    margin: 10px 20px auto 20px;
+    background-color: #1877e4;
     color: white;
-    border-radius: 50%;
+    border-radius: 5px;
     transition: 0.4s;
     cursor: pointer;
     display: flex;
@@ -343,8 +470,16 @@ section {
 }
 
 .btn-adc p {
-    margin: 0;
-    font-size: 40px;
+    margin: 0px 3px 0px 0px;
+    font-size: 30px;
+}
+
+#relatar {
+    background-color: #f82525;
+}
+
+.prox-ep {
+    background-color: #686666;
 }
 
 .bannerADS {

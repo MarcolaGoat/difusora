@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,49 +15,76 @@
     <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5733023860557125"
-     crossorigin="anonymous"></script>
-
 </head>
 <body>
     <header>
-        <div class="logo">  Difusora  </div>
-        <nav>
-            <a href="index.html" >Início</a>
-            <a href="filmes.html">Filmes</a>
-            <a href="series.html">Séries</a>
-            <a href="canais.html">Canais</a>
-            <a href="minhalista.html">Minha lista</a>
-        </nav>
+        <img src="imagens/menu-icone.png" alt="icone de menu" class="menu-icone">
+
+        <a href="index.html"> <div class="logo">  Difusora </div> </a>
+
         <search class="search">
-            <input type="text" maxlength="18" placeholder="Buscar" id="input-pesq"> <i class="iconePesquisa" id="lupa"></i>
+            <input type="text" maxlength="18" placeholder="Buscar" id="input-pesq"> <i class="fas fa-search" id="lupa"></i>
         </search>
     </header>
 
-    <nav id="nav-mobile">
-        <a href="index.html">Início</a>
-        <a href="filmes.html">Filmes</a>
-        <a href="series.html">Séries</a>
-        <a href="canais.html">Canais</a>
-        <a href="minhalista.html">Minha lista</a>
-    </nav>
-
-    <h3 id="titulo-filme">Nome do filme</h3>
+    <div class="sidebar">
+        <img src="imagens/fechar-icone.png" alt="" id="fechar-icone" title="Fechar menu">
+        <nav>
+          <a href="index.html" >Início</a>
+          <a href="filmes.html">Filmes</a>
+          <a href="series.html">Séries</a>
+          <a href="canais.html">Canais</a>
+          <a href="minhalista.html">Minha lista</a>
+        </nav>
+        <!-- <nav>
+          <a href="#" id="faz-pedidos">Fazer Pedidos</a>
+          <a href="#" id="relat-erros">Relatar Erro</a>
+        </nav> -->
+      </div>
+    
+      <div class="fundo-menu" title="Clicar aqui também fecha o menu"></div>
+    
+      <div class="modal" id="div-pedidos">
+        <img src="imagens/fechar-icone.png" alt="" id="fechar-div-pedidos" class="fechar-icone" title="Fechar">
+        <h3>Pedidos</h3>
+        <input type="text" placeholder="Nome da Série ou Filme">
+        <div class="btn-adc" id="btn-pedido"  title="Fazer pedido">Enviar</div>
+      </div>
+    
+      <div class="modal" id="div-erros">
+        <img src="imagens/fechar-icone.png" alt="" id="fechar-div-erros" class="fechar-icone" title="Fechar">
+        <h3>Relatar Erros</h3>
+        <p>Qual erro você encontrou? detalhe-o bem.</p>
+        <input type="text" placeholder="Descreva o erro encontrado">
+        <div class="btn-adc" id="btn-erros"  title="Fazer pedido">Enviar</div>
+      </div>
 
     <section>
-        <!-- <div class="anuncio"></div> -->
+        <div>
+            <div class="containar-do-iframe"></div>
+      
+            <div class="titulo-e-adc">
+              <h3 id="titulo-filme"></h3>
+              <div class="btn-adc" id="btn-adc"  title="Adicionar a minha lista"><p>+</p> minha lista</div>
+              <!-- <div class="btn-adc" id="relatar">Relatar Erro</div> -->
+            </div>
+      
+            <p id="sinopse-do-filme" ></p>
+          </div>
 
-        <div class="containar-do-iframe"></div>
-    
-        <div class="anuncio">
-            <script type="text/javascript" src="https://cdn.diclotrans.com/sdk/v1/49670/654859688e9c8cbeb371e53dac0bad017bd20e0f/lib.js"></script>
-        </div>
+          <div>
+            <div class="anuncio">
+              <script type="text/javascript" src="https://cdn.diclotrans.com/sdk/v1/49670/654859688e9c8cbeb371e53dac0bad017bd20e0f/lib.js"></script>
+            </div>
+
+            <div class="lista-de-episodios">  </div>
+          </div>
     </section>
+
+    <br>
 
     <h2>Veja outros filmes:</h2>
     <div id="filmes-recomendados" class="container"> </div>
-
-    <div class="btn-adc"  title="Adicionar a minha lista"><p>+</p></div>
         
     <script src="scripts/pesquisa.js"></script>
     <script src="scripts/adcFav.js"></script>

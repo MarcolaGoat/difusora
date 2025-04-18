@@ -18,26 +18,45 @@
 </head>
 <body>
     <header>
-        <div class="logo"> Difusora </div>
-        <nav>
-            <a href="index.html">Início</a>
-            <a href="filmes.html">Filmes</a>
-            <a href="series.html" style="font-weight: 700; color: white;">Séries</a>
-            <a href="canais.html">Canais</a>
-            <a href="minhalista.html">Minha lista</a>
-        </nav>
+        <img src="imagens/menu-icone.png" alt="icone de menu" class="menu-icone">
+        <a href="index.html"> <div class="logo">  Difusora </div> </a>
+  
         <search class="search">
             <input type="text" maxlength="18" placeholder="  Buscar" id="input-pesq"> <i class="fas fa-search" id="lupa"></i>
         </search>
     </header>
 
-    <nav id="nav-mobile">
-        <a href="index.html">Início</a>
-        <a href="filmes.html">Filmes</a>
-        <a href="series.html" style="font-weight: 700; color: white;">Séries</a>
-        <a href="canais.html">Canais</a>
-        <a href="minhalista.html">Minha lista</a>
-    </nav>
+    <div class="sidebar">
+        <img src="imagens/fechar-icone.png" alt="" id="fechar-icone" title="Fechar menu">
+        <nav>
+          <a href="index.html" >Início</a>
+          <a href="filmes.html">Filmes</a>
+          <a href="series.html" style="font-weight: 700; color: white;">Séries</a>
+          <a href="canais.html">Canais</a>
+          <a href="minhalista.html">Minha lista</a>
+        </nav>
+        <!-- <nav>
+          <a href="#" id="faz-pedidos">Fazer Pedidos</a>
+          <a href="#" id="relat-erros">Relatar Erro</a>
+        </nav> -->
+      </div>
+    
+      <div class="fundo-menu" title="Clicar aqui também fecha o menu"></div>
+
+      <div class="modal" id="div-pedidos">
+        <img src="imagens/fechar-icone.png" alt="" id="fechar-div-pedidos" class="fechar-icone" title="Fechar">
+        <h3>Pedidos</h3>
+        <input type="text" placeholder="Nome da Série ou Filme">
+        <div class="btn-adc" id="btn-pedido"  title="Fazer pedido">Enviar</div>
+      </div>
+    
+      <div class="modal" id="div-erros">
+        <img src="imagens/fechar-icone.png" alt="" id="fechar-div-erros" class="fechar-icone" title="Fechar">
+        <h3>Relatar Erros</h3>
+        <p>Qual erro você encontrou? detalhe-o bem.</p>
+        <input type="text" placeholder="Descreva o erro encontrado">
+        <div class="btn-adc" id="btn-erros"  title="Fazer pedido">Enviar</div>
+      </div>
 
     <div class="banner-div"> <img src="" alt="" id="banner"></div>
 
@@ -76,8 +95,6 @@
         <div id="series" class="container">  </div>
 
     </div>
-
-    <footer><p>&copy;2025</p></footer>     
     
     <script src="scripts/pesquisa.js"></script>
     <script src="scripts/banners.js"></script>

@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function carregarMinhalista() {
     let favoritos = JSON.parse(localStorage.getItem("favoritos")) || [];
 
-    const container = document.querySelector('.container');
+    const container = document.querySelector('#minhalista');
 
     container.innerHTML = "";
 

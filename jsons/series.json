@@ -4,6 +4,7 @@
     "url_capa": "https://trintaeumas.com.br/wp-content/uploads/2016/11/20161130-blacklist.jpg",
     "codigo": "THEBLCKLST",
     "categoria": "Séries",
+    "imdbID": "",
     "temporadas": [
       { "temporada": 1, "episodios": 22, "subfolder": "ondemand", "server":"09" },
       { "temporada": 2, "episodios": 22, "subfolder": "ondemand", "server":"09" },
@@ -320,14 +321,15 @@
     "codigo": "TMENT",
     "url_capa": "https://livrosfilmes2017.wordpress.com/wp-content/uploads/2017/08/o-mentalista-4.jpg?w=1200",
     "categoria": "Séries",
+    "imdbID": "tt1196946",
     "temporadas": [
       { "temporada": 1, "episodios": 23, "subfolder": "videos", "server": "01" },
       { "temporada": 2, "episodios": 23, "subfolder": "videos", "server": "01" },
       { "temporada": 3, "episodios": 24, "subfolder": "ondemand", "server": "04" },
-      { "temporada": 4, "episodios": 24, "subfolder": "ondemand", "server": "04" },
-      { "temporada": 5, "episodios": 22, "subfolder": "ondemand", "server": "04" },
-      { "temporada": 6, "episodios": 22, "subfolder": "ondemand", "server": "04" },
-      { "temporada": 7, "episodios": 13, "subfolder": "ondemand", "server": "04" }
+      { "temporada": 4, "episodios": 24, "subfolder": "ondemand", "server": "05" },
+      { "temporada": 5, "episodios": 22, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 6, "episodios": 22, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 7, "episodios": 13, "subfolder": "ondemand", "server": "09" }
     ]
   },
   {
@@ -1032,8 +1034,8 @@
   },
   {
     "nome": "Vis-a-Vis",
-    "url_capa": "VISAVIS",
-    "codigo": "https://m.media-amazon.com/images/S/pv-target-images/871b8bde4ce48ef2ba585d60a6ed282ca054f5cc20e9fcd17451829b232e7f1d.jpg",
+    "url_capa": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjzSqwyaRktn8zOczvYfNDOCTbDn4342mkMftP9-oeSU1PtxlY3XRlSM1YcFM_A84nZtyoPRAL9T-2TFHOVI3eLwHWSZb_dtTyPP7eP91sraTVKBmu5BkZSLg75ajUPd8GexKAP2ybX930/s1600/maxresdefault.jpg",
+    "codigo": "VISAVIS",
     "categoria": "Séries",
     "temporadas": [
       { "temporada": 1, "episodios": 11, "subfolder": "ondemand", "server": "04" },

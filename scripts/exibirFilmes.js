@@ -26,6 +26,9 @@ function loadFilme(data) {
 
     iframeContainer.innerHTML = iframeURL;
 
+    const sinopseElemento = document.getElementById('sinopse-do-filme');
+    sinopseElemento.textContent = `Sinopse: ${filme.sinopse}`
+
   } 
   loadRecomendados(data, filme);
 }
@@ -62,3 +65,5 @@ fetch('../jsons/filmes.json')
   .catch(error => {
     console.error('Erro ao carregar o arquivo JSON:', error);
   });
+
+

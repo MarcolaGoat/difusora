@@ -1,53 +1,41 @@
 @media (max-width: 420px) {
     header {
         position: static;
-        height: 70px;
-        overflow: hidden;
     }
 
-    .logo {
-        margin: 10px 10px auto 20px;
-        font-family: "Chau Philomene One", sans-serif;
-        font-size: 25px;
-        letter-spacing: 2px;
-        height: 40px;
-    }
-    
-    nav {
-        display: none;
-        margin: 0px 5px;
+    .menu-icone {
+        margin: 12px 10px auto 10px;
     }
 
     nav a {
         font-size: 16px;
-        margin: auto 10px;
-    }
-
-    #nav-mobile {
-        display: flex;
-        margin: 5px auto 20px auto;
-        justify-content: center;
     }
     
     .search {
-        margin: 10px 15px auto auto;
+        margin: 7px 15px auto auto;
     }
-    
-    .search input {
-        padding-left: 8px;
-        height: 40px;
-        display: none;
-    }
-    
+
     .fas.fa-search {
-        top: 18px;
+        top: 15px;
         right: 20px;
-        color: #ffffff; 
-        cursor: pointer;font-size: 25px; 
+    }
+
+    .modal {
+        width: 384px;
     }
     
-    .fas.fa-search:hover {
-        scale: 1.1;
+    .modal div {
+        margin-left: 140px;
+    }
+    
+    .modal p {
+        width: 310px;
+        margin-left: 55px;
+        color: #777;
+    }
+
+    .modal input{
+        margin: 30px auto 30px 105px;
     }
     
     .banner-div {
@@ -118,11 +106,31 @@
     }
 
     section {
+        padding: 0px 10px;
+    }
+
+    .titulo-e-adc {
+        width: 384px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .titulo-e-adc > h3 {
+        max-width: 384px;
+    }
+
+    #sinopse-do-ep, #sinopse-do-filme{
+        width: 384px;
+        margin-bottom: 10px;
+    }
+
+    .ads-e-lista {
+        display: flex;
         flex-direction: column-reverse;
     }
 
     .anuncio {
-        width: 300px;
+        width: 384px;
         max-height: 250px;
         margin: auto;  
     }
@@ -130,17 +138,18 @@
     .containar-do-iframe {
         width: 384px; 
         height: 240px; 
-        margin: 10px auto;
+        margin: 10px 0px 0px 0px;
     }
 
     .lista-de-canais, .lista-de-episodios {
+        width: 384px;
         margin: 20px auto 10px auto;
     }
-    .lista-de-canais p, .lista-de-episodios p {
-        width: 240px;
-        position: static;
-    }
-    
+
+    .lista-de-canais div, .lista-de-episodios div {
+        width: 384px;
+    }    
+
     .lista-de-links {
         margin-top: 10px;
     }

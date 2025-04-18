@@ -37,3 +37,55 @@ document.addEventListener("keydown", (e) => {
         exitFullScreen();
     }
 });
+
+
+
+// Abrir e fechar menu lateral, div relatar erros e div fazer pedidos
+
+const menu = document.querySelector('.menu-icone');
+const fundomenu = document.querySelector('.fundo-menu');
+const sidebar = document.querySelector('.sidebar');
+const relatErros = document.querySelector('#relat-erros');
+const fazPedidos = document.querySelector('#faz-pedidos');
+const fecharIcone = document.querySelector('#fechar-icone');
+const fecharErros = document.querySelector('#fechar-div-erros');
+const fecharPedidos = document.querySelector('#fechar-div-pedidos');
+const janela = document.body;
+const divErros = document.querySelector('#div-erros');
+const divPedidos = document.querySelector('#div-pedidos');
+
+menu.addEventListener('click', () => {
+        sidebar.style.display = 'block';
+        fundomenu.style.display = 'block';
+        janela.style.overflow = 'hidden';
+})
+
+fundomenu.addEventListener('click', () => {fecharTudo()})
+fecharIcone.addEventListener('click', () => {fecharTudo()})
+
+relatErros.addEventListener('click', () => {abrirDiv(divErros)})
+fazPedidos.addEventListener('click', () => {abrirDiv(divPedidos)})
+
+fecharErros.addEventListener('click', () => {fecharDiv(divErros)})
+fecharPedidos.addEventListener('click', () => {fecharDiv(divPedidos)})
+
+function fecharTudo() {
+    sidebar.style.display = 'none';
+    fundomenu.style.display = 'none';
+    divErros.style.display = 'none';
+    divPedidos.style.display = 'none';
+    janela.style.overflow = 'auto';
+}
+
+function abrirDiv(div) {
+    div.style.display = 'block';
+    sidebar.style.display = 'none';
+}
+
+function fecharDiv(div) {
+    div.style.display = 'none';
+    fundomenu.style.display = 'none';
+    janela.style.overflow = 'auto';
+}
+
+// Relatar Erros
