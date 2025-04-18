@@ -64,6 +64,36 @@ header {
     box-shadow: 5px 0px 20px 3px #00000069;
 }
 
+.sidebar.abrir {
+    display: block;
+    animation: deslizarBarra 0.5s ease-in-out forwards;
+  }
+  
+.sidebar.fechar {
+    animation: esconderBarra 0.5s ease-in-out  forwards;
+  }
+  
+  
+
+@keyframes deslizarBarra {
+    0% {
+      transform: translateX(-250px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+
+  @keyframes esconderBarra {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(-250px);
+    }
+  }
+
+
 
 .sidebar nav{
     border-bottom: 1px solid #333;
@@ -344,6 +374,7 @@ h4 {
     margin: 10px;
     background-color: #1877e4;
     transition: 0.5s;
+    
 }
 
 .container img:hover {
@@ -399,11 +430,12 @@ section {
 span {
     padding: 0px 20px;
     cursor: pointer;
+    border: solid 2px #1877e4;
 }
 
 .span-selecionado {
     background-color: #2588f8;
-    /* border: solid 2px #1877e4; */
+    border: none;
     border-radius: 5px;
 }
 

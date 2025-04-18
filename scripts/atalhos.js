@@ -58,6 +58,8 @@ menu.addEventListener('click', () => {
         sidebar.style.display = 'block';
         fundomenu.style.display = 'block';
         janela.style.overflow = 'hidden';
+        sidebar.classList.remove('fechar');
+        sidebar.classList.add('abrir');
 })
 
 fundomenu.addEventListener('click', () => {fecharTudo()})
@@ -70,7 +72,12 @@ fecharErros.addEventListener('click', () => {fecharDiv(divErros)})
 fecharPedidos.addEventListener('click', () => {fecharDiv(divPedidos)})
 
 function fecharTudo() {
-    sidebar.style.display = 'none';
+    sidebar.classList.remove('abrir');
+    sidebar.classList.add('fechar');
+      setTimeout(() => {
+      sidebar.style.display = 'none';
+      }, 600);
+
     fundomenu.style.display = 'none';
     divErros.style.display = 'none';
     divPedidos.style.display = 'none';
