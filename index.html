@@ -52,20 +52,20 @@
 
   <div class="modal" id="div-pedidos">
       <img src="imagens/fechar-icone.png" alt="" id="fechar-div-pedidos" class="fechar-icone" title="Fechar">
-      <form netlify>
+      <form name="pedidos" method="POST" netlify>
       <h3>Pedidos</h3>
-      <input type="text" placeholder="Nome da Série ou Filme">
-      <input type="submit" value="Enviar" id="sub">
+      <input type="text" placeholder="Nome da Série ou Filme" name="message">
+      <button type="submit" id="sub">Enviar</button>
     </form>
   </div>
 
   <div class="modal" id="div-erros">
     <img src="imagens/fechar-icone.png" alt="" id="fechar-div-erros" class="fechar-icone" title="Fechar">
-    <form netlify>
+    <form name="erros" method="POST" netlify>
       <h3>Relatar Erros</h3>
       <p>Qual erro você encontrou? detalhe-o bem.</p>
-      <input type="text" placeholder="Descreva o erro encontrado">
-      <input type="submit" value="Relatar" id="sub">
+      <input type="text" placeholder="Descreva o erro encontrado" name="message">
+      <button type="submit" id="sub">Relatar</button>
     </form>
   </div>
 

@@ -96,3 +96,5 @@ function fecharDiv(div) {
 }
 
 // Relatar Erros
+const btnErros = document.querySelector('#relatar');
+btnErros.addEventListener('click', () => {abrirDiv(divErros)})
