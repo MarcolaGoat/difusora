@@ -233,11 +233,11 @@
     "url_capa": "https://4kwallpapers.com/images/wallpapers/la-casa-de-papel-tv-2560x1440-18748.jpg",
     "categoria": "Séries",
     "temporadas": [
-      { "temporada": 1, "episodios": 13, "subfolder": "ondemand", "server": "14" },
-      { "temporada": 2, "episodios": 9, "subfolder": "ondemand", "server": "14" },
-      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "14" },
+      { "temporada": 1, "episodios": 13, "subfolder": "ondemand", "server": "13" },
+      { "temporada": 2, "episodios": 9, "subfolder": "ondemand", "server": "13" },
+      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "04" },
       { "temporada": 4, "episodios": 8, "subfolder": "ondemand", "server": "14" },
-      { "temporada": 5, "episodios": 10, "subfolder": "ondemand", "server": "14" }
+      { "temporada": 5, "episodios": 10, "subfolder": "ondemand", "server": "15" }
     ]
   },
   {
@@ -247,7 +247,7 @@
     "categoria": "Séries",
     "temporadas": [
       { "temporada": 1, "episodios": 10, "subfolder": "ondemand", "server": "15" },
-      { "temporada": 2, "episodios": 7, "subfolder": "ondemand", "server": "15" }
+      { "temporada": 2, "episodios": 7, "subfolder": "ondemand", "server": "21" }
     ]
   },
   {
@@ -299,9 +299,9 @@
     "categoria": "Séries",
     "temporadas": [
       { "temporada": 1, "episodios": 6, "subfolder": "ondemand", "server": "04" },
-      { "temporada": 2, "episodios": 6, "subfolder": "ondemand", "server": "04" },
-      { "temporada": 3, "episodios": 6, "subfolder": "ondemand", "server": "04" },
-      { "temporada": 4, "episodios": 8, "subfolder": "ondemand", "server": "04" }
+      { "temporada": 2, "episodios": 6, "subfolder": "ondemand", "server": "10" },
+      { "temporada": 3, "episodios": 6, "subfolder": "ondemand", "server": "17" },
+      { "temporada": 4, "episodios": 8, "subfolder": "ondemand", "server": "20" }
     ]
   },
   {
@@ -311,9 +311,9 @@
     "categoria": "Séries",
     "temporadas": [
       { "temporada": 1, "episodios": 10, "subfolder": "ondemand", "server": "10" },
-      { "temporada": 2, "episodios": 12, "subfolder": "ondemand", "server": "10" },
-      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "10" },
-      { "temporada": 4, "episodios": 13, "subfolder": "ondemand", "server": "10" }
+      { "temporada": 2, "episodios": 12, "subfolder": "ondemand", "server": "21" },
+      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "21" },
+      { "temporada": 4, "episodios": 13, "subfolder": "ondemand", "server": "08" }
     ]
   },
   {
@@ -339,7 +339,7 @@
     "categoria": "Séries",
     "temporadas": [
       { "temporada": 1, "episodios": 8, "subfolder": "ondemand", "server": "11" },
-      { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "11" },
+      { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "13" },
       { "temporada": 3, "episodios": 7, "subfolder": "ondemand", "server": "11" }
     ]
   },

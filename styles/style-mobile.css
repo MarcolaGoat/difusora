@@ -154,4 +154,14 @@
         margin-top: 10px;
     }
 
+    #but {
+        font-size: 15px;
+        width: 175px;
+    }
+
+    .btn-adc:hover {
+        width: 130px;
+        font-size: 16px;
+    }
+
 }
