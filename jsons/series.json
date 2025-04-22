@@ -340,7 +340,7 @@
     "temporadas": [
       { "temporada": 1, "episodios": 8, "subfolder": "ondemand", "server": "11" },
       { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "13" },
-      { "temporada": 3, "episodios": 7, "subfolder": "ondemand", "server": "11" }
+      { "temporada": 3, "episodios": 7, "subfolder": "ondemand", "server": "08" }
     ]
   },
   {
@@ -353,8 +353,8 @@
       { "temporada": 2, "episodios": 6, "subfolder": "ondemand", "server": "04" },
       { "temporada": 3, "episodios": 6, "subfolder": "ondemand", "server": "04" },
       { "temporada": 4, "episodios": 6, "subfolder": "ondemand", "server": "04" },
-      { "temporada": 5, "episodios": 6, "subfolder": "ondemand", "server": "04" },
-      { "temporada": 6, "episodios": 6, "subfolder": "ondemand", "server": "04" }
+      { "temporada": 5, "episodios": 6, "subfolder": "ondemand", "server": "12" },
+      { "temporada": 6, "episodios": 6, "subfolder": "ondemand", "server": "16" }
     ]
   },
   {
@@ -366,11 +366,11 @@
       { "temporada": 1, "episodios": 22, "subfolder": "videos", "server": "01" },
       { "temporada": 2, "episodios": 24, "subfolder": "videos", "server": "01" },
       { "temporada": 3, "episodios": 24, "subfolder": "videos", "server": "01" },
-      { "temporada": 4, "episodios": 16, "subfolder": "ondemand", "server": "01" },
-      { "temporada": 5, "episodios": 24, "subfolder": "ondemand", "server": "01" },
-      { "temporada": 6, "episodios": 21, "subfolder": "ondemand", "server": "01" },
-      { "temporada": 7, "episodios": 23, "subfolder": "ondemand", "server": "01" },
-      { "temporada": 8, "episodios": 22, "subfolder": "ondemand", "server": "01" }
+      { "temporada": 4, "episodios": 16, "subfolder": "ondemand", "server": "17" },
+      { "temporada": 5, "episodios": 24, "subfolder": "ondemand", "server": "17" },
+      { "temporada": 6, "episodios": 21, "subfolder": "ondemand", "server": "17" },
+      { "temporada": 7, "episodios": 23, "subfolder": "ondemand", "server": "17" },
+      { "temporada": 8, "episodios": 22, "subfolder": "ondemand", "server": "04" }
     ]
   },
   {
@@ -383,9 +383,9 @@
       { "temporada": 2, "episodios": 35, "subfolder": "ondemand",     "server": "12" },
       { "temporada": 3, "episodios": 36, "subfolder": "ondemand",     "server": "12" },
       { "temporada": 4, "episodios": 40, "subfolder": "ondemand",     "server": "12" },
-      { "temporada": 5, "episodios": 42, "subfolder": "ondemand",     "server": "12" },
-      { "temporada": 6, "episodios": 39, "subfolder": "ondemand",     "server": "12" },
-      { "temporada": 7, "episodios": 49, "subfolder": "ondemand",     "server": "12" }
+      { "temporada": 5, "episodios": 42, "subfolder": "ondemand",     "server": "10" },
+      { "temporada": 6, "episodios": 39, "subfolder": "ondemand",     "server": "08" },
+      { "temporada": 7, "episodios": 49, "subfolder": "ondemand",     "server": "06" }
     ]
   },
   {
@@ -410,10 +410,10 @@
     "temporadas": [
       { "temporada": 1, "episodios": 25, "subfolder": "ondemand", "server": "12" },
       { "temporada": 2, "episodios": 24, "subfolder": "ondemand", "server": "12" },
-      { "temporada": 3, "episodios": 24, "subfolder": "ondemand", "server": "12" },
-      { "temporada": 4, "episodios": 26, "subfolder": "ondemand", "server": "12" },
-      { "temporada": 5, "episodios": 25, "subfolder": "ondemand", "server": "12" },
-      { "temporada": 6, "episodios": 24, "subfolder": "ondemand", "server": "12" }
+      { "temporada": 3, "episodios": 24, "subfolder": "ondemand", "server": "15" },
+      { "temporada": 4, "episodios": 26, "subfolder": "ondemand", "server": "11" },
+      { "temporada": 5, "episodios": 25, "subfolder": "ondemand", "server": "17" },
+      { "temporada": 6, "episodios": 24, "subfolder": "ondemand", "server": "23" }
     ]
   },
   {
@@ -470,12 +470,12 @@
     "categoria": "Séries",
     "temporadas": [
       { "temporada": 1, "episodios": 18, "subfolder": "ondemand", "server": "12" },
-      { "temporada": 2, "episodios": 18, "subfolder": "ondemand", "server": "12" },
-      { "temporada": 3, "episodios": 20, "subfolder": "ondemand", "server": "12" },
-      { "temporada": 4, "episodios": 20, "subfolder": "ondemand", "server": "12" },
-      { "temporada": 5, "episodios": 18, "subfolder": "ondemand", "server": "12" },
-      { "temporada": 6, "episodios": 22, "subfolder": "ondemand", "server": "12" },
-      { "temporada": 7, "episodios": 10, "subfolder": "ondemand", "server": "12" }
+      { "temporada": 2, "episodios": 18, "subfolder": "ondemand", "server": "06" },
+      { "temporada": 3, "episodios": 20, "subfolder": "ondemand", "server": "14" },
+      { "temporada": 4, "episodios": 20, "subfolder": "ondemand", "server": "15" },
+      { "temporada": 5, "episodios": 18, "subfolder": "ondemand", "server": "16" },
+      { "temporada": 6, "episodios": 22, "subfolder": "ondemand", "server": "19" },
+      { "temporada": 7, "episodios": 10, "subfolder": "ondemand", "server": "23" }
     ]
   },
   {
@@ -485,9 +485,9 @@
     "categoria": "Séries",
     "temporadas": [
       { "temporada": 1, "episodios": 8, "subfolder": "ondemand", "server": "04" },
-      { "temporada": 2, "episodios": 8, "subfolder": "ondemand", "server": "04" },
-      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "04" },
-      { "temporada": 4, "episodios": 8, "subfolder": "ondemand", "server": "04" }
+      { "temporada": 2, "episodios": 8, "subfolder": "ondemand", "server": "12" },
+      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "17" },
+      { "temporada": 4, "episodios": 8, "subfolder": "ondemand", "server": "23" }
     ]
   },
   {
@@ -497,8 +497,8 @@
     "categoria": "Séries",
     "temporadas": [
       { "temporada": 1, "episodios": 8, "subfolder": "ondemand", "server": "15" },
-      { "temporada": 2, "episodios": 8, "subfolder": "ondemand", "server": "15" },
-      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "15" }
+      { "temporada": 2, "episodios": 8, "subfolder": "ondemand", "server": "13" },
+      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "23" }
     ]
   },
   {
@@ -519,8 +519,8 @@
       { "temporada": 1, "episodios": 12, "subfolder": "ondemand", "server": "18" },
       { "temporada": 2, "episodios": 12, "subfolder": "ondemand", "server": "18" },
       { "temporada": 3, "episodios": 12, "subfolder": "ondemand", "server": "18" },
-      { "temporada": 4, "episodios": 12, "subfolder": "ondemand", "server": "18" },
-      { "temporada": 5, "episodios": 12, "subfolder": "ondemand", "server": "18" }
+      { "temporada": 4, "episodios": 12, "subfolder": "ondemand", "server": "21" },
+      { "temporada": 5, "episodios": 12, "subfolder": "ondemand", "server": "22" }
     ]
   },
   {
@@ -546,17 +546,17 @@
     "temporadas": [
       { "temporada": 1, "episodios": 41, "subfolder": "videos", "server": "01" },
       { "temporada": 2, "episodios": 39, "subfolder": "videos", "server": "01" },
-      { "temporada": 3, "episodios": 37, "subfolder": "ondemand", "server": "01" },
-      { "temporada": 4, "episodios": 38, "subfolder": "ondemand", "server": "01" },
-      { "temporada": 5, "episodios": 41, "subfolder": "ondemand", "server": "01" },
-      { "temporada": 6, "episodios": 48, "subfolder": "ondemand", "server": "01" },
-      { "temporada": 7, "episodios": 50, "subfolder": "ondemand", "server": "01" },
-      { "temporada": 8, "episodios": 47, "subfolder": "ondemand", "server": "01" },
-      { "temporada": 9, "episodios": 49, "subfolder": "ondemand", "server": "01" },
-      { "temporada": 10, "episodios": 22, "subfolder": "ondemand", "server": "01" },
-      { "temporada": 11, "episodios": 50, "subfolder": "ondemand", "server": "01" },
-      { "temporada": 12, "episodios": 49, "subfolder": "ondemand", "server": "01" },
-      { "temporada": 13, "episodios": 52, "subfolder": "ondemand", "server": "01" }
+      { "temporada": 3, "episodios": 37, "subfolder": "ondemand", "server": "02" },
+      { "temporada": 4, "episodios": 38, "subfolder": "ondemand", "server": "02" },
+      { "temporada": 5, "episodios": 41, "subfolder": "ondemand", "server": "02" },
+      { "temporada": 6, "episodios": 48, "subfolder": "ondemand", "server": "04" },
+      { "temporada": 7, "episodios": 50, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 8, "episodios": 47, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 9, "episodios": 49, "subfolder": "ondemand", "server": "11" },
+      { "temporada": 10, "episodios": 22, "subfolder": "ondemand", "server": "11" },
+      { "temporada": 11, "episodios": 50, "subfolder": "ondemand", "server": "08" },
+      { "temporada": 12, "episodios": 49, "subfolder": "ondemand", "server": "08" },
+      { "temporada": 13, "episodios": 52, "subfolder": "ondemand", "server": "15" }
     ]
   },
   {
@@ -566,9 +566,9 @@
     "categoria": "Desenhos",
     "temporadas": [
       { "temporada": 1, "episodios": 40, "subfolder": "ondemand", "server": "15" },
-      { "temporada": 2, "episodios": 38, "subfolder": "ondemand", "server": "15" },
-      { "temporada": 3, "episodios": 37, "subfolder": "ondemand", "server": "15" },
-      { "temporada": 4, "episodios": 35, "subfolder": "ondemand", "server": "15" }
+      { "temporada": 2, "episodios": 38, "subfolder": "ondemand", "server": "13" },
+      { "temporada": 3, "episodios": 37, "subfolder": "ondemand", "server": "20" },
+      { "temporada": 4, "episodios": 35, "subfolder": "ondemand", "server": "20" }
     ]
   },
   {
@@ -578,9 +578,9 @@
     "categoria": "Desenhos",
     "temporadas": [
       { "temporada": 1, "episodios": 51, "subfolder": "ondemand", "server": "02" },
-      { "temporada": 2, "episodios": 26, "subfolder": "ondemand", "server": "02" },
-      { "temporada": 3, "episodios": 26, "subfolder": "ondemand", "server": "02" },
-      { "temporada": 4, "episodios": 26, "subfolder": "ondemand", "server": "02" }
+      { "temporada": 2, "episodios": 26, "subfolder": "ondemand", "server": "20" },
+      { "temporada": 3, "episodios": 26, "subfolder": "ondemand", "server": "20" },
+      { "temporada": 4, "episodios": 26, "subfolder": "ondemand", "server": "20" }
     ]
   },
   {
@@ -591,8 +591,8 @@
     "temporadas": [
       { "temporada": 1, "episodios": 13, "subfolder": "ondemand", "server": "05" },
       { "temporada": 2, "episodios": 13, "subfolder": "ondemand", "server": "05" },
-      { "temporada": 3, "episodios": 38, "subfolder": "ondemand", "server": "05" },
-      { "temporada": 4, "episodios": 24, "subfolder": "ondemand", "server": "05" }
+      { "temporada": 3, "episodios": 38, "subfolder": "ondemand", "server": "02" },
+      { "temporada": 4, "episodios": 24, "subfolder": "ondemand", "server": "02" }
     ]
   },
   {
@@ -605,9 +605,9 @@
       { "temporada": 2, "episodios": 26, "subfolder": "ondemand", "server": "03" },
       { "temporada": 3, "episodios": 26, "subfolder": "ondemand", "server": "03" },
       { "temporada": 4, "episodios": 22, "subfolder": "ondemand", "server": "03" },
-      { "temporada": 5, "episodios": 13, "subfolder": "ondemand", "server": "03" },
-      { "temporada": 6, "episodios": 13, "subfolder": "ondemand", "server": "03" },
-      { "temporada": 7, "episodios": 7, "subfolder": "ondemand", "server": "03" }
+      { "temporada": 5, "episodios": 13, "subfolder": "ondemand", "server": "21" },
+      { "temporada": 6, "episodios": 13, "subfolder": "ondemand", "server": "21" },
+      { "temporada": 7, "episodios": 7, "subfolder": "ondemand", "server": "21" }
     ]
   },
   {
@@ -618,10 +618,10 @@
     "temporadas": [
       { "temporada": 1, "episodios": 13, "subfolder": "ondemand", "server": "09" },
       { "temporada": 2, "episodios": 12, "subfolder": "ondemand", "server": "09" },
-      { "temporada": 3, "episodios": 12, "subfolder": "ondemand", "server": "09" },
-      { "temporada": 4, "episodios": 12, "subfolder": "ondemand", "server": "09" },
-      { "temporada": 5, "episodios": 12, "subfolder": "ondemand", "server": "09" },
-      { "temporada": 6, "episodios": 16, "subfolder": "ondemand", "server": "09" }
+      { "temporada": 3, "episodios": 12, "subfolder": "ondemand", "server": "11" },
+      { "temporada": 4, "episodios": 12, "subfolder": "ondemand", "server": "13" },
+      { "temporada": 5, "episodios": 12, "subfolder": "ondemand", "server": "13" },
+      { "temporada": 6, "episodios": 16, "subfolder": "ondemand", "server": "12" }
     ]
   },
   {
@@ -633,11 +633,11 @@
       { "temporada": 1, "episodios": 12, "subfolder": "ondemand", "server": "05" },
       { "temporada": 2, "episodios": 28, "subfolder": "ondemand", "server": "05" },
       { "temporada": 3, "episodios": 40, "subfolder": "ondemand", "server": "05" },
-      { "temporada": 4, "episodios": 37, "subfolder": "ondemand", "server": "05" },
-      { "temporada": 5, "episodios": 37, "subfolder": "ondemand", "server": "05" },
-      { "temporada": 6, "episodios": 28, "subfolder": "ondemand", "server": "05" },
-      { "temporada": 7, "episodios": 36, "subfolder": "ondemand", "server": "05" },
-      { "temporada": 8, "episodios": 29, "subfolder": "ondemand", "server": "05" }
+      { "temporada": 4, "episodios": 37, "subfolder": "ondemand", "server": "07" },
+      { "temporada": 5, "episodios": 37, "subfolder": "ondemand", "server": "08" },
+      { "temporada": 6, "episodios": 28, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 7, "episodios": 36, "subfolder": "ondemand", "server": "10" },
+      { "temporada": 8, "episodios": 29, "subfolder": "ondemand", "server": "11" }
     ]
   },
   {
@@ -647,7 +647,7 @@
     "categoria": "Desenhos",
     "temporadas": [
       { "temporada": 1, "episodios": 25, "subfolder": "ondemand", "server": "16" },
-      { "temporada": 2, "episodios": 11, "subfolder": "ondemand", "server": "16" }
+      { "temporada": 2, "episodios": 11, "subfolder": "ondemand", "server": "24" }
     ]
   },
 
@@ -789,7 +789,7 @@
   },
 
   {
-    "nome": "Eu-as-patroa-e-as-crianças",
+    "nome": "Eu-a-patroa-e-as-crianças",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/C1294F62AF25C5C1FC7853853CE21632DB365D10BC06A4CF66E2D3C177BBEAF9/scale?width=1200&aspectRatio=1.78&format=webp",
     "codigo": "EUAPTEAC",
     "categoria": "Séries",
@@ -809,15 +809,15 @@
     "temporadas": [
       { "temporada": 1, "episodios": 6, "subfolder": "videos", "server": "01" },
       { "temporada": 2, "episodios": 13, "subfolder": "videos", "server": "01" },
-      { "temporada": 3, "episodios": 16, "subfolder": "videos", "server": "01" },
-      { "temporada": 4, "episodios": 16, "subfolder": "videos", "server": "01" },
-      { "temporada": 5, "episodios": 16, "subfolder": "videos", "server": "01" },
-      { "temporada": 6, "episodios": 16, "subfolder": "videos", "server": "01" },
-      { "temporada": 7, "episodios": 16, "subfolder": "videos", "server": "01" },
-      { "temporada": 8, "episodios": 16, "subfolder": "videos", "server": "01" },
-      { "temporada": 9, "episodios": 16, "subfolder": "videos", "server": "01" },
-      { "temporada": 10, "episodios": 22, "subfolder": "videos", "server": "01" },
-      { "temporada": 11, "episodios": 24, "subfolder": "videos", "server": "01" }
+      { "temporada": 3, "episodios": 16, "subfolder": "ondemand", "server": "04" },
+      { "temporada": 4, "episodios": 16, "subfolder": "ondemand", "server": "05" },
+      { "temporada": 5, "episodios": 16, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 6, "episodios": 16, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 7, "episodios": 16, "subfolder": "ondemand", "server": "11" },
+      { "temporada": 8, "episodios": 16, "subfolder": "ondemand", "server": "13" },
+      { "temporada": 9, "episodios": 16, "subfolder": "ondemand", "server": "10" },
+      { "temporada": 10, "episodios": 22, "subfolder": "ondemand", "server": "13" },
+      { "temporada": 11, "episodios": 24, "subfolder": "ondemand", "server": "15" }
     ]
   },
   {
@@ -828,12 +828,12 @@
     "temporadas": [
       { "temporada": 1, "episodios": 10, "subfolder": "videos", "server": "01" },
       { "temporada": 2, "episodios": 10, "subfolder": "videos", "server": "01" },
-      { "temporada": 3, "episodios": 10, "subfolder": "videos", "server": "01" },
-      { "temporada": 4, "episodios": 10, "subfolder": "videos", "server": "01" },
-      { "temporada": 5, "episodios": 10, "subfolder": "videos", "server": "01" },
-      { "temporada": 6, "episodios": 10, "subfolder": "videos", "server": "01" },
-      { "temporada": 7, "episodios": 7, "subfolder": "videos", "server": "01" },
-      { "temporada": 8, "episodios": 6, "subfolder": "videos", "server": "01" }
+      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "04" },
+      { "temporada": 4, "episodios": 10, "subfolder": "ondemand", "server": "07" },
+      { "temporada": 5, "episodios": 10, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 6, "episodios": 10, "subfolder": "ondemand", "server": "10" },
+      { "temporada": 7, "episodios": 7, "subfolder": "ondemand", "server": "05" },
+      { "temporada": 8, "episodios": 6, "subfolder": "ondemand", "server": "06" }
     ]
   },
   {
@@ -842,44 +842,12 @@
     "codigo": "VKGS",
     "categoria": "Séries",
     "temporadas": [
-      { "temporada": 1, "episodios": 9, "subfolder": "ondemand", "server": "08" },
+      { "temporada": 1, "episodios": 9, "subfolder": "ondemand", "server": "05" },
       { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "08" },
-      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "08" },
-      { "temporada": 4, "episodios": 20, "subfolder": "ondemand", "server": "08" },
+      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 4, "episodios": 20, "subfolder": "ondemand", "server": "11" },
+      { "temporada": 5, "episodios": 20, "subfolder": "ondemand", "server": "13" },
       { "temporada": 6, "episodios": 20, "subfolder": "ondemand", "server": "08" }
-    ]
-  },
-  {
-    "nome": "Brooklyn-nine-nine",
-    "url_capa": "https://cinepop.com.br/wp-content/uploads/2020/12/brooklyn-99-1.jpg",
-    "codigo": "BRKLNN",
-    "categoria": "Séries",
-    "temporadas": [
-      { "temporada": 1, "episodios": 22, "subfolder": "ondemand", "server": "13" },
-      { "temporada": 2, "episodios": 23, "subfolder": "ondemand", "server": "13" },
-      { "temporada": 3, "episodios": 23, "subfolder": "ondemand", "server": "13" },
-      { "temporada": 4, "episodios": 22, "subfolder": "ondemand", "server": "13" },
-      { "temporada": 5, "episodios": 22, "subfolder": "ondemand", "server": "13" },
-      { "temporada": 6, "episodios": 18, "subfolder": "ondemand", "server": "13" },
-      { "temporada": 7, "episodios": 13, "subfolder": "ondemand", "server": "13" },
-      { "temporada": 8, "episodios": 10, "subfolder": "ondemand", "server": "13" }
-    ]
-  },
-  {
-    "nome": "The-flash",
-    "url_capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdMbz1oWmejsXkDFKDIoIVlP5XPMTBw_UkRg&s",
-    "codigo": "THEFLSH",
-    "categoria": "Séries",
-    "temporadas": [
-      { "temporada": 1, "episodios": 23, "subfolder": "ondemand", "server": "19" },
-      { "temporada": 2, "episodios": 23, "subfolder": "ondemand", "server": "19" },
-      { "temporada": 3, "episodios": 23, "subfolder": "ondemand", "server": "19" },
-      { "temporada": 4, "episodios": 23, "subfolder": "ondemand", "server": "19" },
-      { "temporada": 5, "episodios": 22, "subfolder": "ondemand", "server": "19" },
-      { "temporada": 6, "episodios": 19, "subfolder": "ondemand", "server": "19" },
-      { "temporada": 7, "episodios": 18, "subfolder": "ondemand", "server": "19" },
-      { "temporada": 8, "episodios": 20, "subfolder": "ondemand", "server": "19" },
-      { "temporada": 9, "episodios": 13, "subfolder": "ondemand", "server": "19" }
     ]
   },
   {
@@ -891,7 +859,7 @@
       { "temporada": 1, "episodios": 3, "subfolder": "ondemand", "server": "09" },
       { "temporada": 2, "episodios": 3, "subfolder": "ondemand", "server": "09" },
       { "temporada": 3, "episodios": 3, "subfolder": "ondemand", "server": "09" },
-      { "temporada": 4, "episodios": 3, "subfolder": "ondemand", "server": "09" }
+      { "temporada": 4, "episodios": 3, "subfolder": "ondemand", "server": "11" }
     ]
   },
   {
@@ -912,9 +880,9 @@
     "categoria": "Séries",
     "temporadas": [
       { "temporada": 1, "episodios": 26, "subfolder": "ondemand", "server": "09" },
-      { "temporada": 2, "episodios": 13, "subfolder": "ondemand", "server": "09" },
-      { "temporada": 3, "episodios": 13, "subfolder": "ondemand", "server": "09" },
-      { "temporada": 4, "episodios": 16, "subfolder": "ondemand", "server": "09" }
+      { "temporada": 2, "episodios": 13, "subfolder": "ondemand", "server": "10" },
+      { "temporada": 3, "episodios": 13, "subfolder": "ondemand", "server": "10" },
+      { "temporada": 4, "episodios": 16, "subfolder": "ondemand", "server": "10" }
     ]
   },
   {
@@ -935,9 +903,9 @@
     "codigo": "STRNGRTHNG",
     "categoria": "Séries",
     "temporadas": [
-      { "temporada": 1, "episodios": 8, "subfolder": "ondemand", "server": "16" },
-      { "temporada": 2, "episodios": 8, "subfolder": "ondemand", "server": "16" },
-      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "16" },
+      { "temporada": 1, "episodios": 8, "subfolder": "ondemand", "server": "11" },
+      { "temporada": 2, "episodios": 8, "subfolder": "ondemand", "server": "13" },
+      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "06" },
       { "temporada": 4, "episodios": 9, "subfolder": "ondemand", "server": "16" }
     ]
   },
@@ -948,8 +916,8 @@
     "categoria": "Séries",
     "temporadas": [
       { "temporada": 1, "episodios": 27, "subfolder": "ondemand", "server": "10" },
-      { "temporada": 2, "episodios": 24, "subfolder": "ondemand", "server": "10" },
-      { "temporada": 3, "episodios": 24, "subfolder": "ondemand", "server": "10" }
+      { "temporada": 2, "episodios": 24, "subfolder": "ondemand", "server": "11" },
+      { "temporada": 3, "episodios": 24, "subfolder": "ondemand", "server": "13" }
     ]
   },
   {
@@ -959,7 +927,7 @@
     "categoria": "Séries",
     "temporadas": [
       { "temporada": 1, "episodios": 10, "subfolder": "ondemand", "server": "09" },
-      { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "09" },
+      { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "11" },
       { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "09" }
     ]
   },
@@ -980,9 +948,9 @@
     "categoria": "Séries",
     "temporadas": [
       { "temporada": 1, "episodios": 10, "subfolder": "ondemand", "server": "06" },
-      { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "06" },
-      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "06" },
-      { "temporada": 4, "episodios": 10, "subfolder": "ondemand", "server": "06" }
+      { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "08" },
+      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "08" },
+      { "temporada": 4, "episodios": 10, "subfolder": "ondemand", "server": "19" }
     ]
   },
   {
@@ -995,7 +963,7 @@
       { "temporada": 2, "episodios": 12, "subfolder": "ondemand", "server": "06" },
       { "temporada": 3, "episodios": 12, "subfolder": "ondemand", "server": "06" },
       { "temporada": 4, "episodios": 12, "subfolder": "ondemand", "server": "06" },
-      { "temporada": 5, "episodios": 12, "subfolder": "ondemand", "server": "06" }
+      { "temporada": 5, "episodios": 12, "subfolder": "ondemand", "server": "04" }
     ]
   },
   {
@@ -1006,7 +974,7 @@
     "temporadas": [
       { "temporada": 1, "episodios": 10, "subfolder": "ondemand", "server": "03" },
       { "temporada": 2, "episodios": 8, "subfolder": "ondemand", "server": "03" },
-      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "03" }
+      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "07" }
     ]
   },
   {
@@ -1016,8 +984,9 @@
     "categoria": "Séries",
     "temporadas": [
       { "temporada": 1, "episodios": 6, "subfolder": "ondemand", "server": "03" },
-      { "temporada": 2, "episodios": 6, "subfolder": "ondemand", "server": "03" },
-      { "temporada": 3, "episodios": 6, "subfolder": "ondemand", "server": "03" }
+      { "temporada": 2, "episodios": 6, "subfolder": "ondemand", "server": "12" },
+      { "temporada": 3, "episodios": 6, "subfolder": "ondemand", "server": "07" },
+      { "temporada": 4, "episodios": 6, "subfolder": "ondemand", "server": "25" }
     ]
   },
   {
@@ -1027,9 +996,9 @@
     "categoria": "Séries",
     "temporadas": [
       { "temporada": 1, "episodios": 10, "subfolder": "ondemand", "server": "04" },
-      { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "04" },
-      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "04" },
-      { "temporada": 3, "episodios": 6, "subfolder": "ondemand", "server": "04" }
+      { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "12" },
+      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "16" },
+      { "temporada": 3, "episodios": 6, "subfolder": "ondemand", "server": "23" }
     ]
   },
   {
@@ -1040,8 +1009,8 @@
     "temporadas": [
       { "temporada": 1, "episodios": 11, "subfolder": "ondemand", "server": "04" },
       { "temporada": 2, "episodios": 13, "subfolder": "ondemand", "server": "04" },
-      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "04" },
-      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "04" }
+      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "06" },
+      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "12" }
     ]
   },
   {
@@ -1060,9 +1029,9 @@
     "categoria": "Séries",
     "temporadas": [
       { "temporada": 1, "episodios": 10, "subfolder": "ondemand", "server": "14" },
-      { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "14" },
-      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "14" },
-      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "14" }
+      { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "08" },
+      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "19" },
+      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "24" }
     ]
   }
 

@@ -87,6 +87,7 @@ function fecharTudo() {
 function abrirDiv(div) {
     div.style.display = 'block';
     sidebar.style.display = 'none';
+    fundomenu.style.display = 'block';
 }
 
 function fecharDiv(div) {

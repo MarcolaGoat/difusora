@@ -120,7 +120,7 @@ function gerarListaEps(temporada, serie) {
       const iframeContainer = document.querySelector('.containar-do-iframe');
       iframeContainer.innerHTML = iframeURL;
   
-      infoContainer.textContent = `Temp: ${temporada} Ep: ${episodio}`;
+      infoContainer.textContent = `Temp. ${temporada} Ep. ${episodio}`;
 
       const proxEp = document.querySelector('#prox-ep');
 
@@ -194,7 +194,7 @@ function loadTituloEp(serie, t, e) {
         .then(data => {
             if (data.Response === "True") {
               infoContainer.textContent += `: ${data.Title}`
-              document.getElementById('sinopse-do-ep').innerHTML = data.Plot;
+              document.getElementById('sinopse-do-ep').innerHTML = `Sinopse: ${data.Plot}`;
             } 
         })
         .catch(error => {

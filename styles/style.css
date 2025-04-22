@@ -510,11 +510,11 @@ span:hover {
 .btn-adc img {
     width: 29px;
     height: 29px;
-    margin-right: 5px;
+    margin: auto 2px auto 2px;
 }
 
 .btn-adc {
-    width: 55px;
+    width: 45px;
     height: 40px;
     margin: 10px 20px auto 20px;
     background-color: #3f3f3f;
@@ -541,7 +541,7 @@ span:hover {
     font-size: 30px;
 }
 
-#relatar {
+#relatar:hover {
     background-color: #f82525;
 }
 
@@ -597,7 +597,7 @@ width: 5px;
     align-items: center;
     gap: 0.6em;
     font-size: 0px;
-    width: 55px;
+    width: 50px;
     height: 40px;
     margin: 10px 20px auto 20px;
   }

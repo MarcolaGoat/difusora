@@ -100,8 +100,8 @@
     }
     
     .container img {
-        width: 179px;
-        height: 108px;
+        width: 161px;
+        height: 97px;
         margin: 5px;
     }
 
@@ -159,7 +159,7 @@
         width: 175px;
     }
 
-    .btn-adc:hover {
+    .btn-adc {
         width: 130px;
         font-size: 16px;
     }
