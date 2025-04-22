@@ -161,7 +161,8 @@ nav a:hover {
 
 .modal input{
     display: block;
-    margin: 30px auto 30px 115px;
+    margin: 30px auto;
+    width: 300px;
 }
 
 .search input:focus {
@@ -203,11 +204,6 @@ nav a:hover {
     width: 370px;
     margin-left: 55px;
     color: #777;
-}
-
-.modal input {
-    width: 300px;
-    margin-left: 50px;
 }
 
 #sub {
@@ -388,14 +384,13 @@ h4 {
     width: 300px;
     height: 180px;
     margin: 10px;
-    background-color: #1877e4;
+    background-color: #2f3031;
     transition: 0.5s;
     
 }
 
 .container img:hover {
     scale: 1.1;
-    background-color: blueviolet;
 }
 
 .anuncio {
@@ -420,7 +415,7 @@ section {
 
 .lista-de-canais {
     height: 300px;
-    overflow-x: auto;
+    overflow-y: auto;
 }
 
 .lista-de-canais, .lista-de-episodios {

@@ -1,5 +1,15 @@
 [
   {
+    "nome": "The-last-of-us",
+    "url_capa": "https://beam-images.warnermediacdn.com/2025-03/the-last-of-us-s2-og-image.jpg?host=wbd-dotcom-drupal-prd-us-east-1.s3.amazonaws.com",
+    "codigo": "THLSTOFUS",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 9, "subfolder": "ondemand", "server": "19" },
+      { "temporada": 2, "episodios": 1, "subfolder": "ondemand", "server": "25" }
+    ]
+  },
+  {
     "nome": "The-Blacklist",
     "url_capa": "https://trintaeumas.com.br/wp-content/uploads/2016/11/20161130-blacklist.jpg",
     "codigo": "THEBLCKLST",
@@ -98,6 +108,15 @@
       { "temporada": 6, "episodios": 12, "subfolder": "ondemand", "server":"09" },
       { "temporada": 7, "episodios": 12, "subfolder": "ondemand", "server":"05" },
       { "temporada": 8, "episodios": 12, "subfolder": "ondemand", "server":"09" }
+    ]
+  },
+  {
+    "nome": "Dexter-pecado-original",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/43f6eb0db0c59e52ebdac23e187d00af9354f3ed96970cd5fda4731970fcfcae.jpg",
+    "codigo": "DEXTERPCDORGNL",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 10, "subfolder": "ondemand", "server": "25" }
     ]
   },
   {
@@ -241,6 +260,15 @@
     ]
   },
   {
+    "nome": "La-casa-de-papel-Berlim",
+    "url_capa": "https://manualdosgames.com/wp-content/uploads/2023/09/04-1.jpg",
+    "codigo": "LCSDPLBRLM",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 8, "subfolder": "ondemand", "server": "22" }
+    ]
+  },
+  {
     "nome": "Lupin",
     "codigo": "LPN",
     "url_capa": "https://tm.ibxk.com.br/sites/6/2021/05/609aebb2ec664.jpg",
@@ -278,9 +306,9 @@
       { "temporada": 1, "episodios": 10, "subfolder": "ondemand", "server": "03" },
       { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "03" },
       { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "03" },
-      { "temporada": 4, "episodios": 10, "subfolder": "ondemand", "server": "03" },
-      { "temporada": 5, "episodios": 10, "subfolder": "ondemand", "server": "03" },
-      { "temporada": 6, "episodios": 10, "subfolder": "ondemand", "server": "03" }
+      { "temporada": 4, "episodios": 10, "subfolder": "ondemand", "server": "02" },
+      { "temporada": 5, "episodios": 10, "subfolder": "ondemand", "server": "18" },
+      { "temporada": 6, "episodios": 10, "subfolder": "ondemand", "server": "21" }
     ]
   },
   {
@@ -998,7 +1026,7 @@
       { "temporada": 1, "episodios": 10, "subfolder": "ondemand", "server": "04" },
       { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "12" },
       { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "16" },
-      { "temporada": 3, "episodios": 6, "subfolder": "ondemand", "server": "23" }
+      { "temporada": 4, "episodios": 6, "subfolder": "ondemand", "server": "23" }
     ]
   },
   {
@@ -1010,7 +1038,7 @@
       { "temporada": 1, "episodios": 11, "subfolder": "ondemand", "server": "04" },
       { "temporada": 2, "episodios": 13, "subfolder": "ondemand", "server": "04" },
       { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "06" },
-      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "12" }
+      { "temporada": 4, "episodios": 8, "subfolder": "ondemand", "server": "12" }
     ]
   },
   {
@@ -1031,7 +1059,166 @@
       { "temporada": 1, "episodios": 10, "subfolder": "ondemand", "server": "14" },
       { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "08" },
       { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "19" },
-      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "24" }
+      { "temporada": 4, "episodios": 10, "subfolder": "ondemand", "server": "24" }
+    ]
+  },
+  {
+    "nome": "Eu-Nunca",
+    "url_capa": "https://alemdatocadocoelho.wordpress.com/wp-content/uploads/2024/10/eu-nunca-.-capa.jpg?w=1024",
+    "codigo": "EUNUNC",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 10, "subfolder": "ondemand", "server": "14" },
+      { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "17" },
+      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "17" },
+      { "temporada": 4, "episodios": 10, "subfolder": "ondemand", "server": "20" }
+    ]
+  },
+  {
+    "nome": "Control-Z",
+    "url_capa": "https://resizing.flixster.com/3gyqYCtsFfbp1_gy1KY-ITqYhSQ=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18243448_b_h8_aa.jpg",
+    "codigo": "CNTRLZ",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 8, "subfolder": "ondemand", "server": "14" },
+      { "temporada": 2, "episodios": 8, "subfolder": "ondemand", "server": "08" },
+      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "17" }
+    ]
+  },
+  {
+    "nome": "Desejo-Sombrio",
+    "url_capa": "https://poltronadecinema.wordpress.com/wp-content/uploads/2020/07/aaaabtao0fdskoxc6y4mtcnoeqmz4rnxeurdlffhojucuxxj6mo-u5cuiqnyrf5m8drh9nqfmz1kzarmjzh1pshitwvwqjf4ii3oh2vfl0uby_bpuypmd5xikx_df1mjzw.jpg",
+    "codigo": "DSJOSMBRIO",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 18, "subfolder": "ondemand", "server": "12" },
+      { "temporada": 2, "episodios": 15, "subfolder": "ondemand", "server": "13" }
+    ]
+  },
+  {
+    "nome": "Wandavision",
+    "url_capa": "https://upload.wikimedia.org/wikipedia/pt/2/20/WandaVision_logo.png",
+    "codigo": "WNDVSN",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 9, "subfolder": "ondemand", "server": "15" }
+    ]
+  },
+  {
+    "nome": "Anne-with-an-e",
+    "url_capa": "https://idris.com.br/dev/wp-content/uploads/2020/07/images-5.jpeg",
+    "codigo": "ANEWTHANE",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 7, "subfolder": "ondemand", "server": "05" },
+      { "temporada": 2, "episodios": 10, "subfolder": "ondemand", "server": "05" },
+      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "05" }
+    ]
+  },
+  {
+    "nome": "Falcao-e-o-soldado-invernal",
+    "url_capa": "https://hospicionerd.com.br/wp-content/uploads/2021/03/Falcao-e-o-Soldado-Invernal-Banner.jpg",
+    "codigo": "FLCAOEOSLDIVRNL",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 6, "subfolder": "ondemand", "server": "15" }
+    ]
+  },
+  {
+    "nome": "Dahmer-um-canibal-americano",
+    "url_capa": "https://mundogum.s3.sa-east-1.amazonaws.com/wp-content/uploads/2023/11/12122520/maxresdefault-19.jpg",
+    "codigo": "DHMRUMUMCNBLAMRC",
+    "categoria": "series",
+    "temporadas": [
+      { "temporada": 1, "episodios": 10, "subfolder": "ondemand", "server": "17" }
+    ]
+  },
+  {
+    "nome": "Pearson",
+    "url_capa": "https://tvline.com/wp-content/uploads/2023/08/pearson-peacock.jpg",
+    "codigo": "PRASN",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 10, "subfolder": "ondemand", "server": "18" }
+    ]
+  },
+  {
+    "nome": "Adriano-Imperador",
+    "url_capa": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivizr8YMAzgMV8DBs-pq1c42MSv9jAHFdWNzM2aqehjqgEeokjtmzDvY7oESM53HMcL8nLJM56l3usR9W_aSsENnmpyX0tZBe6sGNwrpX-E5yMp8HDKJk6GpvpfH4fba8DjzriKBQIAXTKo9lK5djuknEzYasIuC3Q-e92GRQotobZUQRiBKxk-Hm-uA/w640-h334/modelo%20abre%20copy.jpg",
+    "codigo": "ADRNIMPRDR",
+    "categoria": "series",
+    "temporadas": [
+      { "temporada": 1, "episodios": 3, "subfolder": "ondemand", "server": "18" }
+    ]
+  },
+  {
+    "nome": "Desgraca-ao-seu-dispor",
+    "url_capa": "https://lh3.googleusercontent.com/proxy/R5G2vcOqS7FHLXeO0szmYJ9yPo_d4dwPy-k0xmcyqmKaJBLDg8-kdE-lermMeZ20qJc9_cBXak23ATwZ63vEsXZyuG9fzLstyOXoZ1RFVP2DNLh7d8CyBfI5f-gv-nX3DDpWvNuTAg",
+    "codigo": "DSGRCAOSEDPR",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 16, "subfolder": "ondemand", "server": "20" }
+    ]
+  },
+  {
+    "nome": "Queremos-o-divorcio",
+    "url_capa": "https://redecanais.gs/imgs-videos/Series/Queremos%20o%20Div%C3%B3rcio!%20Capa.jpg",
+    "codigo": "QRMSODVRCIO",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 9, "subfolder": "ondemand", "server": "20" }
+    ]
+  },
+  {
+    "nome": "Sorriso-Real",
+    "url_capa": "https://cafecomnerd.com.br/wp-content/uploads/2023/07/King-the-Land-Serie-k-drama-sul-coreana-estrelada-por-Lee-Jun-ho-e-Lim-Yoon-a-na-Netflix-1080x675.jpg",
+    "codigo": "SRSORAL",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 16, "subfolder": "ondemand", "server": "21" }
+    ]
+  },
+  {
+    "nome": "Truques-da-mente",
+    "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/1000669354D455554995B185B38764C3CD5C1CDA56C0F68F5D34D62CB8D96D45/scale?width=440&aspectRatio=1.78&format=webp",
+    "codigo": "TRQSDMNTE",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 3, "subfolder": "ondemand", "server": "22" },
+      { "temporada": 2, "episodios": 12, "subfolder": "ondemand", "server": "22" },
+      { "temporada": 3, "episodios": 10, "subfolder": "ondemand", "server": "22" },
+      { "temporada": 4, "episodios": 10, "subfolder": "ondemand", "server": "22" },
+      { "temporada": 5, "episodios": 10, "subfolder": "ondemand", "server": "22" },
+      { "temporada": 6, "episodios": 6, "subfolder": "ondemand", "server": "22" },
+      { "temporada": 7, "episodios": 6, "subfolder": "ondemand", "server": "22" }
+    ]
+  },
+  {
+    "nome": "Luther",
+    "url_capa": "https://http2.mlstatic.com/D_NQ_NP_844600-MLA78526708148_082024-B.webp",
+    "codigo": "LTHR",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 6, "subfolder": "ondemand", "server": "21" },
+      { "temporada": 2, "episodios": 4, "subfolder": "ondemand", "server": "21" },
+      { "temporada": 3, "episodios": 4, "subfolder": "ondemand", "server": "21" },
+      { "temporada": 4, "episodios": 2, "subfolder": "ondemand", "server": "21" },
+      { "temporada": 5, "episodios": 4, "subfolder": "ondemand", "server": "21" }
+    ]
+  },
+  {
+    "nome": "Black-Mirror",
+    "url_capa": "https://live.mrf.io/statics/i/ps/www.acidadeon.com/tudoep/wp-content/uploads/sites/10/2025/03/WhatsApp-Image-2025-03-17-at-15.00.52_2025-03-17_18-05-24_jpeg_2025-03-17_18-05-24.webp?width=1200&enable=upscale",
+    "codigo": "BLCKMR",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 3, "subfolder": "ondemand", "server": "08" },
+      { "temporada": 2, "episodios": 3, "subfolder": "ondemand", "server": "08" },
+      { "temporada": 3, "episodios": 6, "subfolder": "ondemand", "server": "08" },
+      { "temporada": 4, "episodios": 6, "subfolder": "ondemand", "server": "08" },
+      { "temporada": 5, "episodios": 3, "subfolder": "ondemand", "server": "06" },
+      { "temporada": 6, "episodios": 5, "subfolder": "ondemand", "server": "20" },
+      { "temporada": 7, "episodios": 6, "subfolder": "ondemand", "server": "25" }
     ]
   }
 
