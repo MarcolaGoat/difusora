@@ -149,6 +149,16 @@
         "tipo": "serie"
       },
       {
+        "nome": "The-Mentalista",
+        "codigo": "TMENT",
+        "src": "imagens/banner-mentalista.png",    
+        "url_capa": "https://livrosfilmes2017.wordpress.com/wp-content/uploads/2017/08/o-mentalista-4.jpg?w=1200",
+        "descricao": "Patrick Jane, famoso por seus métodos incomuns, tem um ótimo histórico resolvendo crimes graves por meio de poderes misteriosos de observação. Porém sua equipe não parece entusiasmada por ter um excêntrico como membro chave da equipe.",
+        "server": "01",
+        "subfolder": "ondemand",
+        "tipo": "serie"
+      },
+      {
         "nome": "Dexter",
         "codigo": "DEXTER",
         "src": "imagens/banner-dexter.png",

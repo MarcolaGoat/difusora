@@ -1179,6 +1179,15 @@
     ]
   },
   {
+    "nome": "Solo-Leveling",
+    "url_capa": "https://m.media-amazon.com/images/S/pv-target-images/867bffab6d19057576e4cbd402c2829b1178b127f6e73b2c3c2c967aefa473f0.png",
+    "codigo": "SLOLVLNG",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 12, "subfolder": "ondemand", "server": "25" }
+    ]
+  },
+  {
     "nome": "Truques-da-mente",
     "url_capa": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/1000669354D455554995B185B38764C3CD5C1CDA56C0F68F5D34D62CB8D96D45/scale?width=440&aspectRatio=1.78&format=webp",
     "codigo": "TRQSDMNTE",
@@ -1219,6 +1228,17 @@
       { "temporada": 5, "episodios": 3, "subfolder": "ondemand", "server": "06" },
       { "temporada": 6, "episodios": 5, "subfolder": "ondemand", "server": "20" },
       { "temporada": 7, "episodios": 6, "subfolder": "ondemand", "server": "25" }
+    ]
+  },
+  {
+    "nome": "Reacher",
+    "url_capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi8KPIuzb6KghKdWdE-mErJ47xHiHyjhBcbA&s",
+    "codigo": "REACH",
+    "categoria": "Séries",
+    "temporadas": [
+      { "temporada": 1, "episodios": 8, "subfolder": "ondemand", "server": "13" },
+      { "temporada": 2, "episodios": 8, "subfolder": "ondemand", "server": "22" },
+      { "temporada": 3, "episodios": 8, "subfolder": "ondemand", "server": "25" }
     ]
   }
 

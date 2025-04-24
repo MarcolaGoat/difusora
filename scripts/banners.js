@@ -15,7 +15,7 @@ function gerarBanner(bannersJson) {
     if (paginaAtual.includes('filmes')) {
         numero = Math.floor(Math.random() * 10); 
     } else if (paginaAtual.includes('series')) {
-        numero = Math.floor(Math.random() * (19 - 10 + 1)) + 10;
+        numero = Math.floor(Math.random() * (20 - 10 + 1)) + 10;
     } else {
         numero = Math.floor(Math.random() * bannersJson.length);
     }
